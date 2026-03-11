@@ -1,0 +1,916 @@
+{
+    "type": "FeatureCollection",
+    "features":
+    [
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "An Rinn",
+                "placename": "Ring",
+                "ceantar": "Contae Phort Láirge",
+                "area": "County Waterford",
+                "informant": "<ul><li>Míchéal Traoin of Baile na nGall</li><li>Pats Cuddihy of Helvik</li></ul>",
+                "year": "1950",
+                "survey_point": "1",
+                "note": "<i>Irish is still alive in the two small fishing villages </i>Baile na nGall<i> and </i>Helvik<i>, but English has become predominant at least with the younger generation. Our subjects in this area were equally fluent in both languages.</i><br><br>No notes on which informant gave which answers",
+                "responses": {
+                    "819": {
+                        "transcription": "l´öpərəxɑːn",
+                        "category": "laprachán"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.54365,
+                    52.0511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Tuartha an Airchinn",
+                "placename": "Tooranaraheen",
+                "ceantar": "Contae Phort Láirge",
+                "area": "County Waterford",
+                "informant": "John Brown",
+                "year": "1950",
+                "survey_point": "2",
+                "note": "<i>Only a few native speakers have survived in this rather desolate mountain area.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "knɑũˈdɑːn",
+                        "category": "cnádán"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.82666,
+                    52.2035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Cnoc Bhaile an Oidhre",
+                "placename": "Knockballiniry",
+                "ceantar": "Contae Thiobraid Árann",
+                "area": "County Tipperary",
+                "informant": "Míchéal Ó Maoldhamhna",
+                "year": "1950",
+                "survey_point": "4",
+                "note": "Only the oldest generation still spoke Irish, and none were as fluent in Irish as they were in English",
+                "responses": {
+                    "819": {
+                        "transcription": "frogənə <i>pl.</i>",
+                        "category": "frog",
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.88117,
+                    52.2622
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Baile Mhac Óda",
+                "placename": "Ballymacoda",
+                "ceantar": "Contae Chorcaí",
+                "area": "County Cork",
+                "informant": "<ul><li>Tomás Ó Sé of Knockadoon</li><li>Máirtín Breathnach of Ballymacoda</li></ul>",
+                "year": "1952",
+                "survey_point": "7",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "transcription": "nɑ̢gədɑːn",
+                        "category": "cnádán"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.92611,
+                    51.892
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Baile an Ghleanna",
+                "placename": "Ballinglanna",
+                "ceantar": "Contae Chorcaí",
+                "area": "County Cork",
+                "informant": "Mícheál de Búrc",
+                "year": "1952",
+                "survey_point": "8",
+                "note": "<i>Irish is almost dead in this area. None of our informants could speak it fluently, but they knew sufficient to answer about two-thirds of our questions.</i>",
+                "responses": {
+                    "819": {
+                        "transcription":  "frɔ̢gənə <i>pl.</i>",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.81247,
+                    51.5993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "An Mhuinigh",
+                "placename": "Munnig",
+                "ceantar": "Contae Chorcaí",
+                "area": "County Cork",
+                "informant": "Seán and Mícheál Ó hÉagartaigh",
+                "year": "1952",
+                "survey_point": "10",
+                "note": "<i>Irish is almost dead in this area</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frɔg <i>(A. Ir.)</i>",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.30508,
+                    51.5223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Cléire",
+                "placename": "Clear Island",
+                "ceantar": "Contae Chorcaí",
+                "area": "County Cork",
+                "informant": "<ul><li>Tadhg Ó Druisceóil of Gort na Lobhar</li><li>Cáit Ní Shíocháin of Cnocán na mBairneach</li></ul>",
+                "year": "1952",
+                "survey_point": "11",
+                "note": "<i>On Clear Island, Irish is dying rapidly, as this island is open to modern civilization. On the whole we got very reliable material in this place</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frogənə <i>pl.</i>",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.51003,
+                    51.4322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Drom an Chláraigh",
+                "placename": "Dromaclarig",
+                "ceantar": "Contae Chorcaí",
+                "area": "County Cork",
+                "informant": "Mícheál Ó Súileabháin",
+                "year": "1952",
+                "survey_point": "12",
+                "note": "<i>Only a very few speakers have survived in this area. Both our informants were more fluent in English.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frog <i>pl.</i> frogənə",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.41926,
+                    51.7291
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Gleann Eo Trasna",
+                "placename": "Glantrasna",
+                "ceantar": "Contae Chiarraí",
+                "area": "County Kerry",
+                "informant": "Feidhlime Mac Cártha",
+                "year": "1951",
+                "survey_point": "13",
+                "note": "<i>Irish is almost extinct in this rea. Fortunately one excellent speaker was found in whose house Irish is still the common vernacular.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frog <i>pl.</i> frɪg´",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.69315,
+                    51.7774
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Baile na Carraige",
+                "placename": "Ballynacarriga",
+                "ceantar": "Contae Chorcaí",
+                "area": "County Cork",
+                "informant": "Patrick Harrington",
+                "year": "1952",
+                "survey_point": "14",
+                "note": "<i>My subject was considered the last native speaker of the entire district but was more fluent in English than in Irish.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frog <i>pl.</i> frogənə",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.1471,
+                    51.594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Doire an Chuilinn",
+                "placename": "Derreenaculling",
+                "ceantar": "Contae Chorcaí",
+                "area": "County Cork",
+                "informant": "Mícheál Ó Laoghaire",
+                "year": "1952",
+                "survey_point": "15",
+                "note": "<i>In Coolea and its neighbourhood, Irish is still spoken in some houses, English having become the ordinary vernacular at least of the younger generation. We got perfect material.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frig´",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.23054,
+                    51.9188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Cill Gharbháin",
+                "placename": "Kilgarvan",
+                "ceantar": "Contae Chiarraí",
+                "area": "County Kerry",
+                "informant": "Kate Carey",
+                "year": "1952",
+                "survey_point": "17",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "transcription": "nə frogənə",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.41745,
+                    51.9049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "An Coireán",
+                "placename": "Waterville",
+                "ceantar": "Contae Chiarraí",
+                "area": "County Kerry",
+                "informant": "<ul><li>Pádraig Carey</li><li>Seán Mhártain Ó Súileabhaín of Imleach Mór</li><li>Dónall Ó Murchú of Imleach Mór</li></ul>",
+                "year": "1950",
+                "survey_point": "18",
+                "note": "<i>Most of our informants were equally fluent in both languages</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "[fro̢sg]; [frɪʃg´]",
+                        "category": "frosg"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.1688,
+                    51.8322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "An Cheathrú",
+                "placename": "Carhoo",
+                "ceantar": "Corca Dhuibhne, Contae Chiarraí",
+                "area": "Dingle Peninsula, County Kerry",
+                "informant": "Donnchadh Ó Conchubhair and his son Tomás",
+                "year": "1953",
+                "survey_point": "20",
+                "note": "<i>This is the only spot in the province of Munster where Irish is still predominant, and English spoken only to strangers who are flocking in increasing numbers to this beautiful spot at the end of the Dingle peninsula.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frɪg´",
+                        "category": "frog",
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.4582,
+                    52.1382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Lios na Caolbhuí",
+                "placename": "Lisnakealwee",
+                "ceantar": "Corca Dhuibhne, Contae Chiarraí",
+                "area": "Dingle Peninsula, County Kerry",
+                "informant": "Pádraig Ó Muirchearta",
+                "year": "1952",
+                "survey_point": "21",
+                "note": "<i>There are only a few speakers left, and there is no longer any Irish spoken in this area. Our subject was equally fluent in both languages and provided good material.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frig´ <i>pl.</i>",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.1878,
+                    52.2764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Cill Bheathach",
+                "placename": "Kilbaha",
+                "ceantar": "Contae an Chláir",
+                "area": "County Clare",
+                "informant": "<ul><li>Mrs. B. Costello / Bríd, bean Uí Choisteala</li><li>Henry Blake</li></ul>",
+                "year": "1951-1952",
+                "survey_point": "22",
+                "note": "<i>Irish is on the verge of dying in this area although most of the older generation can speak it. Our subjects were equally fluent in both langauges.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frog <i>pl.</i> frig´",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.85856,
+                    52.5688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Dúlainn",
+                "placename": "Doolin",
+                "ceantar": "Contae an Chláir",
+                "area": "County Clare",
+                "informant": "<ul><li>Mícheál Ó Donnchú of Dún na gCorr</li><li>John Carey of An Luach</li><li>Seán Shannon of Fisherstreet</li></ul>",
+                "year": "1951-1952",
+                "survey_point": "23",
+                "note": "<i>Irish is on the verge of dying although most of the older generation can speak it.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frog <i>pl.<i> frig´",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.38562,
+                    53.0189
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Doirín",
+                "placename": "Derreen",
+                "ceantar": "Contae an Chláir",
+                "area": "County Clare",
+                "informant": "John Carley",
+                "year": "1951-1952",
+                "survey_point": "24",
+                "note": "<i>Only a few speakers are left in the area west of Ballyvaughan along the coastline. Our informant in this area was the best speaker we have met in County Clare. He had been brought up by his grandparents who did not know any English at all.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frɪg´ <i>pl.</i>",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.30569,
+                    53.087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Ceathrú na Madradh",
+                "placename": "Carrownamaddra",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "Tomás Ó Con Fhaola",
+                "year": "1951",
+                "survey_point": "25",
+                "note": "<i>A limited number of good speakers can still be found along the coast west of Kinvara. Our subject was equally fluent in both languages.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "lɑpədɑːn ˈlɑhiː",
+                        "category": "lapadán"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.97603,
+                    53.1327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Sonnach",
+                "placename": "Sonnagh",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "John Kelly",
+                "year": "1951",
+                "survey_point": "28",
+                "note": "<i>One good speaker was found in this mountain area</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frɔ̢gən <i>pl.</i>",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.61508,
+                    53.1389
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Bóthar Beannach",
+                "placename": "Boherbannagh",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "Mary Hogan",
+                "year": "1951",
+                "survey_point": "31",
+                "note": "<i>There are only a very few people left in this area who know some Irish. Our informant could not speak it fluently.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "[frɔ̢g]",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.44185,
+                    53.5245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Camdhoire",
+                "placename": "Camderry",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "<ul><li>Éamonn Mac Thaidhg</li><li>Dan Daly and his wife</li></ul>",
+                "year": "1953",
+                "survey_point": "33",
+                "note": "<i>Two fluent Irish speakers were found in this area where Irish must have been alive some twenty years ago.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "lïp´rəxɑːn",
+                        "category": "laprachán"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.43325,
+                    53.5632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Caiseal",
+                "placename": "Cashel",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "Martin Collins",
+                "year": "1950",
+                "survey_point": "34",
+                "note": "<i>Our subject was equally fluent in both languages and answered most of our questions. His son knew no Irish!</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "[frɑg]",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.617415,
+                    53.626149
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Béal Átha Glúinín",
+                "placename": "Ballyglooneen",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "Only the primary informant was named. This return was from another speaker either from Corrofin or Ballynastuckaun.",
+                "year": "1953",
+                "survey_point": "35",
+                "note": "<i>South of Tuam, there is a number of small villages where Irish has been alive up to recently. Our chief informant was equally fluent in both languages.</i><br><br>The survey return also lists names for frogs from other areas:<ul><li>[frus] (Carnmore, point 37)</li><li>[b´raləx lahi] (id.)</li><li>[b´raləx] (Kinvara, point 25)</li><li>[b´raləx nə lahiː]</li><li>[ɑːdɑːn] (Conamara)</li></ul>It's not clear if these were collected from other secondary informants or were shared by an informant as things they'd heard from another area. The one that looks like <i>brealach na lathaí</i> comes up in the next LASID point.",
+                "responses": {
+                    "819": {
+                        "transcription": "[tortɑːn]",
+                        "category": "tortán"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.80672,
+                    53.4225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Baile Uí Fhuaruisce",
+                "placename": "Ballyhoorisky",
+                "ceantar": "Fánaid, Contae Dhún na nGall",
+                "area": "Fanad, County Donegal",
+                "informant": "Harry and John Shiel",
+                "year": "1950",
+                "survey_point": "69",
+                "note": "<i>Irish is still spoken in this village, but nowhere else in the whole peninsula. This dialect, which is quite different from other Donegal dialects, has not yet been studied. Our informants were equally fluent in both languages.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frɔg <i>sg.</i>",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.75043,
+                    55.2508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Gort an Choirce",
+                "placename": "Gortahork",
+                "ceantar": "Contae Dhún na nGall",
+                "area": "County Donegal",
+                "informant": "Síle Ferry",
+                "year": "1954",
+                "survey_point": "74",
+                "note": "<i>Irish is still predominant, but English is coming in strongly.",
+                "responses": {
+                    "819": {
+                        "transcription": "frɔgəNi <i>pl.</i>",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.13521,
+                    55.1198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Mín an Chladaigh",
+                "placename": "Meenaclady",
+                "ceantar": "Contae Dhún na nGall",
+                "area": "County Donegal",
+                "informant": "Máire Nig Aodh",
+                "year": "1964",
+                "survey_point": "74a",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "transcription": "fru̢g <i>pl.</i> fru̢gəNi",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.23505,
+                    55.1347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Rann na Feirste",
+                "placename": "Rannafast",
+                "ceantar": "Na Rosa, Contae Dhún na nGall",
+                "area": "The Rosses, County Donegal",
+                "informant": "Seán Bán Mac Gríanna (1905-1979)",
+                "year": "1954",
+                "survey_point": "78",
+                "note": "<i>Rannafast on the coast, one of the bleakest spots in the west of Ireland, is still Irish-speaking.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "Nə frogəNi",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.31253,
+                    55.0382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Cruach Mhín an Fheannta",
+                "placename": "Croveenananta",
+                "ceantar": "Na Cruacha Gorma, Contae Dhún na nGall",
+                "area": "The Bluestacks, County Donegal",
+                "informant": "Pádraig Séamus Mac a' Lúin",
+                "year": "1964",
+                "survey_point": "83",
+                "note": "<i>[...]the most inaccessible place I have visited in Ireland. It was, therefore, not surprising to find there were quite a number of monoglots, who could not speak a word of English. I have visited this area several times. Most of the young people have left it. The way of life has not changed here for hundreds of years. Rearing of sheep is the main occupation of the people.</i>",
+                "responses": {
+                    "819": {
+                        "transcription": "frɔgəNɪ <i>pl.</i>",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.08267,
+                    54.7962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Cionn na Coilleadh",
+                "placename": "Kinnakillew",
+                "ceantar": "Contae Dhún na nGall",
+                "area": "County Donegal",
+                "informant": "Seán Ó hIne",
+                "year": "1964",
+                "survey_point": "86a",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "transcription": "kroːnən <i>sg.</i>",
+                        "category": "crónán"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.68334,
+                    54.7187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Bàinleacainn",
+                "placename": "Banlicken",
+                "ceantar": "Eilean Arainn",
+                "area": "Arran",
+                "informant": "John Henderson",
+                "year": "1961",
+                "surey_point": "A",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "transcription": "Lo̢sg′ən",
+                        "category": "losgann"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.3826,
+                    55.604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Appin",
+                "placename": "An Apainn",
+                "ceantar": "Earra-Ghàidheal",
+                "area": "Argyll",
+                "informant": "Duncan Mac Coll",
+                "year": "1965",
+                "survey_point": "C",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "transcription: "Lusḳən <i>sg.</i>",
+                        "category": "losgann"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.358889,
+                    56.562222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Càrlabhagh",
+                "placename": "Carloway",
+                "ceantar": "Eilean Leòdhais",
+                "area": "Lewis",
+                "informant": "Donall Mackenzie; Donall Iain, Iain, and Angus Mac Arthur",
+                "year": "1958",
+                "survey_point": "E",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "transcription": "L′eːmʰRəxɑ̣nʰ <i>sg.</i>",
+                        "category": "leumachan"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.767,
+                    58.283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Am Ploc",
+                "placename": "Plockton",
+                "ceantar": "Ros an Iar",
+                "area": "Wester Ross",
+                "informant": "Rory MacCrae",
+                "year": "1963",
+                "survey_point": "F",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "transcription": "muLə moːhɑḳ <i>pl.</i> mo̤Lə võ̢ːhɑḳən",
+                        "category": "mial-mhàgain"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.65231,
+                    57.33801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Clais an Easaidh",
+                "placename": "Clashnessie",
+                "ceantar": "Asainte",
+                "area": "Assynt, Sutherland",
+                "informant": "John McLeod and his sister Barbara",
+                "year": "1962",
+                "survey_point": "G",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "transcription": "L'eːmbrɔxɑ̣nh",
+                        "category": "leumachan"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.316768,
+                    58.221911
+                ]
+            }
+        }
+    ]
+}
