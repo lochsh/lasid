@@ -379,6 +379,28 @@
         {
             "type": "Feature",
             "properties": {
+                "logainm": "Cnoc na Bró",
+                "placename": "Knocknabro",
+                "ceantar": "Contae Chiarraí",
+                "area": "County Kerry",
+                "informant": "Mícheál Cruimín",
+                "year": "1952",
+                "survey_point": "16",
+                "note": "In the mountain valley of Clydagh, there are a few Irish speakers left, none of them being really fluent.",
+                "responses": {
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.21576,
+                    52.0062
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "logainm": "Cill Gharbháin",
                 "placename": "Kilgarvan",
                 "ceantar": "Contae Chiarraí",
