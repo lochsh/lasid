@@ -787,6 +787,448 @@
         {
             "type": "Feature",
             "properties": {
+                "logainm": "Carn Mór",
+                "placename": "Carnmore",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "<ul><li>Labhrás Ó Donnchadh</li><li>Pádraig Ó Gráinne of Kiltroge</li></ul>",
+                "year": "1953",
+                "survey_point": "37",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "source_transcription": "frus",
+                        "category": "frús"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.88581,
+                    53.3191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Gort an Chalaidh",
+                "placename": "Angliham or Gortacallow",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "John Small",
+                "year": "1953",
+                "survey_point": "38",
+                "note": "<i>I have met monoglots in [nearby place to informant] Moontiagh. It is astonishing that the dialect of this area being quite different from Conamara-Irish has never been studied systematically.</i>",
+                "responses": {
+                    "819": {
+                        "source_transcription": "nə frɑgəni",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.05601,
+                    53.3232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "An Lochán Beag",
+                "placename": "Loughaun Beg",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "<ul><li>Seán Ó Tuairisc</li><li>Mícheál Ging of An Teach Mór. He could not converse freely in English. Primary informant for <i>The Irish of Cois Fhairrge</i></li></ul>",
+                "year": "1953",
+                "survey_point": "40",
+                "note": "<i>About 10 miles west of Galway City, immediately behind the village of Spiddal, we enter an almost one-hundred per cent Irish-speaking district, stretching out along the coast between points 40 and 46. A large amount of monoglots may be found in this area.</i><br><br>A riddle where a frog is called <i>Brian Ó Slupáin</i> is also shared, which I have seen in other parts of Connacht in the Schools' Collection.",
+                "responses": {
+                    "819": {
+                        "source_transcription": "ˈlɑbər ˈlɑhiː",
+                        "category": "lúbar lathaí"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.40699,
+                    53.252
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "An Lochán Beag",
+                "placename": "Loughaun Beg",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "<ul><li>Seán Ó Tuairisc</li><li>Mícheál Ging of An Teach Mór. He could not converse freely in English. Primary informant for <i>The Irish of Cois Fhairrge</i></li></ul>",
+                "year": "1953",
+                "survey_point": "40",
+                "note": "<i>About 10 miles west of Galway City, immediately behind the village of Spiddal, we enter an almost one-hundred per cent Irish-speaking district, stretching out along the coast between points 40 and 46. A large amount of monoglots may be found in this area.</i><br><br>A riddle where a frog is called <i>Brian Ó Slupáin</i> is also shared, which I have seen in other parts of Connacht in the Schools' Collection.",
+                "responses": {
+                    "819": {
+                        "source_transcription": "frɑ̣g",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.40699,
+                    53.252
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Inis Oírr",
+                "placename": "Inisheer",
+                "ceantar": "Oileáin Árann, Contae na Gaillimhe",
+                "area": "Arran Islands, County Galway",
+                "informant": "Mícheál Ó Con Fhaola Éamonn",
+                "year": "1955",
+                "survey_point": "41",
+                "note": "<i>Inisheer, the smallest of the three Aran Islands, is perhaps the only place in Ireland where the Irish language has gained ground over the past decades.</i>",
+                "responses": {
+                    "819": {
+                        "source_transcription": "frɑg; frɑgəni",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.52851,
+                    53.0557
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Garmna",
+                "placename": "Gorumna Island",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "Séamus Ó Cualáin",
+                "year": "1963",
+                "survey_point": "43a",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "source_transcription": "frɑ̣g; frɑ̣gəNiː",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.67834,
+                    53.2545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Coillín",
+                "placename": "Cuilleen",
+                "ceantar": "Conamara, Contae na Gaillimhe",
+                "area": "Connemara, County Galway",
+                "informant": "Páraic Mac an Iomaire and his son Ciarán",
+                "year": "1953",
+                "survey_point": "46",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "source_transcription": "Lu̢.bər ˈLɑhiː",
+                        "category": "lúbar lathaí"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.85602,
+                    53.3352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Coillín",
+                "placename": "Cuilleen",
+                "ceantar": "Conamara, Contae na Gaillimhe",
+                "area": "Connemara, County Galway",
+                "informant": "Páraic Mac an Iomaire and his son Ciarán",
+                "year": "1953",
+                "survey_point": "46",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "source_transcription": "frɔg",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.85602,
+                    53.3352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Corr na Móna",
+                "placename": "Cornamona",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "Máire Breathnach",
+                "year": "1953",
+                "survey_point": "49",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "source_transcription": "frɑgəni",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.44718,
+                    53.5092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "An Cheapaigh Dhuibh",
+                "placename": "Cappaghduff",
+                "ceantar": "Contae Mhaigh Eo",
+                "area": "County Mayo",
+                "informant": "Micheál de Búrca",
+                "year": "1951",
+                "survey_point": "51",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "source_transcription": "[frɔ̢gəni]",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.37206,
+                    53.6486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Dumhach Mhic Eoghain",
+                "placename": "Dooghmakeon",
+                "ceantar": "Contae Mhaigh Eo",
+                "area": "County Mayo",
+                "informant": "Micheál 'a Búrca",
+                "year": "1951",
+                "survey_point": "52",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "source_transcription": "lɑpədo.r̠",
+                        "category": "lapadóir"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.87466,
+                    53.7459
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Bun na nAeú",
+                "placename": "Bunanioo",
+                "ceantar": "An Corrán, Contae Mhaigh Eo",
+                "area": "Curraun Peninsula, County Mayo",
+                "informant": "Micheál Ó Caiticin",
+                "year": "1950",
+                "survey_point": "53",
+                "note": "<i>My informant told me that Irish has been losing ground rapidly during the six years since I last visited him. He is equally fluent in both languages.</i>",
+                "responses": {
+                    "819": {
+                        "source_transcription": "kru:bɑːn kləiʔ",
+                        "category": "crúbán claidhe"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.913,
+                    53.8836
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Sáile",
+                "placename": "Salia",
+                "ceantar": "Acaill, Contae Mhaigh Eo",
+                "area": "Achill, County Mayo",
+                "informant": "<ul><li>Mártaín 'ac Meanman</li><li>Bríd NÍ Gaointí Seán</li><li>Mrs. Rose Mac Sweeney</li><li>Owen Patten</li></ul>",
+                "year": "1950",
+                "survey_point": "54",
+                "note": "<i>In Salia, Irish may still be used in some houses. Our informants were equally fluent in both languages. On Inishbiggle, a little island almost opposite point 54, Irish was also spoken. The population of this island has moved to the mainland [...]</i>",
+                "responses": {
+                    "819": {
+                        "source_transcription": "luəsḳɑːn lɑhɪː <i>or</i> Lɑhɪː",
+                        "category": "luascan lathaí"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.93946,
+                    53.9497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Port an Chlóidh",
+                "placename": "Portacloy",
+                "ceantar": "Contae Mhaigh Eo",
+                "area": "County Mayo",
+                "informant": "Nóra de Búrca and her son Tomás",
+                "year": "1951",
+                "survey_point": "57",
+                "note": "<i>Geographically and economically it is the most isolated area I visited in County Mayo. The best speakers of Mayo Irish may be found here.</i>",
+                "responses": {
+                    "819": {
+                        "source_transcription": "frɑg; frɑgəni",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.77007,
+                    54.3319
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Gaobhrán",
+                "placename": "Geevraun",
+                "ceantar": "Contae Mhaigh Eo",
+                "area": "County Mayo",
+                "informant": "Tomás Mac Ale",
+                "year": "1951",
+                "survey_point": "58",
+                "note": "<i>Only a few native speakers have survived in this area. Our main informant was equally fluent in both languages.</i>",
+                "responses": {
+                    "819": {
+                        "source_transcription": "frɑgəNi",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.57022,
+                    54.3142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Baile an Chaisil",
+                "placename": "Ballycastle",
+                "ceantar": "Contae Mhaigh Eo",
+                "area": "County Mayo",
+                "informant": "<ul><li>Páraic Mac Goldrick of south of Ráth Leacáin</li><li>Mártan Ó Dochartaigh of Cill Ardubh</li><li>Micheál Gever of Baile an Chnoic</li></ul>",
+                "year": "1951",
+                "survey_point": "59",
+                "note": "In point 59, representing the district between BallyCastle and Lackenbay, only a few native speakers have survived, none of them being fluent in Irish.</i>",
+                "responses": {
+                    "819": {
+                        "source_transcription": "Lɪːsḳɑːn´",
+                        "category": "losgann"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.40336,
+                    54.2842
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Tulaigh na gClog",
+                "placename": "Tullanaglug",
+                "ceantar": "Contae Shligigh",
+                "area": "County Sligo",
+                "informant": "Patrick Ó Floinn",
+                "year": "1950",
+                "survey_point": "61",
+                "note": "<i>My informant from near Tobercurry was considered the only person in the area who knew native Irish. He could not speak it fluently.</i>",
+                "responses": {
+                    "819": {
+                        "source_transcription": "frɔgəNɪ",
+                        "category": "frog"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.78703,
+                    54.047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "logainm": "Baile Uí Fhuaruisce",
                 "placename": "Ballyhoorisky",
                 "ceantar": "Fánaid, Contae Dhún na nGall",
@@ -949,7 +1391,7 @@
                 "area": "Arran",
                 "informant": "John Henderson",
                 "year": "1961",
-                "surey_point": "A",
+                "survey_point": "A",
                 "note": "",
                 "responses": {
                     "819": {
