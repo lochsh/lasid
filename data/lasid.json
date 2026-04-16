@@ -453,6 +453,28 @@
         {
             "type": "Feature",
             "properties": {
+                "logainm": "Cill Choimhtheach",
+                "placename": "Kilkeehagh",
+                "ceantar": "Contae Chiarraí",
+                "area": "County Kerry",
+                "informant": "<ul><li>Párthalán Ó Muirchearta</li><li>Mícheál Ó Coisteala</li></ul>",
+                "year": "1952",
+                "survey_point": "19",
+                "note": "<i>In Cromane and Glenbeigh, west of Killorglin, only a few native speakers have survived.</i>",
+                "responses": {
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.027,
+                    52.0329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "logainm": "An Cheathrú",
                 "placename": "Carhoo",
                 "ceantar": "Corca Dhuibhne, Contae Chiarraí",
