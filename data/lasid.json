@@ -201,6 +201,28 @@
         {
             "type": "Feature",
             "properties": {
+                "logainm": "Carraig na gCat",
+                "placename": "",
+                "ceantar": "Rinn Ó Grianna, Contae Chorcaí",
+                "area": "Reenogrena, County Cork",
+                "informant": "Jerry Hayes",
+                "year": "1952",
+                "survey_point": "9",
+                "note": "<i>Irish is almost dead in this area. Our informant could not speak it fluently.</i>",
+                "responses": {
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.083818,
+                    51.549075
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "logainm": "An Mhuinigh",
                 "placename": "Munnig",
                 "ceantar": "Contae Chorcaí",
