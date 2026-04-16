@@ -83,6 +83,28 @@
         {
             "type": "Feature",
             "properties": {
+                "logainm": "Gleann Phádraig",
+                "placename": "Glenpatrick",
+                "ceantar": "Ráth Ó gCormaic, Contae Phort Láirge",
+                "area": "Rathgormuck, County Waterford",
+                "informant": "<ul><li>William O'Hickey</li><li>Pat Haussey</li></ul>",
+                "year": "1950",
+                "survey_point": "5",
+                "note": "",
+                "responses": {
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.59573,
+                    52.3214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "logainm": "Baile Mhac Óda",
                 "placename": "Ballymacoda",
                 "ceantar": "Contae Chorcaí",
@@ -613,7 +635,7 @@
                 "note": "<i>South of Tuam, there is a number of small villages where Irish has been alive up to recently. Our chief informant was equally fluent in both languages.</i><br><br>The survey return also lists names for frogs from other areas:<ul><li>[frus] (Carnmore, point 37)</li><li>[b´raləx lahi] (id.)</li><li>[b´raləx] (Kinvara, point 25)</li><li>[b´raləx nə lahiː]</li><li>[ɑːdɑːn] (Conamara)</li></ul>It's not clear if these were collected from other secondary informants or were shared by an informant as things they'd heard from another area. The one that looks like <i>brealach na lathaí</i> comes up in the next LASID point.",
                 "responses": {
                     "819": {
-                        "transcription": "[tortɑːn]",
+                        "transcription": "tortɑːn",
                         "category": "tortán"
                     }
                 }
@@ -623,6 +645,32 @@
                 "coordinates": [
                     -8.80672,
                     53.4225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "An Droim Bán",
+                "placename": "Drumbaun",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "Micheál Ó Dúgáin",
+                "year": "1953",
+                "survey_point": "36",
+                "note": "",
+                "responses": {
+                    "819": {
+                        "source_transcription": "b´raləx nə lɑhiː",
+                        "category": "breallach lathaí"
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.94797,
+                    53.3868
                 ]
             }
         },
