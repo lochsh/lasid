@@ -90,7 +90,7 @@
                 "informant": "<ul><li>William O'Hickey</li><li>Pat Haussey</li></ul>",
                 "year": "1950",
                 "survey_point": "5",
-                "note": "",
+                "note": "<i>In the townland of Glenpatrick I met two speakers only who were able to translate about 60 per cent of my items; these were no longer able to speak Irish fluently.</i>",
                 "responses": {
                 }
             },
@@ -99,6 +99,50 @@
                 "coordinates": [
                     -7.59573,
                     52.3214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Tulach Uí Bhroin",
+                "placename": "Tullowbrin",
+                "ceantar": "Contae Chill Chainnighe",
+                "area": "County Kilkenny",
+                "informant": "Matthew Byrne",
+                "year": "before 1939",
+                "survey_point": "6",
+                "note": "",
+                "responses": {
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.17777,
+                    52.7143
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "logainm": "Gleann Mór",
+                "placename": "Glenmore",
+                "ceantar": "Contae Chill Chainnighe",
+                "area": "County Kilkenny",
+                "informant": "Patrick Power",
+                "year": "before 1939",
+                "survey_point": "6a",
+                "note": "",
+                "responses": {
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.20006,
+                    52.5163
                 ]
             }
         },
