@@ -631,6 +631,28 @@
         {
             "type": "Feature",
             "properties": {
+                "logainm": "Maigh Ghlas",
+                "placename": "Moyglass",
+                "ceantar": "Contae na Gaillimhe",
+                "area": "County Galway",
+                "informant": "Pat Cooney",
+                "year": "1951",
+                "survey_point": "27",
+                "note": "<i>Only one speaker has survived in this desolate mountain area. He was by no means fluent in Irish.</i>",
+                "responses": {
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -8.4779,
+                    53.0698
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "logainm": "Sonnach",
                 "placename": "Sonnagh",
                 "ceantar": "Contae na Gaillimhe",
@@ -719,7 +741,7 @@
                 "note": "<i>Our subject was equally fluent in both languages and answered most of our questions. His son knew no Irish!</i>",
                 "responses": {
                     "819": {
-                        "transcription": "[frɑg]",
+                        "transcription": "frɑg",
                         "category": "frog"
                     }
                 }
@@ -1338,7 +1360,7 @@
                 "ceantar": "Na Cruacha Gorma, Contae Dhún na nGall",
                 "area": "The Bluestacks, County Donegal",
                 "informant": "Pádraig Séamus Mac a' Lúin",
-                "year": "1964",
+                "year": "1954",
                 "survey_point": "83",
                 "note": "<i>[...]the most inaccessible place I have visited in Ireland. It was, therefore, not surprising to find there were quite a number of monoglots, who could not speak a word of English. I have visited this area several times. Most of the young people have left it. The way of life has not changed here for hundreds of years. Rearing of sheep is the main occupation of the people.</i>",
                 "responses": {
