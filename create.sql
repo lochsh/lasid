@@ -308,7 +308,7 @@ insert into
         "ən raĩŋ′",
         "1950",
         "Irish is still alive in the two small fishing villages <i>Baile na nGall</i> and <i>Helvik</i>, but English has become predominant at least with the younger generation. Our subjects in this area were equally fluent in both languages.",
-        "<ol><li>There exists a strong tendency in this dialect to depalatalise slender consonants. Slender dentals have almost become alveolars and are difficult to distinguish acoustically from broad (pure) dentals.</li><li>'ŋ′' which has developed historically from slender 'nn' is only slightly velarised [sic? palatalised?] and may be described as an intermediate sound between 'ŋ′' and 'N′'. This applies to most Irish dialects which have developed 'ŋ′' from slender 'nn'.</li><li>'kŁ' is strongly uvularised.</li></ol>",
+        "<ol><li>There exists a strong tendency in this dialect to depalatalise slender consonants. Slender dentals have almost become alveolars and are difficult to distinguish acoustically from broad (pure) dentals.</li><li>'ŋ′' which has developed historically from slender 'nn' is only slightly velarised [sic? palatalised?] and may be described as an intermediate sound between 'ŋ′' and 'ɴ′'. This applies to most Irish dialects which have developed 'ŋ′' from slender 'nn'.</li><li>'kŁ' is strongly uvularised.</li></ol>",
         "No notes on which informant gave which answers",
         (select id from area where display_id = "I")
     );
@@ -558,7 +558,7 @@ insert into
         "11",
         "Cléire",
         "Clear Island",
-        "əˈl′ɑːn ˈk′l′eːr′ĕ or ...x′l′eːr′ĕ",
+        "əˈl′ɑːn ˈk′l′eːr′ĕ <i>or</i> ...x′l′eːr′ĕ",
         "1952",
         "A little Irish is still spoken on this island. Islands, as well as mountains, are the last refuge of the language. It is significant that I had to go to the remote part of the island in order to find the best informants. English is strongest around the ports, as we have noticed on other islands, for example <i>Aranmore</i> (79). On <i>Tory Island</i> (75), which is still entirely Irish-speaking, I have noticed that the people of the western village (bɑl′ə ˈhiər) were more fluent than those of the eatern village (bɑl′ə ˈher′) when they spoke English to strangers. We may attribute this to the fact that most of the traffic with the mainland is through the western village. On <i>Clear Island</i>, Irish is dying rapidly, as this island is open to modern civilization. On the whole we got very realiable material in this place.",
         null,
@@ -1112,7 +1112,7 @@ insert into
         "Cashel (near Glenmaddy)",
         null,
         "1950",
-        "In a village called <i>Lisín na hEillte</i> (L′iʃiːn′ə ˈheL′t′ə), beside <i>Cashel</i>, Irish may still be spoken. Our subject was equally fluent in both languages and answered most of our questions. His son knew no Irish!",
+        "In a village called <i>Lisín na hEillte</i> (ʟ′iʃiːn′ə ˈheʟ′t′ə), beside <i>Cashel</i>, Irish may still be spoken. Our subject was equally fluent in both languages and answered most of our questions. His son knew no Irish!",
         null,
         null,
         (select id from area where display_id = "IV")
@@ -1455,7 +1455,7 @@ insert into
         "48",
         "Leitir Fraic",
         "Letterfrack",
-        "L′et′ər′frak′",
+        "ʟ′et′ər′frak′",
         "1955",
         "Only a few speakers have survived in this area. Our informant was equally fluent in both languages. There may still be a few native speakers left on <i>Inishark</i>, the smaller of the two islands opposite point 48.",
         null,
@@ -1800,7 +1800,7 @@ insert into
         "62",
         "Cill Mobhí",
         "Kilmovee",
-        "k′iL′ː moːv′iː",
+        "k′iʟ′ː moːv′iː",
         "1950",
         "This place is situated on the <i>Roscommon/Mayo</i> border. There are a few native speakers left between <i>Swineford</i> and <i>Kiltimagh</i> and north of <i>Ballaghadereen</i> (County <i>Roscommon</i>) in a boggy district called <i>Cloontia</i>. I met some of the <i>Cloontia</i> people, but none of them was able to give me much material. Our informant in <i>Kilmovee</i> was by far the best.",
         null,
@@ -1823,7 +1823,7 @@ insert into
         "63",
         "Sliabh na Cille",
         "Slievenakilla",
-        "ʃL′iəv nə ˈk′il′ə",
+        "ʃʟ′iəv nə ˈk′il′ə",
         "1950",
         "In this mountain district, east of <i>Lough Allen</i>, I met two old men who were able to remember some words and phrases of their native dialect, which they must have spoken in their childhood, probably to their grandparents, who knew Irish only. Apart from single words, proverbs, and some little phrases, it was impossible to get morphological material. Only a small portion of our questions was answered. I also contacted a person near <i>Glenfarn</i> (<i>North Leitrim</i>) who knew some little native Irish.",
         null,
@@ -1846,7 +1846,7 @@ insert into
         "64",
         "Gleann Ghaibhle",
         "Glangevlin",
-        "g′l′aNː",
+        "g′l′aɴː",
         "1954",
         "This district belongs geographically and partly also linguistically to <i>Ulster</i>. Our material obtained in this area is extremely scanty, too.",
         null,
@@ -2007,7 +2007,7 @@ insert into
         "70",
         "Gleann Bhairr, Fánaid",
         "Glenvar, Fanad",
-        "ˈg′L′aNˈwɑːr",
+        "ˈg′ʟ′aɴˈwɑːr",
         "1954",
         "The dialect of <i>Glenvar</i> is quite different from the dialect of <i>Ballyhooriskey</i> and seems to be close to the dialect of points 82, 83. Only a few native speakers have survived here. Our informant could not speak the language fluently.",
         null,
@@ -2053,7 +2053,7 @@ insert into
         "72",
         "Baile an Chraoslaigh",
         "Creeslough",
-        "ˈbɑl′ə ˈxrλːsLi",
+        "ˈbɑl′ə ˈxrλːsʟi",
         "1954",
         "Only a few native speakers are left in this area. A second informant was consulted in <i>Drumnaraw</i> but could not give comprehensive material.",
         null,
@@ -2076,7 +2076,7 @@ insert into
         "73",
         "Coill Darach",
         "Kildarragh",
-        "k′ɪLdɑ̣rɑ̣",
+        "k′ɪʟdɑ̣rɑ̣",
         "1954",
         "Our informant was equally fluent in both languages. He was interviewed in the county home of <i>Stranorlar</i>. Native Irish speakers are very scarce in his home place now.",
         null,
@@ -2122,7 +2122,7 @@ insert into
         "74a",
         "Mín an Chladaigh",
         "Meenaclady",
-        "m′iːn′ ə ′xLɑDi",
+        "m′iːn′ ə ′xʟɑᴅi",
         "1964",
         null,
         null,
@@ -2168,7 +2168,7 @@ insert into
         "76",
         "Dún Lúiche",
         "Dunlewy",
-        "do̤n ˈLûəix′ĕ",
+        "do̤n ˈʟûəix′ĕ",
         "1954",
         "Irish is not much spoken in this area at the southern foot of <i>Mount Errigal</i>. Our subject was equally fluent in both languages.",
         null,
@@ -2191,7 +2191,7 @@ insert into
         "77",
         "Loch an Iúir",
         "Loughanure",
-        "LɔhəˈNûːr′",
+        "ʟɔhəˈɴûːr′",
         "1954",
         "The population has become sparse in this barren mountain area, and Irish is not spoken much. My subject was equally fluent in both languages.",
         null,
@@ -2214,7 +2214,7 @@ insert into
         "78",
         "Rann na Feirste",
         "Rannafast",
-        "rɑNːəˈf′ařʃ̌ṭ′ĕ",
+        "rɑɴːəˈf′ařʃ̌ṭ′ĕ",
         "1954",
         "<i>Rannafast</i> on the coast, one of the bleakest spots in the west of Ireland, is still Irish-speaking.",
         null,
@@ -2260,7 +2260,7 @@ insert into
         "80",
         "Leitir Mhic an Bhaird",
         "Lettermacaward",
-        "ˈL′et′ər ik′ ə ˈwɑːrd",
+        "ˈʟ′et′ər ik′ ə ˈwɑːrd",
         "1954",
         "There is hardly much Irish spoken in this area. My informant was almost as fluent in Irish as in English. The areas between points 77-78, 78-80 and 77-81 are English speaking.",
         null,
@@ -2306,7 +2306,7 @@ insert into
         "82",
         "Cionn Garbh",
         "Kingarroo",
-        "k′ɪN′garu",
+        "k′ɪɴ′garu",
         "1954",
         "<i>Kingarroo</i>, near <i>Fintown</i>, is still Irish-speaking. Our informants were equally fluent in both languages.",
         null,
@@ -2329,7 +2329,7 @@ insert into
         "83",
         "Na Cruacha Gorma",
         "Croaghs",
-        "Nə kruəhə gɔrəmə",
+        "ɴə kruəhə gɔrəmə",
         "1954 (speakers D and E) and 1964 (speakers A-C)",
         "This point, representing a remote valley of the <i>Blue Stack Mountains</i>, was the most inaccessible place I have visited in Ireland. It was, therefore, not surprising to find there were quite a number of monoglots, who could not speak a word of English. I have visited this area several times. Most of the young people have left it. The way of life has not changed here for hundreds of years. Rearing of sheep is the main occupation of the people.",
         null,
@@ -2352,7 +2352,7 @@ insert into
         "83a",
         "Dúbinn",
         "Doobin",
-        "dïb′ɪN′",
+        "dïb′ɪɴ′",
         "1966",
         "[The informants] were all fluent Irish speakers.",
         null,
@@ -2421,7 +2421,7 @@ insert into
         "86",
         "Teilionn",
         "Teelin",
-        "t′ʃel′o̤N",
+        "t′ʃel′o̤ɴ",
         "1954",
         "English has become predominant in this place recently, but everybody is still a native speaker of Irish. In <i>Glencolumbkill</i>, the area west of points 85, 86, the position of the language is about the same as in Teelin. Irish ceased to be the regular vernacular in <i>South West Donegal</i> some twenty years ago.",
         null,
@@ -2444,7 +2444,7 @@ insert into
         "86a",
         "Cionn na Coilleadh",
         "Kinnakillew",
-        "k′aNə ˈkïL′u.ʷ",
+        "k′aɴə ˈkïʟ′u.ʷ",
         "1954",
         null,
         null,
@@ -2764,7 +2764,7 @@ insert into
     ) values (
         "Ré na dTiompán",
         "Reanadampaun",
-        "rE: nə dauˈmpɑːn",
+        "rᴇː nə dauˈmpɑːn",
         52.232,
         -7.67781,
         (select id from survey_point where display_id = "3")
@@ -4141,8 +4141,7 @@ insert into
         townland_id
     ) values (
         "Diarmaid Mac Seagháin",
-        /* last ʒ should be superscript */
-        "d′ʒiərᵊmöd′ʒ mɑ̌k ˈʃaːn′",
+        "d′ʒiərᵊmöd′<sup>ʒ</sup> mɑ̌k ˈʃaːn′",
         "62",
         null,
         null,
@@ -4200,7 +4199,7 @@ insert into
     ) values (
         "Cnoc na gCapall",
         "Crocknagapple",
-        "kRo̤k nə gɑpəl",
+        "kʀo̤k nə gɑpəl",
         54.7217,
         -8.35102,
         (select id from survey_point where display_id = "84")
@@ -4238,7 +4237,7 @@ insert into
     ) values (
         "Cruach Mhín an Fheannta",
         "Croveenananta",
-        "kruɪv′ɪːnə N′aNːta",
+        "kruɪv′ɪːnə ɴ′aɴːta",
         54.7962,
         -8.08267,
         (select id from survey_point where display_id = "83")
@@ -4256,7 +4255,7 @@ insert into
         townland_id
     ) values (
         "Pádraig Séamus Mac a' Lúin",
-        "pʷɑːdrɪg′ ʃɛ̀məs mɑk ə Lu̢ːᵊn′",
+        "pʷɑːdrɪg′ ʃɛ̀məs mɑk ə ʟu̢ːᵊn′",
         "27",
         null,
         "A",
@@ -4277,7 +4276,7 @@ insert into
         townland_id
     ) values (
         "Micí Mac a' Lúin",
-        "m′ɪk′ɪː mɑk ə ˈLu̢ːᵊɪn′",
+        "m′ɪk′ɪː mɑk ə ˈʟu̢ːᵊɪn′",
         "70",
         null,
         "C",
@@ -4297,7 +4296,7 @@ insert into
     ) values (
         "Cruach Leac",
         "Crolack",
-        "krɔˈLaK",
+        "krɔˈʟaᴋ",
         54.7877,
         -8.04629,
         (select id from survey_point where display_id = "83")
@@ -4411,7 +4410,7 @@ insert into
     ) values (
         "Cionn Garbh",
         "Kingarroo",
-        "k′ɪN′garu",
+        "k′ɪɴ′garu",
         54.9068,
         -8.05274,
         (select id from survey_point where display_id = "82")
@@ -4505,7 +4504,7 @@ insert into
         townland_id
     ) values (
         "Cathal Ó Gallachair",
-        "kahəl (or tɑːrLɑ) ɔ gɑLəfïr′",
+        "kahəl (or tɑːrʟɑ) ɔ gɑʟəfïr′",
         "about 40",
         "small farmer",
         null,
@@ -4626,7 +4625,7 @@ insert into
     ) values (
         "Rann na Feirste",
         "Rannafast",
-        "ɑːrd ə ˈt′ʃaNtɪː (note: unsure what this refers to)",
+        "ɑːrd ə ˈt′ʃaɴtɪː (note: unsure what this refers to)",
         55.0382,
         -8.31253,
         (select id from survey_point where display_id = "78")
@@ -4644,7 +4643,7 @@ insert into
         townland_id
     ) values (
         "Seán Bán Mac Grianna",
-        "ʃɑ̣ːn ˈbɑːn mɑk ˈg′r′iːəNə",
+        "ʃɑ̣ːn ˈbɑːn mɑk ˈg′r′iːəɴə",
         "about 50",
         "small farmer",
         null,
@@ -4778,7 +4777,7 @@ insert into
     ) values (
         "Baile an Gheafta",
         "Gay Town",
-        "bɑl′ə ˈN′ãφtə",
+        "bɑl′ə ˈɴ′ãφtə",
         55.1083,
         -8.13648,
         (select id from survey_point where display_id = "74")
@@ -4854,7 +4853,7 @@ insert into
     ) values (
         "Droim na Coradh",
         "Drumnacarry",
-        "drïM′ː Nə ˈkɑruφ",
+        "drïᴍ′ː ɴə ˈkɑruφ",
         55.0853,
         -7.89738,
         (select id from survey_point where display_id = "72")
@@ -4872,7 +4871,7 @@ insert into
         townland_id
     ) values (
         "Charley Ó Gallagher",
-        "tɑrLɑ ɔ̢ ˈgɑLəhər",
+        "tɑrʟɑ ɔ̢ ˈgɑʟəhər",
         "about 80",
         "small farmer",
         null,
@@ -4892,7 +4891,7 @@ insert into
     ) values (
         "Na Dúnaibh",
         "Downings",
-        "Nə d.λnïf′",
+        "ɴə d.λnïf′",
         55.1952,
         -7.85705,
         (select id from survey_point where display_id = "71")
@@ -4930,7 +4929,7 @@ insert into
     ) values (
         "Tor Leadáin",
         "Tirlaydan",
-        "tɔ̢r L′ɛdɑ̣n",
+        "tɔ̢r ʟ′ɛdɑ̣n",
         55.1582,
         -7.59715,
         (select id from survey_point where display_id = "70")
