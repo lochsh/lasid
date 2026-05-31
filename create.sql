@@ -6141,8 +6141,8 @@ insert into
         "An Teach Mór",
         "Ballinteemore",
         null,
-        53.3885,
-        -8.81863,
+        53.2383,
+        -9.41785,
         (select id from survey_point where display_id = "40")
     );
 
