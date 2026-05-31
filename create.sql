@@ -224,7 +224,7 @@ insert into
         "Oirthuaisceart Chonnacht",
         "North East Connaught",
         (select id from volume where vol_idx = 3),
-        null,
+        "<i>Letrim</i> and <i>Cavan</i> Irish died before they were studied systematically. This is a considerable loss to Irish studies, as it must have been in these districts that <i>East Ulster</i> Irish and <i>Connaught</i> Irish clashed.",
         "VI"
     );
 
@@ -1639,7 +1639,7 @@ insert into
         "55a",
         "Dumha Locha",
         "Doolough",
-        "du̢ːˈlo̢x or du̢ːˈlɑxə",
+        "du̢ːˈlo̢x <i>or</i> du̢ːˈlɑxə",
         "1951",
         "There are only a few native speakers left in this area. One set of questions was asked, divided equally between places 55 and 55a. Additional notes were taken down from our informant in point 55.",
         null,
@@ -6141,8 +6141,8 @@ insert into
         "An Teach Mór",
         "Ballinteemore",
         null,
-        53.3885,
-        -8.81863,
+        53.2383,
+        -9.41785,
         (select id from survey_point where display_id = "40")
     );
 
@@ -6739,4 +6739,869 @@ insert into
         "Our informant who had spent some time in America was equally fluent in both languages. The interrogation took place in the county home of <i>Loughrea</i>.",
         "Joyce is an anglicisation of Seoighe",
         (select id from townland where ainm = "Seanadh Farracháin")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Ceapaigh Dhuibh",
+        "Cappaghduff",
+        "k′apəˈɣöf′",
+        53.644613,
+        -9.381566,
+        (select id from survey_point where display_id = "51")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Micheál de Búrca",
+        "m′ihɑːl də buːrkə",
+        "about 75",
+        "shopkeeper and small farmer",
+        null,
+        "Some words were recorded for me by Seán de Búrca (University College of Galway) who is a native of <i>Tourmakeady</i>. His notations are given in brackets.",
+        null,
+        (select id from townland where name = "Cappaghduff")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Dumhach Mhic Eoghain",
+        "Doughmakeon",
+        "dəv′iˈk′oːn′",
+        53.7459,
+        -9.87466,
+        (select id from survey_point where display_id = "52")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Micheál 'a Búrca",
+        "m′ɪhɑːl ə bu̢ːrkə",
+        "83",
+        null,
+        null,
+        null,
+        null,
+        (select id from townland where name = "Doughmakeon")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Bun na nAeú",
+        "Bunanioo",
+        "bo̤nəˈnəjo",
+        53.8836,
+        -9.913,
+        (select id from survey_point where display_id = "53")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Micheál Ó Caiticin",
+        "m′ihɑːl oː kat′ik′in′",
+        "63",
+        "small farmer",
+        null,
+        null,
+        null,
+        (select id from townland where name = "Bunanioo")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Sáile",
+        "Salia",
+        "sɑːl′ə",
+        53.9497,
+        -9.93946,
+        (select id from survey_point where display_id = "54")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mártain 'ac Meanman",
+        "...m′anəmən",
+        "72",
+        "small farmer",
+        "a",
+        null,
+        null,
+        (select id from townland where ainm = "Sáile")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Bríd Ní Gaointí Seán",
+        "b′r′′iːd′ ɴ′iː giːnti [sic!] ʃɑːn",
+        "76",
+        "small farmer",
+        "b",
+        null,
+        "I'm not sure what 'sic' note in the transcription refers to, either the broad 'n' and 't' in the pronunciation of Gaointí, or the nominative rather than genitive on Seán. The latter seems more likely to me, and perhaps less arrogant for Wagner to point out something outside of grammatical norms than to suggest someone was pronouncing their own surname incorrectly.",
+        (select id from townland where ainm = "Sáile")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mrs. Rose Mac Sweeney",
+        null,
+        "64",
+        "small farmer",
+        "c",
+        null,
+        null,
+        (select id from townland where ainm = "Sáile")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Owen Patten",
+        null,
+        "55",
+        "boatmaker",
+        "d",
+        null,
+        null,
+        (select id from townland where ainm = "Sáile")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Dumha Thuama",
+        "Dohooma",
+        "dəˈhuːmə",
+        54.0713,
+        -9.94814,
+        (select id from survey_point where display_id = "55")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "A. Munnelly",
+        "antən′ə oː mo̤rˈiːl′ə",
+        "68",
+        "small farmer",
+        "a",
+        null,
+        "He gives his townland as bo̤n ə ˈtoli but I wasn't sure where this referred to. Census shows him in Dohooma.",
+        (select id from townland where name = "Dohooma")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Dumha Locha",
+        "Doolough",
+        "du̢ːˈlo̢x <i>or</i> du̢ːˈlɑxə",
+        54.1333,
+        -9.90992,
+        (select id from survey_point where display_id = "55a")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Caitilín Ní Bháile",
+        "ˈkat′ʃəl′iːn′ n′iː ˈwɑːl′ə",
+        "over 90",
+        null,
+        "b",
+        null,
+        null,
+        (select id from townland where name = "Doolough")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Na hAicilleacha, Glais",
+        "Nakil or Surgeview, Glash",
+        "nə ˈhak′əl′əxɪ, glɑ̣ʃ",
+        54.101,
+        -10.1237,
+        (select id from survey_point where display_id = "56")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Páraic Breathnach",
+        "pɑːrɪk′ b′r′anhəx",
+        "67",
+        "fisherman",
+        null,
+        "He comes from <i>Inishkea South</i>.",
+        "I had some difficulty identifying the townland from the transcription, but I'm fairly confident that he is saying Na hAicilleacha, though I haven't seen that precise name written anywhere.",
+        (select id from townland where ainm = "Na hAicilleacha, Glais")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Port an Chlóidh",
+        "Portacloy",
+        null,
+        54.3319,
+        -9.77007,
+        (select id from survey_point where display_id = "57")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Nóra de Búrca and her son Tomás",
+        "ɴoːrə də buːrkə; <i>maiden name:</i>: ɴoːrə n′iː höig′",
+        "about 75",
+        "fisherman's widow",
+        null,
+        "<i>Nóra</i> was born in <i>Carrowteigue</i>.",
+        null,
+        (select id from townland where name = "Portacloy")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Gaobhrán",
+        "Geevraun",
+        "gɪːwərɑːn",
+        54.3142,
+        -9.57022,
+        (select id from survey_point where display_id = "58")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "T. Mac Ale",
+        "ˈto̤mɑːs məˈkeːl′ə",
+        "60",
+        null,
+        null,
+        null,
+        null,
+        (select id from townland where ainm = "Gaobhrán")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mícheál Ó Neachtain",
+        "ˈm′iːhɑːl oː ˈɴ′axtən′",
+        "about 45",
+        null,
+        null,
+        null,
+        null,
+        (select id from townland where ainm = "Gaobhrán")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Ráth Leacain",
+        "Rathlacken",
+        "o̢un ˈʟ′akəx (unclear what this refers to)",
+        54.2951,
+        -9.27946,
+        (select id from survey_point where display_id = "59")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "P. Mac Goldrick",
+        "pɑːrɪk′ mɑˈgoːrl′ik′",
+        "about 80",
+        "fisherman",
+        "a",
+        null,
+        null,
+        (select id from townland where name = "Rathlacken")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Cill Ardubh",
+        "Killerduff",
+        "k′iʟ′ərˈdo̤f",
+        54.2929,
+        -9.3900,
+        (select id from survey_point where display_id = "59")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mártan Ó Dochartaigh",
+        "mɑːrtən oː ˈdohərti",
+        "about 80",
+        null,
+        "b",
+        null,
+        null,
+        (select id from townland where name = "Killerduff")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Baile an Chnoic",
+        "Ballyknock",
+        "bɑl′əˈxrɪk′",
+        54.2842,
+        -9.40336,
+        (select id from survey_point where display_id = "59")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Micheál Gever",
+        "ˈm′ihɑːl ə ˈg′ïv′ər′",
+        "80",
+        null,
+        "c",
+        null,
+        null,
+        (select id from townland where name = "Ballyknock")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Lios an Uisge",
+        "(somewhere in Kilmacteige parish, could not identify)",
+        "ʟ′ïs ə ′ɴɪʃg′ə",
+        54.069,
+        -8.89097,
+        (select id from survey_point where display_id = "60")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Micheál 'c an Ultaigh",
+        "m′ihɑːl kəˈɴo̤ltɪː",
+        "78",
+        "small farmer",
+        "a",
+        null,
+        null,
+        (select id from townland where ainm = "Lios an Uisge")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Coill Dá Lao",
+        "Culdaly",
+        "ko̤l n̥ dɑː ʟẹː",
+        54.0359,
+        -9.00288,
+        (select id from survey_point where display_id = "60")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Bríd Ní Cunney",
+        "b′ʲiːd′ n′iː kïɴ′ːər′",
+        "87",
+        "small farmer",
+        "b",
+        null,
+        null,
+        (select id from townland where name = "Culdaly")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Áth an Chláir",
+        "Aclare",
+        "ɑ. ˈxlɑːr′",
+        54.0358,
+        -8.90059,
+        (select id from survey_point where display_id = "60")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Seán Mac Giltey",
+        null,
+        "about 60",
+        "small farmer",
+        "c",
+        "from near <i>Aclare</i>",
+        null,
+        (select id from townland where name = "Aclare")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Tulaigh na gClog",
+        "Tullanaglug",
+        "to̤ʟə nə ˈglo̢g",
+        54.047,
+        -8.78703,
+        (select id from survey_point where display_id = "61")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Patrick Ó Floinn",
+        "pɑːrɪk′ o̢ː flïɴ′",
+        "81",
+        null,
+        "a",
+        null,
+        null,
+        (select id from townland where name = "Tullanaglug")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "An Choraidh",
+        "Curry",
+        null,
+        53.9964,
+        -8.76431,
+        (select id from survey_point where display_id = "61")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Bríd Ní Mac an Bheithigh",
+        "b′iːd′ ɴ′iː mɑkəˈv′ehi",
+        "87",
+        null,
+        "b",
+        null,
+        null,
+        (select id from townland where name = "Curry")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Sgeithín",
+        "Skeheen",
+        "sgeˈhiːn′",
+        53.9046,
+        -8.66971,
+        (select id from survey_point where display_id = "62")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Séamas Páraic Ó Duffy",
+        "ʃeːməs pɑːrik′ oː do̤fi",
+        "83",
+        null,
+        null,
+        null,
+        null,
+        (select id from townland where name = "Skeheen")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Doirín na gCaor",
+        "Combhill or Derreenageer",
+        "dörnəˈg′iər",
+        54.1652,
+        -7.99558,
+        (select id from survey_point where display_id = "63")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Hubert Forde",
+        "...mɑk ə ˈnaũwe",
+        "84",
+        "small farmer",
+        null,
+        "He lives now near <i>Easkey</i>, Co. <i>Sligo</i>. <i>Hubert Forde</i> claims to have picked up his Irish from his grandfather who was a poet (<i>file</i>).",
+        "The informant seems to have contributed to the Schools' Collection <a href=https://www.duchas.ie/en/cbes/4605946/4604709/4650754?Route=stories>here</a>.",
+        (select id from townland where ainm = "Doirín na gCaor")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Mullach",
+        "Mully",
+        "mo̤ʟːi <i>or</i> mo̤ʟːɑx",
+        54.2008,
+        -7.90369,
+        (select id from survey_point where display_id = "64")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Bríd Magavern",
+        "b′r′′iːd′ʒ mɑˈgɔurɑːn",
+        "over 90",
+        null,
+        "a",
+        null,
+        null,
+        (select id from townland where ainm = "Mullach")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Owen Magavern",
+        "oːn sɑurɑːn [corr.?]",
+        "over 90",
+        null,
+        "b",
+        null,
+        null,
+        (select id from townland where ainm = "Mullach")
     );
