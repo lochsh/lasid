@@ -1547,7 +1547,7 @@ insert into
         "52",
         "Cluain Cearbán",
         "Louisburgh",
-        "klu̢ːn ˈk′arəbɑːn",
+        "klųːn ˈk′arəbɑːn",
         "1951",
         "Only a few speakers have survived in this area, none of them being fluent in Irish.",
         null,
@@ -1639,7 +1639,7 @@ insert into
         "55a",
         "Dumha Locha",
         "Doolough",
-        "du̢ːˈlo̢x <i>or</i> du̢ːˈlɑxə",
+        "dųːˈlǫx <i>or</i> dųːˈlɑxə",
         "1951",
         "There are only a few native speakers left in this area. One set of questions was asked, divided equally between places 55 and 55a. Additional notes were taken down from our informant in point 55.",
         null,
@@ -1777,7 +1777,7 @@ insert into
         "61",
         "Tobar an Choire agus Baile na Coradh",
         "Tobercurry and Curry",
-        "to̢bər ə xör′′ə, ˈbɑl′ə nə ˈkoru̢φ",
+        "tǫbər ə xör′′ə, ˈbɑl′ə nə ˈkorųφ",
         "1950",
         "My informant from near <i>Tobercurry</i> was considered the only person in the area who knew native Irish. He could not speak it fluently. In <i>Curry</i> I met an old lady who could speak it a bit better.",
         null,
@@ -1892,7 +1892,7 @@ insert into
         "65",
         "Ó Méith",
         "Omeath",
-        "ɔ̢ˈm′ɛː",
+        "ɔ̨ˈm′ɛː",
         "1950",
         "I was able to collect a considerable amount of material from a person who is considered the last native speaker of Omeath Irish.",
         null,
@@ -2145,7 +2145,7 @@ insert into
         "75",
         "Oileán Thoraigh",
         "Tory Island",
-        "ˈel′ɑ̣n hɔ̢ri",
+        "ˈel′ɑ̣n hɔ̨ri",
         "1954",
         "On this island, Irish is still the only spoken language, apart from the light keepers who come from outside. My informant could not speak much English. <i>Tory</i> must be considered the firmest stronghold of <i>Ulster</i> Irish. There are about 300 people on this island, who live mainly from seasonal emigration to Scotland [footnote: This applies to native <i>Donegal</i> in general, as well as to <i>Achill</i> (53, 54).]. Having spent more than two months on <i>Tory</i>, I shall be able to present fairly comprehensive material on this dialect in the second volume [actually in volume IV].",
         null,
@@ -3014,7 +3014,7 @@ insert into
         townland_id
     ) values (
         "Máirtín Breathnach",
-        "mɑ̢ːrt′iːn′ br̥ˈn′ax",
+        "mɑ̨ːrt′iːn′ br̥ˈn′ax",
         "about 75",
         "Has been small farmer and fisherman",
         "b",
@@ -3110,7 +3110,7 @@ insert into
     ) values (
         "Dún Eoghain",
         "Dunowen",
-        "duːn ˈo̢ːn′ (or: duːn  ˈoːiŋ′; both forms were used by this speaker)",
+        "duːn ˈǫːn′ (or: duːn  ˈoːiŋ′; both forms were used by this speaker)",
         51.5473,
         -8.90803,
         (select id from survey_point where display_id = "8")
@@ -3204,7 +3204,7 @@ insert into
         townland_id
     ) values (
         "Seán Ó hÉagartaigh",
-        "ʃ̣ɑ̣ːn o̢ː hɛːgərtig′",
+        "ʃ̣ɑ̣ːn ǫː hɛːgərtig′",
         "80",
         "small farmer",
         null,
@@ -3225,7 +3225,7 @@ insert into
         townland_id
     ) values (
         "Mícheál Ó hÉagartaigh",
-        "m′iːhɑːl o̢ː hɛːgərtig′",
+        "m′iːhɑːl ǫː hɛːgərtig′",
         "87",
         "small farmer",
         null,
@@ -3339,7 +3339,7 @@ insert into
         townland_id
     ) values (
         "Pádraig Ó Ceócháin",
-        "pɑːdərig′ u̢ k′ʲoːˈhɑːn",
+        "pɑːdərig′ ų k′ʲoːˈhɑːn",
         "83",
         "small farmer",
         "a",
@@ -4009,7 +4009,7 @@ insert into
     ) values (
         "Luach",
         "Luogh",
-        "lu̢ːəx",
+        "lųːəx",
         52.9848,
         -9.41889,
         (select id from survey_point where display_id = "23")
@@ -4027,7 +4027,7 @@ insert into
         townland_id
     ) values (
         "John Carey",
-        "ʃɑːn kɑˈru̢ːᵊn",
+        "ʃɑːn kɑˈrųːᵊn",
         "about 90",
         "small farmer",
         "b",
@@ -4255,7 +4255,7 @@ insert into
         townland_id
     ) values (
         "Pádraig Séamus Mac a' Lúin",
-        "pʷɑːdrɪg′ ʃɛ̀məs mɑk ə ʟu̢ːᵊn′",
+        "pʷɑːdrɪg′ ʃɛ̀məs mɑk ə ʟųːᵊn′",
         "27",
         null,
         "A",
@@ -4276,7 +4276,7 @@ insert into
         townland_id
     ) values (
         "Micí Mac a' Lúin",
-        "m′ɪk′ɪː mɑk ə ˈʟu̢ːᵊɪn′",
+        "m′ɪk′ɪː mɑk ə ˈʟųːᵊɪn′",
         "70",
         null,
         "C",
@@ -4719,7 +4719,7 @@ insert into
         townland_id
     ) values (
         "Mánas Ferry",
-        "mɑ̢ːnəs ɔ̢ ˈfɑri",
+        "mɑ̨ːnəs ɔ̨ ˈfɑri",
         "63",
         "weaver",
         null,
@@ -4757,7 +4757,7 @@ insert into
         townland_id
     ) values (
         "Jimmy Meenan",
-        "ʃeːməs ɔ̢ ˈv′inan′",
+        "ʃeːməs ɔ̨ ˈv′inan′",
         "over 50",
         "small farmer",
         null,
@@ -4871,7 +4871,7 @@ insert into
         townland_id
     ) values (
         "Charley Ó Gallagher",
-        "tɑrʟɑ ɔ̢ ˈgɑʟəhər",
+        "tɑrʟɑ ɔ̨ ˈgɑʟəhər",
         "about 80",
         "small farmer",
         null,
@@ -4929,7 +4929,7 @@ insert into
     ) values (
         "Tor Leadáin",
         "Tirlaydan",
-        "tɔ̢r ʟ′ɛdɑ̣n",
+        "tɔ̨r ʟ′ɛdɑ̣n",
         55.1582,
         -7.59715,
         (select id from survey_point where display_id = "70")
@@ -5313,7 +5313,7 @@ insert into
     ) values (
         "Gabhail Rua",
         "Gilroe",
-        "gɑ̢ul ˈruː",
+        "gɑ̨ul ˈruː",
         52.9857,
         -8.80736,
         (select id from survey_point where display_id = "26")
@@ -5504,7 +5504,7 @@ insert into
         townland_id
     ) values (
         "Martin Furey",
-        "mɑːrt′in′ ɪː ˈu̢ːrə",
+        "mɑːrt′in′ ɪː ˈųːrə",
         "87",
         "farmer",
         null,
@@ -6525,7 +6525,7 @@ insert into
         "90",
         "small farmer",
         null,
-        "reared in <i>Glentrasna</i>, born in g′l′iːn′ ˈɣɑ̢ulə, three miles from <i>Oughterard</i> [...] He lives now in <i>Oughterard</i>. He lived in America for some time.",
+        "reared in <i>Glentrasna</i>, born in g′l′iːn′ ˈɣɑ̨ulə, three miles from <i>Oughterard</i> [...] He lives now in <i>Oughterard</i>. He lived in America for some time.",
         null,
         (select id from townland where ainm = "Gleann Trasna")
     );
@@ -6808,7 +6808,7 @@ insert into
         townland_id
     ) values (
         "Micheál 'a Búrca",
-        "m′ɪhɑːl ə bu̢ːrkə",
+        "m′ɪhɑːl ə bųːrkə",
         "83",
         null,
         null,
@@ -7005,7 +7005,7 @@ insert into
     ) values (
         "Dumha Locha",
         "Doolough",
-        "du̢ːˈlo̢x <i>or</i> du̢ːˈlɑxə",
+        "dųːˈlǫx <i>or</i> dųːˈlɑxə",
         54.1333,
         -9.90992,
         (select id from survey_point where display_id = "55a")
@@ -7178,7 +7178,7 @@ insert into
     ) values (
         "Ráth Leacain",
         "Rathlacken",
-        "o̢un ˈʟ′akəx (unclear what this refers to)",
+        "ǫun ˈʟ′akəx (unclear what this refers to)",
         54.2951,
         -9.27946,
         (select id from survey_point where display_id = "59")
@@ -7406,7 +7406,7 @@ insert into
     ) values (
         "Tulaigh na gClog",
         "Tullanaglug",
-        "to̤ʟə nə ˈglo̢g",
+        "to̤ʟə nə ˈglǫg",
         54.047,
         -8.78703,
         (select id from survey_point where display_id = "61")
@@ -7424,7 +7424,7 @@ insert into
         townland_id
     ) values (
         "Patrick Ó Floinn",
-        "pɑːrɪk′ o̢ː flïɴ′",
+        "pɑːrɪk′ ǫː flïɴ′",
         "81",
         null,
         "a",
