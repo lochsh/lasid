@@ -7605,3 +7605,906 @@ insert into
         null,
         (select id from townland where ainm = "Mullach")
     );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Bàinleacainn",
+        "Banlicken",
+        "bɑ̣.n ɫe.k̠ïn",
+        55.604,
+        -5.3826,
+        (select id from survey_point where display_id = "A")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "John Henderson",
+        "i.ən mə kẹ.nrïk′",
+        "75",
+        "retired farmer",
+        null,
+        "The chief informant was John Henderson (75), who was also an informant (Imachar 5) for Nils M. Holmer's <i>The Gaelic of Arran</i>, Dublin, 1957, see pp. 3-4. [...] He now lives at Auchincarr, Machrie.",
+        "You can listen to recordings of this informant on <a href=https://www.tobarandualchais.co.uk/search?l=en&search%5Bterm%5D=%22Henderson%2C+John+%284368%29%22&search%5Btype%5D=archival_object>tobarandulchais.co.uk</a>. Colm Ó Baoill gives his name as Iain MacEannraig.",
+        (select id from townland where name = "Banlicken")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Druid",
+        "Druid",
+        null,
+        55.574130,
+        -5.345690,
+        (select id from survey_point where display_id = "A")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Donald Craig",
+        "ˈdǫːɫ ək ɑ̆ ˈxɑ'rɪg′",
+        "61",
+        "farmer",
+        null,
+        "Holmer's Machrie 3",
+        "The local language died with Donald in 1977. Colm Ó Baoill gives his name as Dòmhnall Mhac a’ Charraig.",
+        (select id from townland where name = "Druid")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Lag Iain",
+        "Laggian",
+        "ˈʟɑ̣d′̨ ˈi.aɴ′",
+        55.496874,
+        -5.317943,
+        (select id from survey_point where display_id = "A")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "John Robertson",
+        "ˈi.ən′ mək ˈrǫːḅ",
+        "90",
+        "carpenter",
+        null,
+        null,
+        "You can listen to recordings of this informant at <a href=https://www.tobarandualchais.co.uk/search?l=en&search%5Bterm%5D=%22Robertson%2C+John%2C+1871-%3F+%285654%29%22&search%5Btype%5D=archival_object>tobarandualchais.co.uk</a>. Thank you to George Broderick for corresponding with me about the placename. I find the transcription of the final consonant in 'Lag' surprising. You can hear him say it about 2 minutes into <a href=https://www.tobarandualchais.co.uk/track/43260?l=en>this recording</a>, where it sounds more like I would expect. Colm Ó Baoill gives the informant's name as Iain MacRòib.",
+        (select id from townland where ainm = "Lag Iain")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Dùn Crannaig, Càradal",
+        "Duncrannaig, Carradale",
+        null,
+        55.591653,
+        -5.463947,
+        (select id from survey_point where display_id = "B")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Neil MacDougall",
+        "j̃i.əɫ maχ kuːɪʟ′",
+        "79",
+        "retired fisherman",
+        "a",
+        "He was Holmer's informant Carradale I for his <i>The Gaelic of Kintyre</i>, Dublin, 1962, see pp. 3-4.",
+        "You can listen to recordings of this informant at <a href=https://www.tobarandualchais.co.uk/search?l=gd&search%5Bterm%5D=%22MacDougall%2C+Neil%2C+1878-1970+%284139%29%22&search%5Btype%5D=archival_object>tobarandualchais.co.uk</a>. Colm Ó Baoill gives his name as Niall MacDhùghaill.",
+        (select id from townland where name = "Duncrannaig, Carradale")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Tairbeart, Loch Fìne",
+        "Tarbert, Loch Fyne",
+        "tɛrəbəṣt",
+        55.863246,
+        -5.415608,
+        (select id from survey_point where display_id = "B")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mary MacKinnon",
+        "mɪːr′i mɑx k′ïnəɴ",
+        "85",
+        "farmer's wife",
+        "b",
+        "When recorded she was a patient in hospital in Campbeltown.",
+        "Colm Ó Baoill gives her name as Mary MacFhionghain",
+        (select id from townland where name = "Tarbert, Loch Fyne")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Muasdal",
+        "Muasdale",
+        "mu.ăsdəɫ",
+        55.599520,
+        -5.684687,
+        (select id from survey_point where display_id = "B")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Neil Thomson",
+        "ˈnʲɪ.ɑɫ mèk′ ˈhoːmɑʃ",
+        "56",
+        "fisherman",
+        "c",
+        "He was Holmer's Largieside 12.",
+        "Colm Ó Baoill gives the informant's name as Niall MacThòmais",
+        (select id from townland where name = "Muasdale")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Cill Eathain",
+        "Killean",
+        "kïˈʟ′ɛïn (with slight hiatus between ɛ and ï)",
+        55.640111,
+        -5.664694,
+        (select id from survey_point where display_id = "B")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Alexander Macalister",
+        "ɑlɪsṭər mə kɑlɪsṭər",
+        "81",
+        "retired marine engineer",
+        "d",
+        "now living in Campbeltown",
+        "Colm Ó Baoill gives the informant's name as Alasdair MacAlasdair",
+        (select id from townland where name = "Killean")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "George Thomson",
+        null,
+        "53",
+        "gamekeeper",
+        "e",
+        "cousin of (c)",
+        "Lexical items collected from someone who is likely this informant are available at <a href=https://dasg.ac.uk/fieldwork/view/TXVhc2RhbGVHVGhvbXNvbm1pc2N8c2dhcmJofGlkcDExNTM4MjIyNHx8Z2FyfHI1Mjh8fHw=>dasg.ac.uk</a>.",
+        (select id from townland where name = "Muasdale")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "An Apainn",
+        "Apinn",
+        "Nɑxbɪn′",
+        56.562222,
+        -5.358889,
+        (select id from survey_point where display_id = "C")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Duncan Mac Coll",
+        "ˈdunːəxə maxḳ ˈko̤ʟːə",
+        null,
+        null,
+        "1",
+        "now living in Crarea, near Inveraray",
+        "Colm Ó Baoill gives the informant's name as Donnchadh MacColla",
+        (select id from townland where name = "Apinn")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Cill an Inbhir",
+        "Kilninver",
+        "k′iɫ ˈnünɛr",
+        56.337750,
+        -5.521028,
+        (select id from survey_point where display_id = "C")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Patrick Mac Lean",
+        "phaːrig′ ,maxḳ ə ˈlɛən, (with slight hiatus between ɛ and ə)",
+        null,
+        null,
+        "2",
+        "now living in (,sɫoxḳ ə ˈvulɪn,) [Sloc a' Mhuilinn], near <i>Lochgilphead</i>",
+        "Colm Ó Baoill gives the informant's name as Pàdraig MacGilleathain",
+        (select id from townland where name = "Kilninver")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Sròn Magachan",
+        "Stronmagachan",
+        ",strun ˈmɑgəxən,",
+        56.280528,
+        -5.098889,
+        (select id from survey_point where display_id = "C")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Alex Mac Intyre",
+        "ɑɫəsḍər ,mɑxḳ ən ˈdhλːr",
+        null,
+        null,
+        "3",
+        "he was born in the same area in a place called [Caisteal Dhùn Dà Ràmh]",
+        "Colm Ó Baoill gives the informant's name as Alasdair Mac an t-Saoir. You can listen to recordings of this informant at <a href=https://www.tobarandualchais.co.uk/search?l=en&search%5Bterm%5D=%22MacIntyre%2C+Sandy%2C+1884-1972+%284099%29%22&search%5Btype%5D=archival_object>tobarandualchais.co.uk</a>.",
+        (select id from townland where name = "Stronmagachan")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Both Seang",
+        "Deer Park Cottage, Boshang",
+        ",bɔ ˈʃ̌aːŋ,",
+        56.250694,
+        -5.050806,
+        (select id from survey_point where display_id = "C")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mairead Caimbeul",
+        "mɛrəḍ xɛmbəl",
+        null,
+        null,
+        "4",
+        "[She] lives in <i>Boshang</i>, Deer Park Cottage, beside Inveraray Castle, <i>Glenshira</i>; she was born in this area.",
+        null,
+        (select id from townland where ainm = "Both Seang")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Toloram",
+        "Torlum",
+        "tɔlɑrum",
+        57.434667,
+        -7.361333,
+        (select id from survey_point where display_id = "D")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Kathrine Mac Millan",
+        "k′ehṭ′ r′uər′i",
+        null,
+        null,
+        "1",
+        null,
+        "Colm Ó Baoill gives the informant's name as Cait Ruairidh. She is likely the Kate MacMillan whose recordings are available on <a href=https://www.tobarandualchais.co.uk/search?l=en&search%5Bterm%5D=%22MacMillan%2C+Kate%2C+1892-1988+%282237%29%22&search%5Btype%5D=archival_object>tobarandualchais.co.uk</a>.",
+        (select id from townland where ainm = "Toloram")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Dùn Ruadh",
+        "Dùn Ruadh",
+        ",do̤n ˈʀuːəɣ,",
+        57.435972,
+        -7.339778,
+        (select id from survey_point where display_id = "D")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Donall John Mac Kinnon",
+        ",dõːəl ˈiːan′ dõː[əl] ix′ḳ′ ˈk′ɛxɪn′",
+        null,
+        null,
+        "2",
+        null,
+        "Colm Ó Baoill gives the informant's name as Dòmhnall Iain Dòmhnaill mhic Eachainn",
+        (select id from townland where ainm = "Dùn Ruadh")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Donall Buchanan",
+        "dõːəl iːan′ v′iḳ′",
+        null,
+        null,
+        "3",
+        null,
+        "Colm Ó Baoill gives the informant's (local) name as Dòmhnall Iain Bhig",
+        (select id from townland where ainm = "Toloram")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "An Àird Chumhaing",
+        "Ardchuig",
+        ",ə ɴɑřṣḍ ˈxũig′,",
+        57.409950,
+        -7.269970,
+        (select id from survey_point where display_id = "D")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Donald Mac Donald",
+        "dõːəl r′uər′i",
+        null,
+        null,
+        "4",
+        null,
+        "Colm Ó Baoill gives the informant's (local) name as Dòmhnall Ruairidh",
+        (select id from townland where ainm = "An Àird Chumhaing")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Lianacleit",
+        "Liniclate",
+        "ʟ′iːanəg̣hlaḍ′ʒ",
+        57.4231958,
+        7.3545927,
+        (select id from survey_point where display_id = "D")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Iain Wilson",
+        "iːan ən ḍhaʟ′ɛr′",
+        null,
+        null,
+        "6",
+        null,
+        "Colm Ó Baoill gives the informant's name as Iain an Tàilleir",
+        (select id from townland where ainm = "Lianacleit")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Angus Wilson",
+        ",λ̃nλ̃ːs ɣõːə ˈruəi,",
+        null,
+        null,
+        "6",
+        null,
+        "Colm Ó Baoill gives the informant's (local) name as Aonghas Dhòmhnaill Ruaidh",
+        (select id from townland where ainm = "Lianacleit")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Pàirc Chàrlabhaigh",
+        "Park Carloway",
+        ",pɑːrþḳ′ ˈxaːʳ̣ḷəvaiʰ",
+        58.282639,
+        -6.761778,
+        (select id from survey_point where display_id = "E")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Donall Mackenzie",
+        ",ḍõːəl mɑˈxüɴ′ix′,",
+        null,
+        null,
+        "1",
+        null,
+        "Colm Ó Baoill gives the informant's name as Dòmhnall MacChoinnich",
+        (select id from townland where name = "Park Carloway")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Borghastan",
+        "Borrowston",
+        "bɔʀɔːstɔnʰ",
+        58.281,
+        -6.793,
+        (select id from survey_point where display_id = "E")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Donall Iain, Iain, and Angus Mac Arthur",
+        "[dõːəl ĩːan′, ĩːan′, λ̃nλ̃ːs] mɑˈkɑřšṭɑr′þ",
+        null,
+        null,
+        "2",
+        null,
+        "Colm Ó Baoill gives the informants' names as Dòmhnall Iain, Iain and Aonghas MacArtair",
+        (select id from townland where name = "Borrowston")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Diùirinis",
+        "Duirinish",
+        "d′ûːrïnɪʃ",
+        57.31457,
+        -5.67435,
+        (select id from survey_point where display_id = "F")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Archibald MacLennan",
+        "g′ɪʟ′ ˈesḅɪg̣′ max ḳə ˈʟ′iɴ′èn′",
+        "60",
+        "mason",
+        "a",
+        null,
+        "Colm Ó Baoill gives the informant's name as Gilleasbaig MacGillFhinnein",
+        (select id from townland where name = "Duirinish")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Ploc <i>nó</i>Ploc Loch Aillse",
+        "Plockton",
+        "pʟɔxk <i>or</i> ˈpʟɔxk ʟɔx ˈɑ̣iʃ",
+        57.33801,
+        -5.65231,
+        (select id from survey_point where display_id = "F")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Catherine MacCrae",
+        "kɑ̣χt′irh məx ˈkᵊrɑʰ",
+        "76",
+        "housewife",
+        "b",
+        null,
+        "Colm Ó Baoill gives the informant's name as Caitir MacRath",
+        (select id from townland where name = "Plockton")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Rory MacCrae",
+        "ru.əri vix krɑ̣h",
+        "65",
+        "fisherman",
+        "d",
+        null,
+        "Colm Ó Baoill gives the informant's name as Ruairidh MhicRath",
+        (select id from townland where name = "Plockton")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "A' Chomraich",
+        "Applecross",
+        null,
+        57.43304,
+        -5.80958,
+        (select id from survey_point where display_id = "F")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Duncan Gillanders",
+        "ˈduɴuxəɣ mɑxk g′ɪʟ′ ˈɑuɴdrəʃ",
+        "74",
+        "formerly a Chief Inspector in Glasgow City Police",
+        "c",
+        null,
+        "Colm Ó Baoill gives the informant's name as Donnchadh MacGillAnndrais",
+        (select id from townland where name = "Applecross")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Clais an Easaidh <i>nó</i> Clais an Eas",
+        "Clashnessie",
+        "ḳʟɑ̆ʃ ˈɴ′e.s",
+        58.221911,
+        -5.316768,
+        (select id from survey_point where display_id = "G")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "John McLeod and his sister Barbara",
+        "iᴇn mə ˈkloːⁱd′; ḅarhɑ̆brɑ̣.",
+        null,
+        "crofter and former miner",
+        "a",
+        "[John] spent about five years as a miner in Canada before returning to the croft. His sister Barbara has lived all her life at Polcork, apart from a few years working in Inverness.",
+        "Colm Ó Baoill gives the informants' names as Iain MacLeòid and Barbra. Their place within Clashnessie is given as PolCcork; I could not find it on a map. A comment on <a href=https://www.facebook.com/ambaile/posts/a-morris-van-belonging-to-assynt-stores-lochinver-photographed-in-inverness-arou/859645239039427/>this facebook post</a> refers to a 'Johnny and Babi Polcork' which could be the informants. Maybe Polcork was the name of their croft.",
+        (select id from townland where name = "Clashnessie")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Rory Mackenzie",
+        "ruɑri. mɑ ˈkïn′ix′",
+        null,
+        "postmaster",
+        "b",
+        null,
+        "Colm Ó Baoill gives the informant's name as Ruairidh MacCoinnich",
+        (select id from townland where name = "Clashnessie")
+    );
