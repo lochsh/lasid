@@ -7845,7 +7845,7 @@ insert into
     ) values (
         "Cill Eathain",
         "Killean",
-        "kïˈʟ′ɛïn (with slight hiatus between ɛ and ï)",
+        "kïˈʟ′ɛˏïn",
         55.640111,
         -5.664694,
         (select id from survey_point where display_id = "B")
@@ -7960,7 +7960,7 @@ insert into
         townland_id
     ) values (
         "Patrick Mac Lean",
-        "phaːrig′ ,maxḳ ə ˈlɛən, (with slight hiatus between ɛ and ə)",
+        "phaːrig′ ,maxḳ ə ˈlɛˏən,",
         null,
         null,
         "2",
