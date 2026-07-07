@@ -2442,9 +2442,9 @@ insert into
         area_id
     ) values (
         "86a",
-        "Cionn na Coilleadh",
-        "Kinnakillew",
-        "k′aɴə ˈkïʟ′u.ʷ",
+        "Gleann Cholm Cille",
+        "Glencolumbkille",
+        ",ˈg′ʟ′aɴ xɔləm ˈkɪʟ′ə,",
         "1954",
         null,
         null,
@@ -2487,7 +2487,7 @@ insert into
         notes,
         area_id
     ) values (
-        "A",
+        "a",
         "Arainn",
         "Arann",
         null,
@@ -2510,7 +2510,7 @@ insert into
         notes,
         area_id
     ) values (
-        "B",
+        "b",
         "Cinn Tìre",
         "Kintyre",
         null,
@@ -2533,7 +2533,7 @@ insert into
         notes,
         area_id
     ) values (
-        "C",
+        "c",
         "Meadhan Earra Ghàidheal",
         "Mid-Argyll",
         null,
@@ -2556,7 +2556,7 @@ insert into
         notes,
         area_id
     ) values (
-        "D",
+        "d",
         "Beinn nam Fadhla",
         "Benbecula",
         null,
@@ -2579,7 +2579,7 @@ insert into
         notes,
         area_id
     ) values (
-        "E",
+        "e",
         "Leòdhas",
         "Lewis",
         null,
@@ -2602,7 +2602,7 @@ insert into
         notes,
         area_id
     ) values (
-        "F",
+        "f",
         "Ros an Iar",
         "Wester Ross",
         null,
@@ -2625,7 +2625,7 @@ insert into
         notes,
         area_id
     ) values (
-        "G",
+        "g",
         "Asainte",
         "Sutherland",
         null,
@@ -2976,8 +2976,8 @@ insert into
         "Cnoc an Dúin",
         "Knockadoon",
         null,
-        -7.87118,
         51.881,
+        -7.87118,
         (select id from survey_point where display_id = "7")
     );
 
@@ -4110,6 +4110,293 @@ insert into
         "Our informant in this area was the best speaker in <i>County Clare</i>. He had been brought up by his grandparents who did not know any English at all.",
         "Seán Mac Fhearaile",
         (select id from townland where name = "Fisherstreet")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Creneash",
+        "Cregneish",
+        null,
+        54.0693,
+        -4.7691,
+        (select id from survey_point where display_id = "88")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mrs. Eleanor Karran",
+        null,
+        "about 80",
+        null,
+        null,
+        null,
+        "A short biography is compiled on the <a href=https://imuseum.im/search/collections/people/mnh-agent-583274.html>iMuseum website</a>, along with links to her recordings.",
+        (select id from townland where name = "Cregneish")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Glen Chass",
+        "Glenchass",
+        null,
+        54.072546,
+        -4.752951,
+        (select id from survey_point where display_id = "88")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mr. Ned Madrell",
+        null,
+        "72",
+        null,
+        null,
+        null,
+        "A short biography is compiled on the <a href=https://imuseum.im/search/collections/people/mnh-agent-94876.html>iMuseum website</a>, along with links to his recordings. He is widely accepted as having been the last native speaker of traditional Manx.",
+        (select id from townland where name = "Glenchass")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Colby",
+        "Colby",
+        null,
+        54.098,
+        -4.703,
+        (select id from survey_point where display_id = "88")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mrs. Watterson",
+        null,
+        "91",
+        null,
+        null,
+        null,
+        "A recording of the speaker is available on the <a href=https://imuseum.im/search/collections/archive/mnh-museum-424782.html>iMuseum website</a>.",
+        (select id from townland where name = "Colby")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Balley ny Loughey",
+        "Ballaugh",
+        "bɑˈlːɑː",
+        54.311,
+        -4.544,
+        (select id from survey_point where display_id = "88")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mr. Harry Boyde",
+        null,
+        "82",
+        null,
+        null,
+        null,
+        "A short biography and links to recordings of the speaker are available on <a href=https://imuseum.im/search/collections/people/mnh-agent-52202.html>the iMuseum website</a>.",
+        (select id from townland where name = "Ballaugh")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mr. John Kneen",
+        null,
+        "97",
+        null,
+        null,
+        null,
+        "A short biography and links to recordings of the speaker are available on <a href=https://imuseum.im/search/collections/people/mnh-agent-23952.html>the iMuseum website</a>.",
+        (select id from townland where name = "Ballaugh")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Balley Keird (?)",
+        "Ballagarrett",
+        null,
+        54.38848,
+        -4.42152,
+        (select id from survey_point where display_id = "88")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mr. John Tom Kaighin",
+        null,
+        "89",
+        null,
+        null,
+        null,
+        "A short biography and links to recordings of the speaker are available on <a href=https://imuseum.im/search/collections/people/mnh-agent-8347.html>the iMuseum website</a>.",
+        (select id from townland where name = "Ballagarrett")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Baile Uí Choinéil",
+        "Ballyconnell",
+        null,
+        54.359,
+        -8.66023,
+        (select id from survey_point where display_id = "87")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Mrs. Mac Cormick",
+        null,
+        "about 80",
+        null,
+        null,
+        null,
+        null,
+        (select id from townland where name = "Ballyconnell")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Cionn na Coilleadh",
+        "Kinnakillew",
+        "k′aɴə ˈkïʟ′u.ʷ",
+        54.7187,
+        -8.68334,
+        (select id from survey_point where display_id = "86a")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Seán O hIne",
+        ",ʃaːn ɔː ˈhiːn′ə,",
+        null,
+        "tailor",
+        null,
+        null,
+        null,
+        (select id from townland where name = "Kinnakillew")
     );
 
 insert into
@@ -7620,7 +7907,7 @@ insert into
         "bɑ̣.n ɫe.k̠ïn",
         55.604,
         -5.3826,
-        (select id from survey_point where display_id = "A")
+        (select id from survey_point where display_id = "a")
     );
 
 insert into
@@ -7658,7 +7945,7 @@ insert into
         null,
         55.574130,
         -5.345690,
-        (select id from survey_point where display_id = "A")
+        (select id from survey_point where display_id = "a")
     );
 
 insert into
@@ -7696,7 +7983,7 @@ insert into
         "ˈʟɑ̣d′̨ ˈi.aɴ′",
         55.496874,
         -5.317943,
-        (select id from survey_point where display_id = "A")
+        (select id from survey_point where display_id = "a")
     );
 
 insert into
@@ -7734,7 +8021,7 @@ insert into
         null,
         55.591653,
         -5.463947,
-        (select id from survey_point where display_id = "B")
+        (select id from survey_point where display_id = "b")
     );
 
 insert into
@@ -7772,7 +8059,7 @@ insert into
         "tɛrəbəṣt",
         55.863246,
         -5.415608,
-        (select id from survey_point where display_id = "B")
+        (select id from survey_point where display_id = "b")
     );
 
 insert into
@@ -7810,7 +8097,7 @@ insert into
         "mu.ăsdəɫ",
         55.599520,
         -5.684687,
-        (select id from survey_point where display_id = "B")
+        (select id from survey_point where display_id = "b")
     );
 
 insert into
@@ -7845,10 +8132,10 @@ insert into
     ) values (
         "Cill Eathain",
         "Killean",
-        "kïˈʟ′ɛïn (with slight hiatus between ɛ and ï)",
+        "kïˈʟ′ɛˏïn",
         55.640111,
         -5.664694,
-        (select id from survey_point where display_id = "B")
+        (select id from survey_point where display_id = "b")
     );
 
 insert into
@@ -7907,7 +8194,7 @@ insert into
         "Nɑxbɪn′",
         56.562222,
         -5.358889,
-        (select id from survey_point where display_id = "C")
+        (select id from survey_point where display_id = "c")
     );
 
 insert into
@@ -7945,7 +8232,7 @@ insert into
         "k′iɫ ˈnünɛr",
         56.337750,
         -5.521028,
-        (select id from survey_point where display_id = "C")
+        (select id from survey_point where display_id = "c")
     );
 
 insert into
@@ -7960,7 +8247,7 @@ insert into
         townland_id
     ) values (
         "Patrick Mac Lean",
-        "phaːrig′ ,maxḳ ə ˈlɛən, (with slight hiatus between ɛ and ə)",
+        "phaːrig′ ,maxḳ ə ˈlɛˏən,",
         null,
         null,
         "2",
@@ -7983,7 +8270,7 @@ insert into
         ",strun ˈmɑgəxən,",
         56.280528,
         -5.098889,
-        (select id from survey_point where display_id = "C")
+        (select id from survey_point where display_id = "c")
     );
 
 insert into
@@ -8021,7 +8308,7 @@ insert into
         ",bɔ ˈʃ̌aːŋ,",
         56.250694,
         -5.050806,
-        (select id from survey_point where display_id = "C")
+        (select id from survey_point where display_id = "c")
     );
 
 insert into
@@ -8059,7 +8346,7 @@ insert into
         "tɔlɑrum",
         57.434667,
         -7.361333,
-        (select id from survey_point where display_id = "D")
+        (select id from survey_point where display_id = "d")
     );
 
 insert into
@@ -8097,7 +8384,7 @@ insert into
         ",do̤n ˈʀuːəɣ,",
         57.435972,
         -7.339778,
-        (select id from survey_point where display_id = "D")
+        (select id from survey_point where display_id = "d")
     );
 
 insert into
@@ -8156,7 +8443,7 @@ insert into
         ",ə ɴɑřṣḍ ˈxũig′,",
         57.409950,
         -7.269970,
-        (select id from survey_point where display_id = "D")
+        (select id from survey_point where display_id = "d")
     );
 
 insert into
@@ -8194,7 +8481,7 @@ insert into
         "ʟ′iːanəg̣hlaḍ′ʒ",
         57.4231958,
         7.3545927,
-        (select id from survey_point where display_id = "D")
+        (select id from survey_point where display_id = "d")
     );
 
 insert into
@@ -8253,7 +8540,7 @@ insert into
         ",pɑːrþḳ′ ˈxaːʳ̣ḷəvaiʰ",
         58.282639,
         -6.761778,
-        (select id from survey_point where display_id = "E")
+        (select id from survey_point where display_id = "e")
     );
 
 insert into
@@ -8291,7 +8578,7 @@ insert into
         "bɔʀɔːstɔnʰ",
         58.281,
         -6.793,
-        (select id from survey_point where display_id = "E")
+        (select id from survey_point where display_id = "e")
     );
 
 insert into
@@ -8329,7 +8616,7 @@ insert into
         "d′ûːrïnɪʃ",
         57.31457,
         -5.67435,
-        (select id from survey_point where display_id = "F")
+        (select id from survey_point where display_id = "f")
     );
 
 insert into
@@ -8367,7 +8654,7 @@ insert into
         "pʟɔxk <i>or</i> ˈpʟɔxk ʟɔx ˈɑ̣iʃ",
         57.33801,
         -5.65231,
-        (select id from survey_point where display_id = "F")
+        (select id from survey_point where display_id = "f")
     );
 
 insert into
@@ -8426,7 +8713,7 @@ insert into
         null,
         57.43304,
         -5.80958,
-        (select id from survey_point where display_id = "F")
+        (select id from survey_point where display_id = "f")
     );
 
 insert into
@@ -8464,7 +8751,7 @@ insert into
         "ḳʟɑ̆ʃ ˈɴ′e.s",
         58.221911,
         -5.316768,
-        (select id from survey_point where display_id = "G")
+        (select id from survey_point where display_id = "g")
     );
 
 insert into
