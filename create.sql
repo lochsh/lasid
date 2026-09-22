@@ -53,51 +53,46 @@ create table if not exists "informant" (
     foreign key (townland_id) references "townland" (id)
 );
 
+/* Survey question */
 create table if not exists "question" (
     id integer primary key autoincrement not null,
     display_id integer not null unique,
     prompt nvarchar(64) not null unique
 );
 
-create table if not exists "category" (
-    id integer primary key autoincrement not null,
-    display_text nvarchar(64) not null unique,
-    question_id integer not null,
-    foreign key (question_id) references "question" (id)
-);
-
-create index if not exists question_categories on "category" (question_id);
-
+/* Response to a survey question */
 create table if not exists "response" (
     id integer primary key autoincrement not null,
     response nvarchar(128) not null,
     notes text,
     question_id integer not null,
     survey_point_id integer not null,
-    category_id integer not null,
     informant_id integer,
     foreign key (question_id) references "question" (id),
     foreign key (survey_point_id) references "survey_point" (id),
-    foreign key (category_id) references "category" (id),
     foreign key (informant_id) references "informant" (id)
 );
 
 create table if not exists "map" (
     id integer primary key autoincrement not null,
     title nvarchar(32) not null,
-    categories nvarchar(64) not null,
     display_id nvarchar(16) not null
 );
 
+/* transcription in one of the maps in Vol 1, which are sometimes taken from
+ * more than one survey response, or which take part of a survey response */
 create table if not exists "map_point" (
     id integer primary key autoincrement not null,
     transcription nvarchar(64) not null,
+    note text,
+    category nvarchar(64),
     map_id integer not null,
     survey_point_id integer not null,
     foreign key (map_id) references "map" (id),
     foreign key (survey_point_id) references "survey_point" (id)
 );
 
+/* the survey questions used to populate the maps */
 create table if not exists "map_questions" (
     id integer primary key autoincrement not null,
     question_id integer,
