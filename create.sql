@@ -86,6 +86,7 @@ create table if not exists "map_point" (
     transcription nvarchar(64) not null,
     note text,
     category nvarchar(64),
+    sourced_elsewhere boolean,
     map_id integer not null,
     survey_point_id integer not null,
     foreign key (map_id) references "map" (id),

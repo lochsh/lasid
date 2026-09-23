@@ -27,23 +27,25 @@ if __name__ == "__main__":
                 )
                 processed_maps.append(map_display_id)
 
-            survey_point_id = row["survey_point_id"]
-            transcription = row["transcription"]
-            note = row["note"]
-            category = row["category"]
-
             cur.execute(
                 f"""
                 insert into
-                    map_point (transcription, note, category, map_id, survey_point_id)
-                    values (
-                        "{transcription}",
-                        "{note}",
-                        "{category}",
+                    map_point (
+                        transcription,
+                        note,
+                        category,
+                        sourced_elsewhere,
+                        map_id,
+                        survey_point_id
+                    ) values (
+                        "{row['transcription']}",
+                        "{row['note']}",
+                        "{row['category']}",
+                        {row['sourced_elsewhere']},
                         (select id from map where display_id = "{map_display_id}"),
                         (select id
                             from survey_point
-                            where display_id = "{survey_point_id}")
+                            where display_id = "{row['survey_point_id']}")
                     );
 
                 """

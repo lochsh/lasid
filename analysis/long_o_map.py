@@ -1,30 +1,22 @@
+import unicodedata
+
 import matplotlib.pyplot as plt
 
 import tools
 
 # Order for map legend
-vowel_order = ["ɑ", "ɔ̨", "ɔ", "ǫ", "o", "ọ", "ų", "u"]
+vowel_order = ["ɑ", "ɔ̨", "ɔ", "ǫ", "o", "ọ", "ų", "u"]
 
 
 def get_vowel_label(vowel: str) -> str:
-    if "ɑ" in vowel or "ɑ̃" in vowel:
-        return "ɑ"
-    if "ɔ̨" in vowel or "ɔ̨̃" in vowel:
-        return "ɔ̨"
-    if "ɔ" in vowel or "ɔ̃" in vowel:
-        return "ɔ"
-    if "ǫ" in vowel or "ǫ̃" in vowel:
-        return "ǫ"
-    if "o" in vowel or "õ" in vowel:
-        return "o"
-    if "ọ" in vowel or "ọ̃" in vowel:
-        return "ọ"
-    if "u" in vowel or "ũ" in vowel:
-        return "u"
-    if "ų" in vowel or "ų̃" in vowel:
-        return "ų"
-    raise ValueError(f"Vowel not recognised: {vowel}")
-
+    """Remove nasalisation diacritic and length markers"""
+    normalised = unicodedata.normalize("NFD", vowel)
+    return (
+        normalised.encode("utf-8")
+        .replace(b"\xcc\x83", b"")  # Remove nasalisation diacritic
+        .replace(b"\xcb\x90", b"")  # Remove length marker
+        .decode()
+    )
 
 low_mid_to_high_mid = "ɔː→oː, low-mid to high-mid"
 low_mid_to_near_high = "ɔː→ọː~ųː, low-mid to near-high"
@@ -50,58 +42,42 @@ vowel_change_order = [
 ]
 
 
-def vowel_change_point(vowel_change: str) -> tools.MapPoint:
+def vowel_change_point(old: str, new: str) -> tools.MapPoint:
     other_colour = (220, 220, 220)
     low_mid_colour = (27, 158, 119)
     high_mid_colour = (217, 95, 2)
     slight_raise_colour = (117, 112, 179)
 
-    if "→" not in vowel_change or vowel_change in (
-        "ɔ̃ː→ɔː",
-        "oː→õː",
-        "oː→o",
-        "oː→õː",
-        "ǫː→ǫ̃ː",
-        "oː→õː",
-    ):
+    if old == new:
         return tools.MapPoint.from_rgb_int(no_change, "o", other_colour)
 
-    if vowel_change in ("ɔː→oː", "ɔː→o", "ɔː→õː", "ɔ̃ː→õː"):
+    if old == "ɔ" and new == "o":
         return tools.MapPoint.from_rgb_int(low_mid_to_high_mid, "o", low_mid_colour)
 
-    if vowel_change in ("ɔː→ọː", "ɔː→ųː"):
+    if old == "ɔ" and new in ("ọ", "ų"):
         return tools.MapPoint.from_rgb_int(low_mid_to_near_high, "^", low_mid_colour)
 
-    if vowel_change in ("oː→ũː", "oː→uː", "oː→ũː", "oː→ũ"):
+    if old == "o" and new == "u":
         return tools.MapPoint.from_rgb_int(high_mid_to_high, "o", high_mid_colour)
 
-    if vowel_change in ("ǫː→ųː", "ǫː→ọː"):
+    if old == "ǫ" and new in ("ọ", "ų"):
         return tools.MapPoint.from_rgb_int(mid_to_near_high, "^", high_mid_colour)
 
-    if vowel_change in (
-        "oː→ɔː",
-        "oː→ǫː",
-        "oː→ǫ̃ː",
-        "ųː→oː",
-        "oː→ɔ̨̃ː",
-        "oː→ɑː",
-        "ọː→oː",
-        "oː→ɔ̃ː",
-    ):
+    if vowel_order.index(new) < vowel_order.index(old):
         return tools.MapPoint.from_rgb_int(lowered, "^", other_colour)
 
-    if vowel_change in ("oː→ọː", "oː→ųː"):
+    if old == "o" and new in ("ọ", "ų"):
         return tools.MapPoint.from_rgb_int(
             high_mid_to_near_high, "o", slight_raise_colour
         )
 
-    if vowel_change in ("ųː→u", "ọː→uː"):
+    if old in ("ọ", "ų") and new == "u":
         return tools.MapPoint.from_rgb_int(near_high_to_high, "^", slight_raise_colour)
 
-    if vowel_change in ("ǫː→oː", "ǫː→õː"):
+    if old == "ǫ" and new == "o":
         return tools.MapPoint.from_rgb_int(mid_to_high_mid, "X", slight_raise_colour)
 
-    raise ValueError(f"Unexpected vowel change: {vowel_change}")
+    raise ValueError(f"Unexpected vowel change: {old} to {new}")
 
 
 def map_first_vowel_after_initial_consonant(
@@ -137,19 +113,14 @@ def map_vowel_changes(
     basename,
     title,
 ):
-    vowel_changes = []
     long_lats = vowels.keys() & changed_vowels.keys()
+    vowel_change_points = []
     for ll in long_lats:
-        v = vowels[ll]
-        c = changed_vowels[ll]
+        v = get_vowel_label(vowels[ll])
+        c = get_vowel_label(changed_vowels[ll])
         if not v or not c:
             continue
-        if v == c:
-            vowel_changes.append(v)
-        else:
-            vowel_changes.append(f"{v}→{c}")
-
-    vowel_change_points = [vowel_change_point(vc) for vc in vowel_changes]
+        vowel_change_points.append(vowel_change_point(v, c))
     tools.make_map(
         long_lats,
         vowel_change_points,
