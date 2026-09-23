@@ -7,4 +7,18 @@ requires-python = ">=3.10"
 dependencies = [
     "cartopy>=0.25.0",
     "matplotlib>=3.10.9",
+    "numpy>=2.2.6",
 ]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "poethepoet>=0.48.0",
+]
+
+[tool.poe.tasks.build_db]
+shell = """
+rm lasid.db
+sqlite3 lasid.db < create.sql
+uv run add_map_data.py
+"""

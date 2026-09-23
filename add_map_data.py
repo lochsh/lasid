@@ -1,10 +1,11 @@
 import csv
+import os
 
 import sqlite3
 
 
 if __name__ == "__main__":
-    with open("maps.csv", "r") as f:
+    with open(os.path.join(os.path.dirname(__file__), "data", "maps.csv"), "r") as f:
         reader = csv.DictReader(filter(lambda row: row[0:2] != "/*", f))
         con = sqlite3.connect("lasid.db")
         cur = con.cursor()
