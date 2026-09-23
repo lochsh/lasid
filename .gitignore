@@ -1,3 +1,4 @@
 lasid.db
 *.png
 *.svg
+__pycache__
