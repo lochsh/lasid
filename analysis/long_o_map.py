@@ -18,15 +18,15 @@ def get_vowel_label(vowel: str) -> str:
         .decode()
     )
 
-low_mid_to_high_mid = "ɔː→oː, low-mid to high-mid"
-low_mid_to_near_high = "ɔː→ọː~ųː, low-mid to near-high"
-high_mid_to_high = "oː→uː, high-mid to high"
-mid_to_near_high = "ǫː→ųː~ọː, mid to near-high"
+low_mid_to_high_mid = "ɔ→o, low-mid to high-mid"
+low_mid_to_near_high = "ɔ→ọ~ų, low-mid to near-high"
+high_mid_to_high = "o→u, high-mid to high"
+mid_to_near_high = "ǫ→ų~ọ, mid to near-high"
 no_change = "No change in vowel height"
 lowered = "Lowered"
-high_mid_to_near_high = "oː→ọː~ųː, high-mid to near-high"
-near_high_to_high = "ọː~ųː→uː, near-high to high"
-mid_to_high_mid = "ǫː→oː, mid to high-mid"
+high_mid_to_near_high = "o→ọ~ų, high-mid to near-high"
+near_high_to_high = "ọ~ų→u, near-high to high"
+mid_to_high_mid = "ǫ→o, mid to high-mid"
 
 # Order for map legend
 vowel_change_order = [
@@ -160,11 +160,11 @@ if __name__ == "__main__":
         bó,
         móna,
         "vowel_changes_bó_móna",
-        "Vowel in 'bó' vs.\nfirst vowel in 'mónadh' etc.",
+        "Vowel height in 'bó' vs.\nin first vowel of 'mónadh' etc.",
     )
     map_vowel_changes(
         bó,
         rómhar,
         "vowel_changes_bó_rómhar",
-        "Vowel in 'bó' vs.\nfirst vowel in 'rómhar' etc.",
+        "Vowel height in 'bó' vs.\nin first vowel of 'rómhar' etc.",
     )
