@@ -1,4 +1,5 @@
 import dataclasses
+import os
 import sqlite3
 import statistics
 
@@ -20,7 +21,7 @@ def get_long_lats_and_transcriptions(
         categories: optional list of word categories to filter on. If none are given
             then all transcriptions for the given maps are retrieved
     """
-    con = sqlite3.connect("lasid.db")
+    con = sqlite3.connect(os.path.join(os.path.dirname(__file__), "..", "lasid.db"))
     cur = con.cursor()
     query = (
         "select transcription, survey_point_id from map_point "
