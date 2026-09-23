@@ -20,5 +20,5 @@ dev = [
 shell = """
 rm lasid.db
 sqlite3 lasid.db < create.sql
-uv run add_map_data.py
+uv run add_transcription_data.py
 """

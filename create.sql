@@ -5058,6 +5058,44 @@ insert into
         lon,
         survey_point_id
     ) values (
+        "Mín an Chladaigh",
+        "Meenaclady",
+        "m′iːn′ ə ′xʟɑᴅi",
+        55.1347,
+        -8.23505,
+        (select id from survey_point where display_id = "74a")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Máire Nig Aodh",
+        ",mɑr′ə n′i ˈgλː,",
+        "75",
+        null,
+        null,
+        null,
+        null,
+        (select id from townland where name = "Meenaclady")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
         "Baile an Gheafta",
         "Gay Town",
         "bɑl′ə ˈɴ′ãφtə",
@@ -5501,12 +5539,168 @@ insert into
     ) values (
         "Peadar Ó hEachadh",
         "p′ödər ə ˈhɑːu",
-        null,
+        "84",
         "small farmer",
-        null,
-        "He was more fluent in English than in Irish",
+        "1",
+        "He was more fluent in English than in Irish. He was our informant for LASID volume 1.",
         null,
         (select id from townland where name = "Creggan")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Gleann Chaol",
+        "Glenchiel",
+        "g′l′aɴː xλːl′",
+        54.7822,
+        -7.1187,
+        (select id from survey_point where display_id = "66")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Seán O Cearbhallaín",
+        "ʃɑːn oː k′arələn",
+        null,
+        null,
+        "2",
+        null,
+        null,
+        (select id from townland where name = "Glenchiel")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Gleann Láiric",
+        "Glenlark",
+        null,
+        54.7434,
+        -7.08929,
+        (select id from survey_point where display_id = "66")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Jane McCrory",
+        null,
+        "60",
+        null,
+        "3",
+        "Fluent speaker with rich vocabulary. She never travelled except one trip to Belfast where she was recorded by Ó Tuathail.",
+        null,
+        (select id from townland where name = "Glenlark")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Helen Mary Devlin",
+        "övlin′ dövlin′",
+        "65",
+        null,
+        "4",
+        "Quite fluent. A neighbour of Sp. 3.",
+        null,
+        (select id from townland where name = "Glenlark")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Peadar Ó Brolchain",
+        "p′ɛdər ɔː bröləhən",
+        "75",
+        null,
+        "5",
+        "He is shy, like most of the people in this district, and knows more Irish than the results of the questioning would suggest.",
+        null,
+        (select id from townland where name = "Glenlark")
+    );
+
+insert into
+    townland (
+        ainm,
+        name,
+        transcription,
+        lat,
+        lon,
+        survey_point_id
+    ) values (
+        "Corrach an Aillt",
+        "Curraghanalt",
+        "krögən",
+        54.7226,
+        -7.10432,
+        (select id from survey_point where display_id = "66")
+    );
+
+insert into
+    informant (
+        name,
+        transcription,
+        age,
+        occupation,
+        label,
+        fieldworker_notes,
+        notes,
+        townland_id
+    ) values (
+        "Pádraig Mac Culadh",
+        "pɑːdrig̣ mɑˈko̤lλ",
+        "65",
+        null,
+        "6",
+        null,
+        "You can listen to this speaker <a href=https://www.youtube.com/watch?v=odBT6eNyLis>here</a>. The appendix to the LASID <i>Contributions to a Study of Tyrone Irish</i> by Gerard Stockman and Heinrich Wagner, lists Pádraig as coming from Altacamcossy, but Ciarán Ó Duibhín has identified him as the Patrick McCullow whose birth is registered <a href=https://www.irishgenealogy.ie/files/civil/cert_amends/cert_1883/2009968a.pdf>here</a>, in the next townland to the west. Thank you Ciarán for this correction.",
+        (select id from townland where name = "Curraghanalt")
     );
 
 insert into
