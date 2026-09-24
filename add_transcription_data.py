@@ -60,62 +60,67 @@ if __name__ == "__main__":
         ) as f:
             reader = csv.DictReader(f)
 
-            display_id, prompt = os.path.basename(q_csv).split("-")
+            question_display_id, prompt = os.path.splitext(q_csv)[0].split("-")
 
             cur.execute(
                 f"""
                 insert into
                     question (display_id, prompt)
-                    values ({display_id}, "{prompt}");
+                    values ({question_display_id}, "{prompt}");
                 """
             )
             for row in reader:
+                transcription = row["transcription"]
+                category = row["category"]
+                note = row["note"]
                 survey_point_id = row["survey_point_id"]
                 informant_label = row["informant_label"]
+
+                informant_id = "null"
                 if informant_label:
-                    cur.execute(
+                    informants = cur.execute(
                         f"""
-                        insert into
-                            response (
-                                response,
-                                notes,
-                                question_id,
-                                survey_point_id,
-                                informant_id
-                            ) values (
-                                "{row['transcription']}",
-                                "{row['note']}",
-                                {display_id},
-                                "{survey_point_id}",
-                                (
-                                    select informant.id from informant
-                                    left join
-                                        townland on informant.townland_id = townland.id
-                                    left join
-                                        survey_point on
-                                            townland.survey_point_id = survey_point.id
-                                    where survey_point.display_id= "{survey_point_id}"
-                                    and label = "{informant_label}"
-                                )
-                            );
+                        select informant.id from informant
+                        join
+                            townland on informant.townland_id = townland.id
+                        join
+                            survey_point on townland.survey_point_id = survey_point.id
+                        where survey_point.display_id = "{survey_point_id}"
+                        and label = "{informant_label}"
                         """
-                    )
-                else:
-                    cur.execute(
-                        f"""
-                        insert into
-                            response (
-                                response,
-                                notes,
-                                question_id,
-                                survey_point_id
-                            ) values (
-                                "{row['transcription']}",
-                                "{row['note']}",
-                                {display_id},
-                                "{survey_point_id}"
-                            );
-                        """
-                    )
+                    ).fetchall()
+                    if len(informants) != 1:
+                        raise RuntimeError(
+                            f"Expected one informant to match label {informant_label} "
+                            f"for survey point {survey_point_id}, got {len(informants)}"
+                        )
+                    informant_id = informants[0][0]
+
+                cur.execute(
+                    f"""
+                    insert into
+                        response (
+                            response,
+                            category,
+                            notes,
+                            question_id,
+                            survey_point_id,
+                            informant_id
+                        ) values (
+                            "{transcription}",
+                            "{category}",
+                            "{note}",
+                            (
+                                select id from question
+                                where display_id = {question_display_id}
+                            ),
+                            (
+                                select id from survey_point
+                                where display_id = "{survey_point_id}"
+                            ),
+                            {informant_id}
+                        );
+                    """
+                )
 
     con.commit()

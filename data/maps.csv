@@ -94,7 +94,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 1,"I sold",f,r+ɛ+x′+ḳ′ ʃ+ɪ+n′+ə,→ we ...,reic mé,0
 /*<L 2>*/
 /*<M 2 cattle>*/
-/*<F beithidhigh pl., eallach collect., ainmhí, crodh collect., bá pl.>*/
+/*<F beithidhigh pl., eallach collect., ainmhithe, crodh collect., bá pl.>*/
 2,"cattle",1,b′+e+ˈ+h′+iː+g′,,beithidhigh,0
 2,"cattle",2,b′+e+ˈ+h+iː+g′,,beithidhigh,0
 2,"cattle",3,b′+ɛ+ˈ+h+iː+g′,,beithidhigh,0
@@ -115,7 +115,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 2,"cattle",19,b′+ɛ+ˈ+h+iː+g′,,beithidhigh,0
 2,"cattle",20,b′+ə+ˈ+h+iː+g′,,beithidhigh,0
 2,"cattle",21,b′+ɛ+ˈ+h+iː+g′,,beithidhigh,0
-2,"cattle",22,b′+ɛ+ˈ+h+iː+g′,, beithidhigh,0
+2,"cattle",22,b′+ɛ+ˈ+h+iː+g′,,beithidhigh,0
 2,"cattle",22,b+ɑ+ˈ+h+ɛ+i+g′,,beithidhigh,0
 2,"cattle",23,b′+ɛ+ˈ+h+iː+g′,,beithidhigh,0
 2,"cattle",23,ɑ+l+ə+x,,eallach,0
@@ -168,12 +168,12 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 2,"cattle",67,ɑ̣+lː+ɑ̆+x,,eallach,0
 2,"cattle",68,a+ʟː+ɑ,,eallach,0
 2,"cattle",69,ɑ̣ː+l+ɑ̆,,eallach,0
-2,"cattle",70,ɛ+n′+ə+v′+ə+n+i,,ainmhí,0
-2,"cattle",71,ɛ+n′+ə+v′+ə+n+i,,ainmhí,0
+2,"cattle",70,ɛ+n′+ə+v′+ə+n+i,,ainmhithe,0
+2,"cattle",71,ɛ+n′+ə+v′+ə+n+i,,ainmhithe,0
 2,"cattle",72,ɑ+ʟː+i,gen. sg.,eallach,0
 2,"cattle",73,a+ʟː+i,gen. sg.,eallach,0
 2,"cattle",74,a+ʟː+i,gen. sg.,eallach,0
-2,"cattle",74,ɛ+n′+ə+v′+ɪ+t′+ɪ,,,0
+2,"cattle",74,ɛ+n′+ə+v′+ɪ+t′+ɪ,,ainmhithe,0
 2,"cattle",75,a·+ʟ+i,gen. sg.,eallach,0
 2,"cattle",76,a+ʟː+ɑ,,eallach,0
 2,"cattle",77,a·+ʟː+ɑ̣,,eallach,0
@@ -21040,7 +21040,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 196b,"funeral",64,t+õː+r+ʰ+ə,,tórramh,0
 196b,"funeral",65,t+ɔː+r+ʰ+u,,tórramh,0
 196b,"funeral",66,t+ɔː+r+u,,tórramh,0
-196b,"funeral",67,t+oː+r+h+ə+g,,tórramh,0
+196b,"funeral",67,t+oː+r+h+ə+g,,tórradh,0
 196b,"funeral",68,t+ǫː+r+ʰ+ŭ,,tórramh,0
 196b,"funeral",69,t+ɔː+r+ʰ+u,,tórramh,0
 196b,"funeral",70,t+ɔː+r+ʰ+i,i.e. gen. sg.,tórramh,0
