@@ -100,7 +100,7 @@ if __name__ == "__main__":
                     f"""
                     insert into
                         response (
-                            response,
+                            transcription,
                             category,
                             notes,
                             question_id,
