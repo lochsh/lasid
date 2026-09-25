@@ -37,7 +37,7 @@ create table if not exists "townland" (
     lat real not null,
     lon real not null,
     survey_point_id integer not null,
-    foreign key (id) references "survey_point" (id)
+    foreign key (survey_point_id) references "survey_point" (id)
 );
 
 create table if not exists "informant" (
