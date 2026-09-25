@@ -104,7 +104,7 @@ sqlite> select informant.name, informant.transcription, age, occupation
    ...> join survey_point on townland.survey_point_id = survey_point.id
    ...> where survey_point.display_id = "a";
 John Henderson|i.ən mə kẹ.nrïk′|75|retired farmer
-Donald Craig|ˈdǫːɫ ək ɑ̆ ˈxɑ'rɪg′|61|farmer
+Donald Craig|ˈdǫːɫ ək ɑ̆ ˈxɑ’rɪg′|61|farmer
 John Robertson|ˈi.ən′ mək ˈrǫːḅ|90|carpenter
 ```
 

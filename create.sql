@@ -8151,7 +8151,7 @@ insert into
         townland_id
     ) values (
         "Donald Craig",
-        "ˈdǫːɫ ək ɑ̆ ˈxɑ'rɪg′",
+        "ˈdǫːɫ ək ɑ̆ ˈxɑ’rɪg′",
         "61",
         "farmer",
         null,
