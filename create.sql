@@ -63,7 +63,8 @@ create table if not exists "question" (
 /* Response to a survey question */
 create table if not exists "response" (
     id integer primary key autoincrement not null,
-    response nvarchar(128) not null,
+    transcription nvarchar(128) not null,
+    category nvarchar(64),
     notes text,
     question_id integer not null,
     survey_point_id integer not null,

@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 import tools
 
-# Order for map legend
-vowel_order = ["ɑ", "ɔ̨", "ɔ", "ǫ", "o", "ọ", "ų", "u"]
+# Order for map legend, ordered so highest vowel is at the top
+vowel_order = ["u", "ų", "ọ", "o", "ǫ", "ɔ", "ɔ̨", "ɑ"]
 
 
 def get_vowel_label(vowel: str) -> str:
@@ -18,11 +18,14 @@ def get_vowel_label(vowel: str) -> str:
         .decode()
     )
 
+
 low_mid_to_high_mid = "ɔ→o, low-mid to high-mid"
 low_mid_to_near_high = "ɔ→ọ~ų, low-mid to near-high"
 high_mid_to_high = "o→u, high-mid to high"
 mid_to_near_high = "ǫ→ų~ọ, mid to near-high"
-no_change = "No change in vowel height"
+no_change_low_mid = "No change in vowel height, ɔ"
+no_change_mid = "No change in vowel height, ǫ"
+no_change_high_mid = "No change in vowel height, o"
 lowered = "Lowered"
 high_mid_to_near_high = "o→ọ~ų, high-mid to near-high"
 near_high_to_high = "ọ~ų→u, near-high to high"
@@ -30,11 +33,13 @@ mid_to_high_mid = "ǫ→o, mid to high-mid"
 
 # Order for map legend
 vowel_change_order = [
-    low_mid_to_high_mid,
-    low_mid_to_near_high,
     high_mid_to_high,
     mid_to_near_high,
-    no_change,
+    low_mid_to_high_mid,
+    low_mid_to_near_high,
+    no_change_high_mid,
+    no_change_mid,
+    no_change_low_mid,
     lowered,
     high_mid_to_near_high,
     near_high_to_high,
@@ -49,7 +54,14 @@ def vowel_change_point(old: str, new: str) -> tools.MapPoint:
     slight_raise_colour = (117, 112, 179)
 
     if old == new:
-        return tools.MapPoint.from_rgb_int(no_change, "o", other_colour)
+        if old == "o":
+            return tools.MapPoint.from_rgb_int(no_change_high_mid, "o", other_colour)
+        if old == "ǫ":
+            return tools.MapPoint.from_rgb_int(no_change_mid, "^", other_colour)
+        if old == "ɔ":
+            return tools.MapPoint.from_rgb_int(no_change_low_mid, "s", other_colour)
+        else:
+            raise ValueError(f"Unexpected unchanged vowel: {old}")
 
     if old == "ɔ" and new == "o":
         return tools.MapPoint.from_rgb_int(low_mid_to_high_mid, "o", low_mid_colour)
@@ -63,8 +75,8 @@ def vowel_change_point(old: str, new: str) -> tools.MapPoint:
     if old == "ǫ" and new in ("ọ", "ų"):
         return tools.MapPoint.from_rgb_int(mid_to_near_high, "^", high_mid_colour)
 
-    if vowel_order.index(new) < vowel_order.index(old):
-        return tools.MapPoint.from_rgb_int(lowered, "^", other_colour)
+    if vowel_order.index(new) > vowel_order.index(old):
+        return tools.MapPoint.from_rgb_int(lowered, "X", other_colour)
 
     if old == "o" and new in ("ọ", "ų"):
         return tools.MapPoint.from_rgb_int(
@@ -75,7 +87,7 @@ def vowel_change_point(old: str, new: str) -> tools.MapPoint:
         return tools.MapPoint.from_rgb_int(near_high_to_high, "^", slight_raise_colour)
 
     if old == "ǫ" and new == "o":
-        return tools.MapPoint.from_rgb_int(mid_to_high_mid, "X", slight_raise_colour)
+        return tools.MapPoint.from_rgb_int(mid_to_high_mid, "s", slight_raise_colour)
 
     raise ValueError(f"Unexpected vowel change: {old} to {new}")
 
@@ -86,10 +98,12 @@ def map_first_vowel_after_initial_consonant(
     figure_title,
     categories=None,
 ):
-    long_lats, trans = tools.get_long_lats_and_transcriptions(
-        lasid_map_title, categories=categories
+    survey_point_to_trans = tools.get_map_point_field(
+        lasid_map_title,
+        "transcription",
+        categories=categories,
     )
-    vowels = [t.split("+")[1] for t in trans]
+    vowels = [t.split("+")[1] for _, t in survey_point_to_trans]
     vowel_labels = [get_vowel_label(v) for v in vowels]
     vowel_indices = [vowel_order.index(v) for v in vowel_labels]
 
@@ -102,7 +116,9 @@ def map_first_vowel_after_initial_consonant(
         tools.MapPoint(label, "o", cmap(colour_span.index(v_i) / highest_vowel_idx))
         for label, v_i in zip(vowel_labels, vowel_indices)
     ]
-    tools.make_map(long_lats, points, basename, vowel_order, figure_title)
+
+    long_lats = [tools.get_mean_long_lat(sid) for sid, _ in survey_point_to_trans]
+    tools.make_scatter_map(long_lats, points, basename, vowel_order, figure_title)
 
     return dict(zip(long_lats, vowels))
 
@@ -121,7 +137,7 @@ def map_vowel_changes(
         if not v or not c:
             continue
         vowel_change_points.append(vowel_change_point(v, c))
-    tools.make_map(
+    tools.make_scatter_map(
         long_lats,
         vowel_change_points,
         basename,
