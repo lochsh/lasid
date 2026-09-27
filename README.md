@@ -167,9 +167,9 @@ maps.
 The script [`analysis/long_o_maps.py`](analysis/long_o_maps.py) produces maps
 displaying information about the realisation of ⟨ó⟩, for example:
 
-<center>
-<img src=images/vowel_changes_bó_móna.png width=50%>
-</center>
+<p align="center">
+<img src=images/vowel_changes_bó_móna.png style="width:650px;">
+</p>
 
 Note that vowel length and nasalisation are ignored in this map.
 
@@ -182,9 +182,9 @@ Lexical maps can also be generated using
 uv run analysis/word_map.py --map_title cattle --cmap Paired
 ```
 
-<center>
-<img src=images/cattle-scatter.png width=50%>
-<img src=images/cattle.png width=50%>
+<p align="center">
+<img src=images/cattle-scatter.png style="width:650px;">
+<img src=images/cattle.png style="width:650px;">
 </centre>
 
 The scatter plot doesn't show when there is more than one word at a location,
@@ -199,9 +199,9 @@ slightly more intelligent plotting on static maps.
 uv run analysis/same_word_diff_usage.py -cat tórramh -cat tórradh
 ```
 
-<center>
-<img src=images/tórramh_tórradh_usage.png width=50%>
-<center>
+<p align="center">
+<img src=images/tórramh_tórradh_usage.png style="width:650px;">
+<p align="center">
 
 [^digitisation]: The digitisation of the transcriptions is very arduous (though
 perhaps less so now than in the 1970s). I am very grateful to be able
