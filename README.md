@@ -42,6 +42,12 @@ shown in the Volume 1 maps
 * ⬜ to build a webpage where the database information is displayed on
 interactive maps
 
+The LASID captures dialectal diversity, both lexical and phonetic, across an
+area where many of the local dialects have since become extinct. I hope that
+this work will be useful not only to linguists, but to anyone who might
+have a personal, not necessarily academic, interest in the dialect of a
+particular place.
+
 ## Technical details
 
 ### Summary
