@@ -9382,86 +9382,94 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 /*<L 106>*/
 /*<M 85 also>*/
 /*<F chomh maith, leis, freisin, fosta>*/
-85,"also",1,x+uː ˈ+m+ɑ,,,0
-85,"also",2,l′+e+ʃ,,,0
-85,"also",3,h+eː+n′,,,0
-85,"also",4,ˈ+x+uː+n ˈ+m+ɑ,,,0
-85,"also",5,x+uː ˈ+m+ɑ,,,0
-85,"also",7,l′+e+ʃ,,,0
-85,"also",8,l′+e+ʃ,,,0
-85,"also",9,l′+e+ʃ,,,0
-85,"also",10,l′+e+ʃ,,,0
-85,"also",11,l′+e+ʃ,,,0
-85,"also",12,l′+e+ʃ,,,0
-85,"also",13,l′+e+ʃ,,,0
-85,"also",14,l′+e+ʃ,,,0
-85,"also",15,l′+e+ʃ,,,0
-85,"also",16,l′+e+ʃ,,,0
-85,"also",17,l′+e+ʃ,,,0
-85,"also",18,ə ˈ+l′+e+ʃ,,,0
-85,"also",19,l′+e+ʃ,,,0
-85,"also",20,l′+e+ʃ,,,0
-85,"also",21,l′+e+ʃ,,,0
-85,"also",22,l′+e+ʃ,,,0
-85,"also",23,k+oː ˈ+m+ɑ,,,0
-85,"also",24,l′+e+ʃ,,,0
-85,"also",25,x+oː ˈ+m+ɑ,,,0
-85,"also",26,g+o ˈ+m+ɑ,,,0
-85,"also",27,f+ɑ+s+ṭ+ə,,,0
-85,"also",28,f′+r+e+ʃ+ə+n′,,,0
-85,"also",29,f′+r+e+ʃ+ə+n′,,,0
-85,"also",30,f′+r+e+ʃ+ə+n,,,0
-85,"also",31,f′+ʳ+ɪ+ʃ+ə+n′,,,0
-85,"also",32,g+ə ˈ+m+ɑ,,,0
-85,"also",33,g+o ˈ+m+a+i+x′,,,0
-85,"also",34,f′+r+e+ʃ+ə+n′,,,0
-85,"also",35,f′+r+ö+ʃ+ə+ṉ,,,0
-85,"also",36,f′+r′+e+ʃ+ə+n′,,,0
-85,"also",37,f+r+e+ʃ+ə+n′,,,0
-85,"also",38,f′+r+e+ʃ+ə+n′,,,0
-85,"also",39,f′+r+e+ʃ+ə+n′,,,0
-85,"also",40,f+r+e+ʃ+ə+n′,,,0
-85,"also",41,f+r+ö+ʃ+ə+n,,,0
-85,"also",42,f′+r′+e+ʃ+ɪ+n′,,,0
-85,"also",43,f′+r+e+ʃ+ə+n′,,,0
-85,"also",44,f+r+ö+ʃ+ə+ṉ,,,0
-85,"also",45,f+r+e+ʃ+ə+n′,,,0
-85,"also",46,f+r+e+ʃ+ɪ+n′,,,0
-85,"also",47,f′+r+e+ʃ+ə+n′,,,0
-85,"also",48,f+r+e+ʃ+ə+n′,,,0
-85,"also",49,f+r+ö+ʃ+ə+ṉ,,,0
-85,"also",50,f′+r+e+ʃ+ə+n′,,,0
-85,"also",51,x+o ˈ+m+ɑ+i+h+ˀ,,,0
-85,"also",53,x+oː ˈ+m+ɑ+i+x′,,,0
-85,"also",54,x+o ˈ+m+ɑ+i,,,0
-85,"also",55,x+o ˈ+m+ɑ+i+ˀ,,,0
-85,"also",56,ə+x+ə ˈ+m+ɑ+i+x′,,,0
-85,"also",57,x+ə ˈ+m+ɑ+i+χ′,,,0
-85,"also",58,x+o̤ ˈ+m+ɑ+i+x′,,,0
-85,"also",59,x+o ˈ+m+ɑ,,,0
-85,"also",60,x+o ˈ+m+ɑ,,,0
-85,"also",65,f+ɑ+s+ṭ+ə,,,0
-85,"also",66,f+o·+s+t,,,0
-85,"also",67,k+ï+d′+ʒ+ə+x,,,0
-85,"also",68,f+oː+s+ṭ+ə,,,0
-85,"also",69,f+ɔ+s+t+ə,,,0
-85,"also",70,f+o+s+ṭ+ə,,,0
-85,"also",71,f+ǫ+s+ṭ+ə,,,0
-85,"also",72,f+o+s+ṭ+ə,,,0
-85,"also",73,f+o+s+ṭ+ə,,,0
-85,"also",74,f+ɑ̣+s+ṭ+ə,,,0
-85,"also",75,f+ɑ̣+s+ṭ+i,,,0
-85,"also",76,f+ɑ+s+ṭ+ə,,,0
-85,"also",77,f+ɔ+s+ṭ+ə,,,0
-85,"also",78,f+ɑ+s+ṭ+ə,,,0
-85,"also",79,f+ɑ̣+s+ṭ,sic!,,0
-85,"also",80,f+ɔ+s+ṭ+ə,,,0
-85,"also",81,f+ɑ̨+s+ṭ+ə,,,0
-85,"also",82,f+ɔ·+s+ṭ+ə,,,0
-85,"also",83,f+ɔ+s+ṭ+ə,,,0
-85,"also",84,f+o+s+ṭ+ɑ+x+t,,,0
-85,"also",85,f+ɔ+s+ṭ+ə,,,0
-85,"also",86,f+ɔ+s+ṭ+ə,,,0
+85,"also",1,x+uː ˈ+m+ɑ,,chomh maith,0
+85,"also",2,l′+e+ʃ,,leis,0
+85,"also",3,h+eː+n′,,féin,0
+85,"also",4,ˈ+x+uː+n ˈ+m+ɑ,,chomh maith,0
+85,"also",5,x+uː ˈ+m+ɑ,,chomh maith,0
+85,"also",7,l′+e+ʃ,,leis,0
+85,"also",8,l′+e+ʃ,,leis,0
+85,"also",9,l′+e+ʃ,,leis,0
+85,"also",10,l′+e+ʃ,,leis,0
+85,"also",11,l′+e+ʃ,,leis,0
+85,"also",12,l′+e+ʃ,,leis,0
+85,"also",13,l′+e+ʃ,,leis,0
+85,"also",14,l′+e+ʃ,,leis,0
+85,"also",15,l′+e+ʃ,,leis,0
+85,"also",16,l′+e+ʃ,,leis,0
+85,"also",17,l′+e+ʃ,,leis,0
+85,"also",18,ə ˈ+l′+e+ʃ,,leis,0
+85,"also",19,l′+e+ʃ,,leis,0
+85,"also",20,l′+e+ʃ,,leis,0
+85,"also",21,l′+e+ʃ,,leis,0
+85,"also",22,l′+e+ʃ,,leis,0
+85,"also",23,k+oː ˈ+m+ɑ,,chomh maith,0
+85,"also",24,l′+e+ʃ,,leis,0
+85,"also",25,x+oː ˈ+m+ɑ,,chomh maith,0
+85,"also",26,g+o ˈ+m+ɑ,,go maith,0
+85,"also",27,f+ɑ+s+ṭ+ə,,fosta,0
+85,"also",28,f′+r+e+ʃ+ə+n′,,freisin,0
+85,"also",29,f′+r+e+ʃ+ə+n′,,freisin,0
+85,"also",30,f′+r+e+ʃ+ə+n,,freisin,0
+85,"also",31,f′+ʳ+ɪ+ʃ+ə+n′,,freisin,0
+85,"also",32,g+ə ˈ+m+ɑ,,go maith,0
+85,"also",33,g+o ˈ+m+a+i+x′,,go maith,0
+85,"also",34,f′+r+e+ʃ+ə+n′,,freisin,0
+85,"also",35,f′+r+ö+ʃ+ə+ṉ,,freisin,0
+85,"also",36,f′+r′+e+ʃ+ə+n′,,freisin,0
+85,"also",37,f+r+e+ʃ+ə+n′,,freisin,0
+85,"also",38,f′+r+e+ʃ+ə+n′,,freisin,0
+85,"also",39,f′+r+e+ʃ+ə+n′,,freisin,0
+85,"also",40,f+r+e+ʃ+ə+n′,,freisin,0
+85,"also",41,f+r+ö+ʃ+ə+n,,freisin,0
+85,"also",42,f′+r′+e+ʃ+ɪ+n′,,freisin,0
+85,"also",43,f′+r+e+ʃ+ə+n′,,freisin,0
+85,"also",44,f+r+ö+ʃ+ə+ṉ,,freisin,0
+85,"also",45,f+r+e+ʃ+ə+n′,,freisin,0
+85,"also",46,f+r+e+ʃ+ɪ+n′,,freisin,0
+85,"also",47,f′+r+e+ʃ+ə+n′,,freisin,0
+85,"also",48,f+r+e+ʃ+ə+n′,,freisin,0
+85,"also",49,f+r+ö+ʃ+ə+ṉ,,freisin,0
+85,"also",50,f′+r+e+ʃ+ə+n′,,freisin,0
+85,"also",51,x+o ˈ+m+ɑ+i+h+ˀ,,chomh maith,0
+85,"also",53,x+oː ˈ+m+ɑ+i+x′,,chomh maith,0
+85,"also",54,x+o ˈ+m+ɑ+i,,chomh maith,0
+85,"also",55,x+o ˈ+m+ɑ+i+ˀ,,chomh maith,0
+85,"also",56,ə+x+ə ˈ+m+ɑ+i+x′,,chomh maith,0
+85,"also",57,x+ə ˈ+m+ɑ+i+χ′,,chomh maith,0
+85,"also",58,x+o̤ ˈ+m+ɑ+i+x′,,chomh maith,0
+85,"also",59,x+o ˈ+m+ɑ,,chomh maith,0
+85,"also",60,x+o ˈ+m+ɑ,,chomh maith,0
+85,"also",65,f+ɑ+s+ṭ+ə,,fosta,0
+85,"also",66,f+o·+s+t,,fosta,0
+85,"also",67,k+ï+d′+ʒ+ə+x,,cuideachd,0
+85,"also",68,f+oː+s+ṭ+ə,,fosta,0
+85,"also",69,f+ɔ+s+t+ə,,fosta,0
+85,"also",70,f+o+s+ṭ+ə,,fosta,0
+85,"also",71,f+ǫ+s+ṭ+ə,,fosta,0
+85,"also",72,f+o+s+ṭ+ə,,fosta,0
+85,"also",73,f+o+s+ṭ+ə,,fosta,0
+85,"also",74,f+ɑ̣+s+ṭ+ə,,fosta,0
+85,"also",75,f+ɑ̣+s+ṭ+i,,fosta,0
+85,"also",76,f+ɑ+s+ṭ+ə,,fosta,0
+85,"also",77,f+ɔ+s+ṭ+ə,,fosta,0
+85,"also",78,f+ɑ+s+ṭ+ə,,fosta,0
+85,"also",79,f+ɑ̣+s+ṭ,sic!,fosta,0
+85,"also",80,f+ɔ+s+ṭ+ə,,fosta,0
+85,"also",81,f+ɑ̨+s+ṭ+ə,,fosta,0
+85,"also",82,f+ɔ·+s+ṭ+ə,,fosta,0
+85,"also",83,f+ɔ+s+ṭ+ə,,fosta,0
+85,"also",84,f+o+s+ṭ+ɑ+x+t,,fostacht,0
+85,"also",85,f+ɔ+s+ṭ+ə,,fosta,0
+85,"also",86,f+ɔ+s+ṭ+ə,,fosta,0
+85,"also",88,n+j+ɪ+s,(S),neesht,0
+85,"also",88,n+eː+s,,neesht,0
+85,"also",b,k+u+.+t̠+ʃ+ɔ̨+x,,cuideachd,0
+85,"also",c,k+u+d′′+ə+x,,cuideachd,0
+85,"also",d,k+u+d′+ʒ+ə+x+g̣,,cuideachd,0
+85,"also",e,k+ụ̈+ḍ′+ə̆+x+ḳ,,cuideachd,0
+85,"also",f,k+u+t′+ə+x,,cuideachd,0
+85,"also",g,k+û+d′+ɑ+x,,cuideachd,0
 /*<L 107>*/
 /*<M 86 you will get 2. sg. fut.>*/
 /*<F g(h)eobhair, g(h)eobhaidh tú>*/
@@ -15070,92 +15078,98 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 /*<L 170>*/
 /*<M 144 closing VN>*/
 /*<F dúnadh, druid>*/
-144,"closing VN",1,d+uː+n+ə,,,0
-144,"closing VN",2,d+uː+n+ə,,,0
-144,"closing VN",3,d+uː+n+ə,,,0
-144,"closing VN",4,d+uː+n+ə,,,0
-144,"closing VN",5,d+uː+n+ə,,,0
-144,"closing VN",7,d+uː+n+ə,,,0
-144,"closing VN",8,d+uː+n+ə,,,0
-144,"closing VN",9,d+uː+n+ə,,,0
-144,"closing VN",10,d+uː+n+ə,,,0
-144,"closing VN",11,d+uː+n+ə,,,0
-144,"closing VN",12,d+uː+n+ə,,,0
-144,"closing VN",13,d+uː+n+ə,,,0
-144,"closing VN",14,d+ųː+n+ə,,,0
-144,"closing VN",15,d+uː+n+ə,,,0
-144,"closing VN",16,d+uː+n+ə,,,0
-144,"closing VN",17,d+uː+n+ə,,,0
-144,"closing VN",18,d+ũː+n+ə,,,0
-144,"closing VN",19,d+uː+n+ə,,,0
-144,"closing VN",20,d+uː+n+ə,,,0
-144,"closing VN",21,d+uː+n+ə,,,0
-144,"closing VN",22,d+uː+n+ə,,,0
-144,"closing VN",23,d+ũː+n+ə,,,0
-144,"closing VN",24,d+ųː+n+ə,,,0
-144,"closing VN",25,d+uː+n+ə,,,0
-144,"closing VN",27,d+uː+n+ə,,,0
-144,"closing VN",28,d+uː+n+ə,,,0
-144,"closing VN",29,d+uː+n+ə,,,0
-144,"closing VN",30,d+uː+n+ə,,,0
-144,"closing VN",31,d+uː+n+u,,,0
-144,"closing VN",32,d+uː+n+uː,,,0
-144,"closing VN",33,d+uː+n+u,,,0
-144,"closing VN",34,d+r+ï+ḏ,,,0
-144,"closing VN",35,d+ųː+n+ŭ,,,0
-144,"closing VN",36,d+uː+n+u,,,0
-144,"closing VN",37,d+uː+n+ə,,,0
-144,"closing VN",38,d+ųː+n+ə,,,0
-144,"closing VN",39,d+ųː+n+ə,,,0
-144,"closing VN",40,d+uː+n+ə,,,0
-144,"closing VN",41,d+uː+n+ə,,,0
-144,"closing VN",42,d+uː+n+ə,,,0
-144,"closing VN",43,d+ųː+n+ə,,,0
-144,"closing VN",44,d+uː+n+ə,,,0
-144,"closing VN",45,d+uː+n+ə,,,0
-144,"closing VN",46,d+uː+n+ə,,,0
-144,"closing VN",47,d+uː+n+ə,,,0
-144,"closing VN",48,d+uː+n+uː,,,0
-144,"closing VN",49,d+uː+n+ŭ,,,0
-144,"closing VN",50,d+ųː+n+ŭ,,,0
-144,"closing VN",51,d+ųː+n+u,,,0
-144,"closing VN",52,d+ųː+n+ŭ,,,0
-144,"closing VN",53,d+r+ï+ḏ,,,0
-144,"closing VN",54,d+r+ï+d′,,,0
-144,"closing VN",55a,d+uː+n+uː,,,0
-144,"closing VN",56,d+ʀ+ï+d′,,,0
-144,"closing VN",56,d+uː+n+u,,,0
-144,"closing VN",57,d+r+ɪ+d′+ᶾ,,,0
-144,"closing VN",58,d+r+ï+d′+ᶾ,,,0
-144,"closing VN",59,d+r+ɪ+d′+ᶾ,,,0
-144,"closing VN",59,d+uː+n+u,,,0
-144,"closing VN",60,d+r+ï+d′,,,0
-144,"closing VN",61,d+r+ï+ᴅ′,,,0
-144,"closing VN",62,d+r+ï+d′,,,0
-144,"closing VN",63,d+r+i+g′,,,0
-144,"closing VN",64,d+ʀ+ï+d′,,,0
-144,"closing VN",66,d+ᵊ+r+ï+d′,,,0
-144,"closing VN",67,d+r+ï+ḏ,,,0
-144,"closing VN",69,d+r+ï+d′,,,0
-144,"closing VN",70,d+r+ï+d′,,,0
-144,"closing VN",71,d+r+ï+d′,,,0
-144,"closing VN",72,d+ʀ+ï+d′,,,0
-144,"closing VN",73,d+r+ï+d′,,,0
-144,"closing VN",74,d+ʀ+ï+ḏ,,,0
-144,"closing VN",75,d+ʀ+ï+d′+ᶾ,,,0
-144,"closing VN",76,d+r·+ï+ḏ,,,0
-144,"closing VN",77,d+r+ï+d′,,,0
-144,"closing VN",78,d+r·+ï+ḏ,,,0
-144,"closing VN",79,d+ʀ+ï+d′+ʒ,,,0
-144,"closing VN",80,d+r+ï+ᴅ′,,,0
-144,"closing VN",81,d+r+ï+d′,,,0
-144,"closing VN",82,d+r+ï+d′,,,0
-144,"closing VN",83,d+r+ï+ᴅ′,,,0
-144,"closing VN",84,d+r+ï+d′,,,0
-144,"closing VN",85,d+r+ï+d′+ᶾ,,,0
-144,"closing VN",86,d+r+ï+d′,,,0
-144,"closing VN",87,d+ʀ+ï+d′+ᶾ,,,0
-144,"closing VN",88,d′+z+e+i,,,0
+144,"closing VN",1,d+uː+n+ə,,dúnadh,0
+144,"closing VN",2,d+uː+n+ə,,dúnadh,0
+144,"closing VN",3,d+uː+n+ə,,dúnadh,0
+144,"closing VN",4,d+uː+n+ə,,dúnadh,0
+144,"closing VN",5,d+uː+n+ə,,dúnadh,0
+144,"closing VN",7,d+uː+n+ə,,dúnadh,0
+144,"closing VN",8,d+uː+n+ə,,dúnadh,0
+144,"closing VN",9,d+uː+n+ə,,dúnadh,0
+144,"closing VN",10,d+uː+n+ə,,dúnadh,0
+144,"closing VN",11,d+uː+n+ə,,dúnadh,0
+144,"closing VN",12,d+uː+n+ə,,dúnadh,0
+144,"closing VN",13,d+uː+n+ə,,dúnadh,0
+144,"closing VN",14,d+ųː+n+ə,,dúnadh,0
+144,"closing VN",15,d+uː+n+ə,,dúnadh,0
+144,"closing VN",16,d+uː+n+ə,,dúnadh,0
+144,"closing VN",17,d+uː+n+ə,,dúnadh,0
+144,"closing VN",18,d+ũː+n+ə,,dúnadh,0
+144,"closing VN",19,d+uː+n+ə,,dúnadh,0
+144,"closing VN",20,d+uː+n+ə,,dúnadh,0
+144,"closing VN",21,d+uː+n+ə,,dúnadh,0
+144,"closing VN",22,d+uː+n+ə,,dúnadh,0
+144,"closing VN",23,d+ũː+n+ə,,dúnadh,0
+144,"closing VN",24,d+ųː+n+ə,,dúnadh,0
+144,"closing VN",25,d+uː+n+ə,,dúnadh,0
+144,"closing VN",27,d+uː+n+ə,,dúnadh,0
+144,"closing VN",28,d+uː+n+ə,,dúnadh,0
+144,"closing VN",29,d+uː+n+ə,,dúnadh,0
+144,"closing VN",30,d+uː+n+ə,,dúnadh,0
+144,"closing VN",31,d+uː+n+u,,dúnadh,0
+144,"closing VN",32,d+uː+n+uː,,dúnadh,0
+144,"closing VN",33,d+uː+n+u,,dúnadh,0
+144,"closing VN",34,d+r+ï+ḏ,,druid,0
+144,"closing VN",35,d+ųː+n+ŭ,,dúnadh,0
+144,"closing VN",36,d+uː+n+u,,dúnadh,0
+144,"closing VN",37,d+uː+n+ə,,dúnadh,0
+144,"closing VN",38,d+ųː+n+ə,,dúnadh,0
+144,"closing VN",39,d+ųː+n+ə,,dúnadh,0
+144,"closing VN",40,d+uː+n+ə,,dúnadh,0
+144,"closing VN",41,d+uː+n+ə,,dúnadh,0
+144,"closing VN",42,d+uː+n+ə,,dúnadh,0
+144,"closing VN",43,d+ųː+n+ə,,dúnadh,0
+144,"closing VN",44,d+uː+n+ə,,dúnadh,0
+144,"closing VN",45,d+uː+n+ə,,dúnadh,0
+144,"closing VN",46,d+uː+n+ə,,dúnadh,0
+144,"closing VN",47,d+uː+n+ə,,dúnadh,0
+144,"closing VN",48,d+uː+n+uː,,dúnadh,0
+144,"closing VN",49,d+uː+n+ŭ,,dúnadh,0
+144,"closing VN",50,d+ųː+n+ŭ,,dúnadh,0
+144,"closing VN",51,d+ųː+n+u,,dúnadh,0
+144,"closing VN",52,d+ųː+n+ŭ,,dúnadh,0
+144,"closing VN",53,d+r+ï+ḏ,,druid,0
+144,"closing VN",54,d+r+ï+d′,,druid,0
+144,"closing VN",55a,d+uː+n+uː,,dúnadh,0
+144,"closing VN",56,d+ʀ+ï+d′,,druid,0
+144,"closing VN",56,d+uː+n+u,,dúnadh,0
+144,"closing VN",57,d+r+ɪ+d′+ᶾ,,druid,0
+144,"closing VN",58,d+r+ï+d′+ᶾ,,druid,0
+144,"closing VN",59,d+r+ɪ+d′+ᶾ,,druid,0
+144,"closing VN",59,d+uː+n+u,,dúnadh,0
+144,"closing VN",60,d+r+ï+d′,,druid,0
+144,"closing VN",61,d+r+ï+ᴅ′,,druid,0
+144,"closing VN",62,d+r+ï+d′,,druid,0
+144,"closing VN",63,d+r+i+g′,,druid,0
+144,"closing VN",64,d+ʀ+ï+d′,,druid,0
+144,"closing VN",66,d+ᵊ+r+ï+d′,,druid,0
+144,"closing VN",67,d+r+ï+ḏ,,druid,0
+144,"closing VN",69,d+r+ï+d′,,druid,0
+144,"closing VN",70,d+r+ï+d′,,druid,0
+144,"closing VN",71,d+r+ï+d′,,druid,0
+144,"closing VN",72,d+ʀ+ï+d′,,druid,0
+144,"closing VN",73,d+r+ï+d′,,druid,0
+144,"closing VN",74,d+ʀ+ï+ḏ,,druid,0
+144,"closing VN",75,d+ʀ+ï+d′+ᶾ,,druid,0
+144,"closing VN",76,d+r·+ï+ḏ,,druid,0
+144,"closing VN",77,d+r+ï+d′,,druid,0
+144,"closing VN",78,d+r·+ï+ḏ,,druid,0
+144,"closing VN",79,d+ʀ+ï+d′+ʒ,,druid,0
+144,"closing VN",80,d+r+ï+ᴅ′,,druid,0
+144,"closing VN",81,d+r+ï+d′,,druid,0
+144,"closing VN",82,d+r+ï+d′,,druid,0
+144,"closing VN",83,d+r+ï+ᴅ′,,druid,0
+144,"closing VN",84,d+r+ï+d′,,druid,0
+144,"closing VN",85,d+r+ï+d′+ᶾ,,druid,0
+144,"closing VN",86,d+r+ï+d′,,druid,0
+144,"closing VN",87,d+ʀ+ï+d′+ᶾ,,druid,0
+144,"closing VN",88,d′+ʒ+e+i,,jeigh,0
+144,"closing VN",a,d+r+u+t̠+ʃ,,druid,0
+144,"closing VN",b,d+r+û+t′+ʃ,,druid,0
+144,"closing VN",d,d+uː+n+ə+ɣ̆,,dúnadh,0
+144,"closing VN",e,ḍ+λː+n+ə+ɣ,,dúnadh,0
+144,"closing VN",f,d+uː+n,,dún,0
+144,"closing VN",g,d+uː+n+ə+g,,dúnadh,0
 /*<L 171>*/
 /*<M 145 sore>*/
 /*<F tinn, frithir, neimhneach>*/
@@ -28945,85 +28959,93 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 /*<L 331>*/
 /*<M 270b boats pl.>*/
 /*<F báid, bádaí>*/
-270b,"boats pl.",1,b+ɑː+ⁱ+ḏ,,,0
-270b,"boats pl.",2,b+ɑː+d′,,,0
-270b,"boats pl.",3,b+ɑː+d′,,,0
-270b,"boats pl.",4,b+ɑː+d′,,,0
-270b,"boats pl.",5,b+ɑː+d′+r+ə+x+ə,,,0
-270b,"boats pl.",7,b+ɑ̨ː+d′,,,0
-270b,"boats pl.",8,b+ɑː+d′,,,0
-270b,"boats pl.",9,b+ɑː+d′,,,0
-270b,"boats pl.",10,b+ɑː+d′,,,0
-270b,"boats pl.",11,b+ɑ̨ː+d′,,,0
-270b,"boats pl.",12,b+ɑ̣ː+d′,,,0
-270b,"boats pl.",13,b+ɑ̣ː+d′,,,0
-270b,"boats pl.",14,b+ɑ̣ː+d′,,,0
-270b,"boats pl.",15,b+ɑ̣ː+d′,,,0
-270b,"boats pl.",16,b+ɑː+ˈ+d+iː,,,0
-270b,"boats pl.",17,b+ɑ̣ː+ḏ,,,0
-270b,"boats pl.",18,b+ɑː+d′,,,0
-270b,"boats pl.",19,b+ɑː+d′,,,0
-270b,"boats pl.",20,b+ɑː+d′,,,0
-270b,"boats pl.",21,b+ɑː+d′,,,0
-270b,"boats pl.",22,b+ɑː+d′,,,0
-270b,"boats pl.",23,b+ɑː+d′,,,0
-270b,"boats pl.",24,b+ɑː+d′,,,0
-270b,"boats pl.",25,b+ɑː+d′,,,0
-270b,"boats pl.",28,b+ɑː+d′,,,0
-270b,"boats pl.",29,b+ɑː+d′,,,0
-270b,"boats pl.",31,b+ɑː+d′,,,0
-270b,"boats pl.",33,b+ɑ̨ː+d′,,,0
-270b,"boats pl.",34,b+ɑː+d′,,,0
-270b,"boats pl.",35,b+ɑː+d′,,,0
-270b,"boats pl.",36,b+ɑː+d′,,,0
-270b,"boats pl.",37,b+ɑ̨ː+d′,,,0
-270b,"boats pl.",38,b+ɑː+d′,,,0
-270b,"boats pl.",39,b+ɑː+d′,,,0
-270b,"boats pl.",40,b+ɑː+d′,,,0
-270b,"boats pl.",41,b+ɑ̨ː+d′+ᶾ,,,0
-270b,"boats pl.",42,b+ɑː+d′,,,0
-270b,"boats pl.",43,b+ɑː+d′,,,0
-270b,"boats pl.",45,b+ɑː+d′,,,0
-270b,"boats pl.",46,b+ɑː+d′,,,0
-270b,"boats pl.",47,b+ɑː+d′,,,0
-270b,"boats pl.",48,b+ɑː+d′,,,0
-270b,"boats pl.",49,b+ɑː+d′,,,0
-270b,"boats pl.",50,b+ɑː+d′,,,0
-270b,"boats pl.",51,b+ɑː+d″,,,0
-270b,"boats pl.",52,b+ɑː+d″,,,0
-270b,"boats pl.",53,b+ɑː+d″,,,0
-270b,"boats pl.",54,b+ɑː+d′,,,0
-270b,"boats pl.",55a,b+ɑː+d′+ᶾ,,,0
-270b,"boats pl.",56,b+ɑ̨ː+d′+ᶾ,,,0
-270b,"boats pl.",57,b+ɑː+d′+ᶾ,,,0
-270b,"boats pl.",58,b+ɑː+d′+ᶾ,,,0
-270b,"boats pl.",59,b+ɑː+d′+ᶾ,,,0
-270b,"boats pl.",60,b+ɑː+d′,,,0
-270b,"boats pl.",61,b+ɑ̨ː+d′,,,0
-270b,"boats pl.",62,b+ɑ̨ː+d+ə+ɴ+i,,,0
-270b,"boats pl.",65,b+ɑː+d+i,,,0
+270b,"boats pl.",1,b+ɑː+ⁱ+ḏ,,báid,0
+270b,"boats pl.",2,b+ɑː+d′,,báid,0
+270b,"boats pl.",3,b+ɑː+d′,,báid,0
+270b,"boats pl.",4,b+ɑː+d′,,báid,0
+270b,"boats pl.",5,b+ɑː+d′+r+ə+x+ə,,báidreacha,0
+270b,"boats pl.",7,b+ɑ̨ː+d′,,báid,0
+270b,"boats pl.",8,b+ɑː+d′,,báid,0
+270b,"boats pl.",9,b+ɑː+d′,,báid,0
+270b,"boats pl.",10,b+ɑː+d′,,báid,0
+270b,"boats pl.",11,b+ɑ̨ː+d′,,báid,0
+270b,"boats pl.",12,b+ɑ̣ː+d′,,báid,0
+270b,"boats pl.",13,b+ɑ̣ː+d′,,báid,0
+270b,"boats pl.",14,b+ɑ̣ː+d′,,báid,0
+270b,"boats pl.",15,b+ɑ̣ː+d′,,báid,0
+270b,"boats pl.",16,b+ɑː+ˈ+d+iː,,bádaí,0
+270b,"boats pl.",17,b+ɑ̣ː+ḏ,,báid,0
+270b,"boats pl.",18,b+ɑː+d′,,báid,0
+270b,"boats pl.",19,b+ɑː+d′,,báid,0
+270b,"boats pl.",20,b+ɑː+d′,,báid,0
+270b,"boats pl.",21,b+ɑː+d′,,báid,0
+270b,"boats pl.",22,b+ɑː+d′,,báid,0
+270b,"boats pl.",23,b+ɑː+d′,,báid,0
+270b,"boats pl.",24,b+ɑː+d′,,báid,0
+270b,"boats pl.",25,b+ɑː+d′,,báid,0
+270b,"boats pl.",28,b+ɑː+d′,,báid,0
+270b,"boats pl.",29,b+ɑː+d′,,báid,0
+270b,"boats pl.",31,b+ɑː+d′,,báid,0
+270b,"boats pl.",33,b+ɑ̨ː+d′,,báid,0
+270b,"boats pl.",34,b+ɑː+d′,,báid,0
+270b,"boats pl.",35,b+ɑː+d′,,báid,0
+270b,"boats pl.",36,b+ɑː+d′,,báid,0
+270b,"boats pl.",37,b+ɑ̨ː+d′,,báid,0
+270b,"boats pl.",38,b+ɑː+d′,,báid,0
+270b,"boats pl.",39,b+ɑː+d′,,báid,0
+270b,"boats pl.",40,b+ɑː+d′,,báid,0
+270b,"boats pl.",41,b+ɑ̨ː+d′+ᶾ,,báid,0
+270b,"boats pl.",42,b+ɑː+d′,,báid,0
+270b,"boats pl.",43,b+ɑː+d′,,báid,0
+270b,"boats pl.",45,b+ɑː+d′,,báid,0
+270b,"boats pl.",46,b+ɑː+d′,,báid,0
+270b,"boats pl.",47,b+ɑː+d′,,báid,0
+270b,"boats pl.",48,b+ɑː+d′,,báid,0
+270b,"boats pl.",49,b+ɑː+d′,,báid,0
+270b,"boats pl.",50,b+ɑː+d′,,báid,0
+270b,"boats pl.",51,b+ɑː+d″,,báid,0
+270b,"boats pl.",52,b+ɑː+d″,,báid,0
+270b,"boats pl.",53,b+ɑː+d″,,báid,0
+270b,"boats pl.",54,b+ɑː+d′,,báid,0
+270b,"boats pl.",55a,b+ɑː+d′+ᶾ,,báid,0
+270b,"boats pl.",56,b+ɑ̨ː+d′+ᶾ,,báid,0
+270b,"boats pl.",57,b+ɑː+d′+ᶾ,,báid,0
+270b,"boats pl.",58,b+ɑː+d′+ᶾ,,báid,0
+270b,"boats pl.",59,b+ɑː+d′+ᶾ,,báid,0
+270b,"boats pl.",60,b+ɑː+d′,,báid,0
+270b,"boats pl.",61,b+ɑ̨ː+d′,,báid,0
+270b,"boats pl.",62,b+ɑ̨ː+d+ə+ɴ+i,,bádannaí,0
+270b,"boats pl.",65,b+ɑː+d+i,,bádaí,0
 270b,"boats pl.",66,b+ɑ̣ː+t+ə,i.e. ‘boat’ (sg.),,0
-270b,"boats pl.",67,b+ɑː+ṭ+ə+n,,,0
-270b,"boats pl.",68,b+ʷ+ɛː+ᵊ+d·+ɪ,,,0
-270b,"boats pl.",69,b+ʷ+ɑ̣·+d+i,,,0
-270b,"boats pl.",70,b+ɑː+d+i,,,0
-270b,"boats pl.",71,ʙ+ɑː+ᴅ+i,,,0
-270b,"boats pl.",72,ʙ+ɑː+ᴅ+i,,,0
-270b,"boats pl.",73,b+ʷ+ɑ̣ː+d·+i,,,0
-270b,"boats pl.",74,b+ʷ+ɛ̀ː+d·+i,,,0
-270b,"boats pl.",75,b+ɔ̨ː+ə+ᴅ+i,,,0
-270b,"boats pl.",76,b·+ʷ+ɛː+d·+i,,,0
-270b,"boats pl.",77,b+ʷ+ɑ̣ː+d+i,,,0
-270b,"boats pl.",78,b+ɑ̣ː+d+i,,,0
-270b,"boats pl.",79,b·+ɑː+d·+i,,,0
-270b,"boats pl.",80,b+ʷ+ɑː+d+i,,,0
-270b,"boats pl.",81,ʙ+ɑː+d+i,,,0
-270b,"boats pl.",82,b+ɑː+d+i,,,0
-270b,"boats pl.",84,b+ɑː+ᴅ+ɛ+ĭ,,,0
-270b,"boats pl.",85,b+ɑː+d+i,,,0
-270b,"boats pl.",86,b·+ɑː+d·+i,,,0
-270b,"boats pl.",87,b+ɑː+d+ɪː,,,0
-270b,"boats pl.",88,b+ɛː+δ+ə, (S) i.e. ‘boat’ (sg.),,0
+270b,"boats pl.",67,b+ɑː+ṭ+ə+n,,bádan,0
+270b,"boats pl.",68,b+ʷ+ɛː+ᵊ+d·+ɪ,,bádaí,0
+270b,"boats pl.",69,b+ʷ+ɑ̣·+d+i,,bádaí,0
+270b,"boats pl.",70,b+ɑː+d+i,,bádaí,0
+270b,"boats pl.",71,ʙ+ɑː+ᴅ+i,,bádaí,0
+270b,"boats pl.",72,ʙ+ɑː+ᴅ+i,,bádaí,0
+270b,"boats pl.",73,b+ʷ+ɑ̣ː+d·+i,,bádaí,0
+270b,"boats pl.",74,b+ʷ+ɛ̀ː+d·+i,,bádaí,0
+270b,"boats pl.",75,b+ɔ̨ː+ə+ᴅ+i,,bádaí,0
+270b,"boats pl.",76,b·+ʷ+ɛː+d·+i,,bádaí,0
+270b,"boats pl.",77,b+ʷ+ɑ̣ː+d+i,,bádaí,0
+270b,"boats pl.",78,b+ɑ̣ː+d+i,,bádaí,0
+270b,"boats pl.",79,b·+ɑː+d·+i,,bádaí,0
+270b,"boats pl.",80,b+ʷ+ɑː+d+i,,bádaí,0
+270b,"boats pl.",81,ʙ+ɑː+d+i,,bádaí,0
+270b,"boats pl.",82,b+ɑː+d+i,,bádaí,0
+270b,"boats pl.",84,b+ɑː+ᴅ+ɛ+ĭ,,bádaí,0
+270b,"boats pl.",85,b+ɑː+d+i,,bádaí,0
+270b,"boats pl.",86,b·+ɑː+d·+i,,bádaí,0
+270b,"boats pl.",87,b+ɑː+d+ɪː,,bádaí,0
+270b,"boats pl.",88,b+ɛː+δ+ə,(S) i.e. ‘boat’ (sg.),,0
+270b,"boats pl.",a,bɛ̀ːtix′ən,,bátaichean,0
+270b,"boats pl.",b,bɑːḍɛ̌nh,,bádan,0
+270b,"boats pl.",c,ḅɑːḍix′ən,,bátaichean,0
+270b,"boats pl.",d,bɑ̣ːhṭix′ən,,bátaichean,0
+270b,"boats pl.",e,ɛrix′ən,,eathraichean,0
+270b,"boats pl.",e,baːʰṭix′ən,,bátaichean,0
+270b,"boats pl.",f,bɑ̣ːhtɪx′ən,,bátaichean,0
+270b,"boats pl.",g,baːtɪx′ənh,,bátaichean,0
 /*<L 332>*/
 /*<M 271 periwinkles>*/
 /*<F priacháin, miongáin, faochain, faochógaí>*/
