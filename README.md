@@ -174,7 +174,7 @@ The script [`analysis/long_o_maps.py`](analysis/long_o_maps.py) produces maps
 displaying information about the realisation of ⟨ó⟩, for example:
 
 <p align="center">
-<img src=images/vowel_changes_bó_móna.png style="width:650px;">
+<img src=https://mcla.ug/u/lasid/vowel_changes_bó_móna.png style="width:650px;">
 </p>
 
 Note that vowel length and nasalisation are ignored in this map.
@@ -185,19 +185,54 @@ Lexical maps can also be generated using
 [`analysis/word_map.py`](analysis/word_map.py), e.g.:
 
 ```shell
-uv run analysis/word_map.py --map_title cattle --cmap Paired
+uv run analysis/word_map.py --map_title cattle --cmap Dark2 --markers eallach:P,beithidhigh:o,ainmhithe:^,crodh:s,bá:d
 ```
 
 <p align="center">
-<img src=images/cattle-scatter.png style="width:650px;">
-<img src=images/cattle.png style="width:650px;">
+<img src=https://mcla.ug/u/lasid/cattle-scatter.png style="width:650px;">
+<img src=https://mcla.ug/u/lasid/cattle.png style="width:650px;">
 </centre>
 
-The scatter plot doesn't show when there is more than one word at a location,
-as there is in Kintyre here. The text plot does show this, but is harder to
-read, particularly when a lot of different words are close together.
-Ultimately these will be better viewed on an interactive map, or will need
-slightly more intelligent plotting on static maps.
+With careful selection of the markers and the order of the plotting, the
+scatter plot can be made to show when there is more than one word at a
+location, but this is definitely a weakness of this plot.
+
+The text plot tends to show this more obviously, but can be harder to read.
+
+The script used here has various options to attempt to make the plots
+colourblind-friendly. It can be challenging to do so as most qualitative colour
+palettes that are friendly to dichromatic colourblindness are only friendly
+when there is no more than 3 or 4 classes. Colourblind-friendly palettes can
+also be lower in contrast for the majority of the population that is not
+colourblind. Different markers, and the combination of word maps and scatter
+maps, hopefully help with making these plots accessible to colourblind people.
+
+Ultimately these plot will be better viewed on interactive maps, which 
+could allow for users choosing their own colour palettes, as well as displaying
+denser information on the same geographical location (not only multiple
+phonetic records/words, but information about informants and the
+geographical area).
+
+Here is another example of using this script, where the markers are
+automatically chosen (only scatter plot shown):
+
+```shell
+uv run analysis/word_map.py --map_title also --cmap Dark2 --grouped "fosta,fostacht.chomh maith,comh maith,gomh maith.freisin.cuideachd.neesht,féin" --num-friendly-cols 3
+```
+
+<p align="center">
+<img src=https://mcla.ug/u/lasid/also-scatter.png style="width:650px;">
+</centre>
+
+The words _neesht_ and _féin_ are grouped in the same colour to preserve
+dynamic range in the colourmap, given they only have one data point each. The
+first three colours in this palette are colourblind-friendly, hence the use of
+additional markers for the remaining classes. This does add some visual noise,
+but I think it is minimal and perhaps worth it for the accessibility gains. The
+`uv run analysis/word_map.py --help` gives more details on the configuration
+&ndash; it is possible for the same set of markers to be used for every colour.
+
+Any feedback from colourblind people is appreciated.
 
 ### Same word, different meaning geographically
 
@@ -206,8 +241,12 @@ uv run analysis/same_word_diff_usage.py -cat tórramh -cat tórradh
 ```
 
 <p align="center">
-<img src=images/tórramh_tórradh_usage.png style="width:650px;">
+<img src=https://mcla.ug/u/lasid/tórramh_tórradh_usage.png style="width:650px;">
 <p align="center">
+
+### Analysis blog posts
+
+* [Exploring the LASID: Gaelic words for "also"](https://mcla.ug/fosta.html)
 
 [^digitisation]: The digitisation of the transcriptions is very arduous (though
 perhaps less so now than in the 1970s). I am very grateful to be able
