@@ -1510,7 +1510,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 12,"(she is) chewing the cud",86,a+x+a+g+n+u,,,0
 12,"(she is) chewing the cud",a,ˈ+k′+è+k+ə+n+ə+k ɛ ˈ+k′+i+.+ʲ+ɛ+r+h,,,0
 12,"(she is) chewing the cud",b,k+ɑ+g̣+ə+n+ə+g ə k′+iː+r̠,,,0
-12,"(she is) chewing the cud",d,k+r+ɑ̣̃ː+v′ ə k′+iː+r̠′′+ĕ,,,0
+12,"(she is) chewing the cud",d,k+r+ɑ̣̃ː+v′ ə k′+iː+r̠″+ĕ,,,0
 12,"(she is) chewing the cud",e,k+r+ɑ̣̃ː+f ə k′+iː+δ,,,0
 12,"(she is) chewing the cud",f,k+r+ãː+v ə ˈ+k′+iː+r′+h,,,0
 12,"(she is) chewing the cud",g,k+r+ãː+w ə ˈ+k′+iː+ⁱ̈+r,,,0
@@ -1803,7 +1803,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 14,"tied",b,k′+ï+ˏ+ö̃+l+t̠+ʃ,,,0
 14,"tied",c,k′+è̃+ˏ+ə+l+t+′+ᶴ+ə,,,0
 14,"tied",d,k′+ɛ̃ː+ə+l′+t′+ʃ+ə,,,0
-14,"tied",e,k′+ĩː+aː+l′+.+ʰ+ṭ′′,,,0
+14,"tied",e,k′+ĩː+aː+l′+.+ʰ+ṭ″,,,0
 14,"tied",f,k′+ɛ+û+l+t′+ə,,,0
 14,"tied",g,è+r+ə ˈ+k′+ɑ̣̃+.+u+l,,,0
 /*<L 20>*/
@@ -1988,7 +1988,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 16,"grazing",b,g′+ï+u+n+ɑ+l+t+r+ə+ɣ,,,0
 16,"grazing",c,g+i+n+ɑ+ʟ+t+r+ə+ɣ̆,,,0
 16,"grazing",d,",+ə+g′+ˈ+i+n′+ɪ+ˏ+üː+ʟ′+t′+ʃ+ĕ+,",,,0
-16,"grazing",e,",+ɪ ˈ+g′+ɪ+ɴ′+üː+ʟ′+t′′+,",,,0
+16,"grazing",e,",+ɪ ˈ+g′+ɪ+ɴ′+üː+ʟ′+t″+,",,,0
 16,"grazing",f,ə ˈ+g′+i+h+i,,,0
 16,"grazing",g,ə ˈ+g′+i+n+ɑ+l+t+ᵊ+r+ə+ɣ,,,0
 /*<L 22>*/
@@ -9472,7 +9472,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 85,"also",88,n+j+ɪ+s,(S),neesht,0
 85,"also",88,n+eː+s,,neesht,0
 85,"also",b,k+u+.+t̠+ʃ+ɔ̨+x,,cuideachd,0
-85,"also",c,k+u+d′′+ə+x,,cuideachd,0
+85,"also",c,k+u+d″+ə+x,,cuideachd,0
 85,"also",d,k+u+d′+ʒ+ə+x+g̣,,cuideachd,0
 85,"also",e,k+ụ̈+ḍ′+ə̆+x+ḳ,,cuideachd,0
 85,"also",f,k+u+t′+ə+x,,cuideachd,0
@@ -20991,7 +20991,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 196a,"wake",85,f+ɑ+r″+ə,,faire,0
 196a,"wake",86,f+ɑ+r″+ĕ,,faire,0
 196a,"wake",d,k+a+r′+ʰ+i+ʃ,,caithris,0
-196a,"wake",e,k+a+r′′+ɪ+ʃ,,caithris,0
+196a,"wake",e,k+a+r″+ɪ+ʃ,,caithris,0
 196a,"wake",f,(t+ɑ̆+i+ˈ+ɑ̣+r′+ə),taigh-fhaire → wake house,faire,0
 196a,"wake",g,k+a+r+ï+ʃ+ᵊ,,caithris,0
 /*<L 238>*/
