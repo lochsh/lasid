@@ -850,7 +850,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 7b,"calf",b,ʟ+λː+ɣ,,,0
 7b,"calf",b,ɫ+λː,,,0
 7b,"calf",c,g̣+a+u+.+ə+n,,,0
-7b,"calf",d,ʟ+λː+ə+ɣ̆,,,0
+7b,"calf",d,ʟ+λː+ə+ɣ̮,,,0
 7b,"calf",d,ʟ+λː,,,0
 7b,"calf",e,ʟ+λː+h,,,0
 7b,"calf",f,ʟ+λː,,,0
@@ -1986,7 +1986,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 16,"grazing",a,g′+i+x′+ə,,,0
 16,"grazing",a,g′+i+x′+ï+k,,,0
 16,"grazing",b,g′+ï+u+n+ɑ+l+t+r+ə+ɣ,,,0
-16,"grazing",c,g+i+n+ɑ+ʟ+t+r+ə+ɣ̆,,,0
+16,"grazing",c,g+i+n+ɑ+ʟ+t+r+ə+ɣ̮,,,0
 16,"grazing",d,",+ə+g′+ˈ+i+n′+ɪ+ˏ+üː+ʟ′+t′+ʃ+ĕ+,",,,0
 16,"grazing",e,",+ɪ ˈ+g′+ɪ+ɴ′+üː+ʟ′+t″+,",,,0
 16,"grazing",f,ə ˈ+g′+i+h+i,,,0
@@ -7356,7 +7356,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 65,"digging VN",86,ʀ+oː+w+ə+r,,rómhar,0
 65,"digging VN",a,k+ɫ+è+ˏ+ə+x,,cladhach,0
 65,"digging VN",b,ʀ+ũ+.+a+v̠+ə+r,,rómhar,0
-65,"digging VN",c,t′+ʃ+a+u+n+d+ə+ɣ̆,,teanndadh,0
+65,"digging VN",c,t′+ʃ+a+u+n+d+ə+ɣ̮,,teanndadh,0
 65,"digging VN",d,k+ʟ+ö̤ː+ə+x,,cladhach,0
 65,"digging VN",e,k+ʟ+öː+ə+x,,cladhach,0
 65,"digging VN",f,r+ũː+ɑ+r+h,,rómhar,0
@@ -9474,7 +9474,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 85,"also",b,k+u+.+t̠+ʃ+ɔ̨+x,,cuideachd,0
 85,"also",c,k+u+d″+ə+x,,cuideachd,0
 85,"also",d,k+u+d′+ʒ+ə+x+g̣,,cuideachd,0
-85,"also",e,k+ụ̈+ḍ′+ə̆+x+ḳ,,cuideachd,0
+85,"also",e,k+ụ̈+ḍ′+ə̮+x+ḳ,,cuideachd,0
 85,"also",f,k+u+t′+ə+x,,cuideachd,0
 85,"also",g,k+û+d′+ɑ+x,,cuideachd,0
 /*<L 107>*/
@@ -15173,7 +15173,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 144,"closing VN",88,d′+ʒ+e+i,,jeigh,0
 144,"closing VN",a,d+r+u+t̠+ʃ,,druid,0
 144,"closing VN",b,d+r+û+t′+ʃ,,druid,0
-144,"closing VN",d,d+uː+n+ə+ɣ̆,,dúnadh,0
+144,"closing VN",d,d+uː+n+ə+ɣ̮,,dúnadh,0
 144,"closing VN",e,ḍ+λː+n+ə+ɣ,,dúnadh,0
 144,"closing VN",f,d+uː+n,,dún,0
 144,"closing VN",g,d+uː+n+ə+g,,dúnadh,0
@@ -17531,7 +17531,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 167b,"turf gen. sg.",a,m+ɔː+ɴ′+ï,,móine,0
 167b,"turf gen. sg.",b,v+ɔː+a+ɴ′+ə,lenited),móine,0
 167b,"turf gen. sg.",c,m+ɔː+ɴ′+ĕ,,móine,0
-167b,"turf gen. sg.",d,m+ǫː+n+ə+ɣ̆,,mónadh,0
+167b,"turf gen. sg.",d,m+ǫː+n+ə+ɣ̮,,mónadh,0
 167b,"turf gen. sg.",e,m+õː+n+ə+x,,mónach,0
 167b,"turf gen. sg.",f,m+ǫ̃ː+n+ə,,móna,0
 167b,"turf gen. sg.",g,m+oː+ɴ′+ə,,móine,0
@@ -21086,9 +21086,9 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 196b,"funeral",88,oː+n+l+ə+k+ə,(N),oanluck,0
 196b,"funeral",b,t+ɔː+r+ə+ɣ,,tórradh,0
 196b,"funeral",c,ə+n d′+ɪː+ʟ+ɑ+x+g̣+ə,,tìodhlacadh,0
-196b,"funeral",d,t+ǫː+r+ɑ̆+ɣ̆,,tórradh,0
-196b,"funeral",d,t′+ᶴ+i+ə+l+.+ə̆+g̣+ə+ɣ̆,,tìodhlacadh,0
-196b,"funeral",e,t′+i+ə+l+.+ï+g̣+ɪ+h̆,,tìodhlacadh,0
+196b,"funeral",d,t+ǫː+r+ɑ̆+ɣ̮,,tórradh,0
+196b,"funeral",d,t′+ᶴ+i+ə+l+.+ə̮+g̣+ə+ɣ̮,,tìodhlacadh,0
+196b,"funeral",e,t′+i+ə+l+.+ï+g̣+ɪ+ḫ,,tìodhlacadh,0
 196b,"funeral",f,t′+i+ŭ+ʟ+ï+g̣′+ə+ḳ,,tìodhlacadh,0
 196b,"funeral",g,ṭ′+i+.+ə+ʟ+ə+g′+ə+g,,tìodhlacadh,0
 /*<L 239>*/
