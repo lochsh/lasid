@@ -8509,90 +8509,97 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 /*<L 96>*/
 /*<M 77 (he) was found>*/
 /*<F fuaireadh, frítheadh, fuaras>*/
-77,"(he) was found",1,f+u+ə+r′+ə+g,,,0
-77,"(he) was found",2,f+u+ə+r′+ə+g,,,0
-77,"(he) was found",2,f+u+ə+r+ə+g,,,0
-77,"(he) was found",3,f+u+ə+r′+ə+g,,,0
-77,"(he) was found",4,f+u+ə+r+ə+g,,,0
-77,"(he) was found",5,f+u+ə+r+ə+g,,,0
-77,"(he) was found",7,d+ə ˈ+f+u+ə+r′+ə+g,,,0
-77,"(he) was found",8,f+u+ə+r+u+v,,,0
-77,"(he) was found",9,d+ə ˈ+f+u+ə+r+ŭ+v,,,0
-77,"(he) was found",10,d+ə ˈ+f+u+ə+r+ə+s,,,0
-77,"(he) was found",11,d+ə ˈ+f+u+ə+r+ə+s,,,0
-77,"(he) was found",12,d+ə ˈ+f+u+ə+r+ə+s,,,0
-77,"(he) was found",13,d+ə ˈ+f+u+ə+r+ᵊ+h+ə+s,,,0
-77,"(he) was found",14,d+ə ˈ+f+u+ə+r+ə+g,,,0
-77,"(he) was found",14,d+ə ˈ+f+u+ə+r+ŭ+v,,,0
-77,"(he) was found",15,f+u+ə+r+ə+g,,,0
-77,"(he) was found",16,d+ə ˈ+f+u+ə+r+ə+g,,,0
-77,"(he) was found",17,f+u+ə+r+ə+g,,,0
-77,"(he) was found",18,f+u+ə+r+ə+s,,,0
-77,"(he) was found",19,f+u+ə+r′+ə+x,,,0
-77,"(he) was found",19,f+u+ə+r+h+ə+s,,,0
-77,"(he) was found",20,f+u+ĕ+r′+ə+x,,,0
-77,"(he) was found",20,f+u+ĕ+r′+ə+h+ə+s,,,0
-77,"(he) was found",20,f+u+ĕ+r′+ə+h+ə+r+s,,,0
-77,"(he) was found",21,d+e ˈ+f+u+ə+r+h+ə+s,,,0
-77,"(he) was found",22,f+u+ə+r+ə+g,,,0
-77,"(he) was found",23,f+u+ə+r′+ə+g,,,0
-77,"(he) was found",24,f+u+ə+r+ə+g,,,0
-77,"(he) was found",25,f′+r′+iː+v,,,0
-77,"(he) was found",27,f+u+ə+r+ə+v,,,0
-77,"(he) was found",28,f′+r′+iː+h+ᵘᵛ,,,0
-77,"(he) was found",29,f′+r+iː+ə+v,,,0
-77,"(he) was found",30,f′+r′+iː+u+v̱,,,0
-77,"(he) was found",32,f′+r′+iː+f,,,0
-77,"(he) was found",33,f′+r′+iː+h+ŭ+v,,,0
-77,"(he) was found",34,f+u+ə+r+ə+s,,,0
-77,"(he) was found",35,f′+r′+iː+ŭ+w,,,0
-77,"(he) was found",36,f′+r′+iː+u+v̱,,,0
-77,"(he) was found",37,f′+r′+iː+v̱,,,0
-77,"(he) was found",38,f′+r′+iː+ŭ+w,,,0
-77,"(he) was found",39,f′+r′+iː+ŭ+v,,,0
-77,"(he) was found",40,f′+r′+iː+u+w,,,0
-77,"(he) was found",41,f′+r′+iː+ə+v,,,0
-77,"(he) was found",42,f′+r′+iː+u,,,0
-77,"(he) was found",43,f′+r′+iː+u+ʷ,,,0
-77,"(he) was found",44,f′+r′+iː+u+ᵠ,,,0
-77,"(he) was found",45,f′+r′+iː+u+w,,,0
-77,"(he) was found",46,f′+r′+iː+u+w,,,0
-77,"(he) was found",47,f′+r′+iː+ᵘ+w,,,0
-77,"(he) was found",48,f′+r′+iː+h+u,,,0
-77,"(he) was found",49,f′+r′+iː+ŭ+φ,,,0
-77,"(he) was found",50,f′+r′+iː+ŭ+v,,,0
-77,"(he) was found",50,f+ų+ə+r+ʰ+ə+s,,,0
-77,"(he) was found",51,f+u+ə+r+ə+s,,,0
-77,"(he) was found",52,f+o̤+r+ə+s,,,0
-77,"(he) was found",53,f+u+ə+r+ə+s,,,0
-77,"(he) was found",54,f+u+ĕ+r+ə+s,,,0
-77,"(he) was found",55,f+u+ə+r+ə+s,,,0
-77,"(he) was found",56,f+u+ə+r+ə+s,,,0
-77,"(he) was found",57,f+u+ə+r+ə+s,,,0
-77,"(he) was found",58,f+u+r+ə+s,,,0
-77,"(he) was found",59,f+u+ə+r+ə+s,,,0
-77,"(he) was found",60,f+u+ə+r+ə+s,,,0
-77,"(he) was found",62,f+u+ə+r+ə+s,,,0
+77,"(he) was found",1,f+u+ə+r′+ə+g,,fuaireadh,0
+77,"(he) was found",2,f+u+ə+r′+ə+g,,fuaireadh,0
+77,"(he) was found",2,f+u+ə+r+ə+g,,fuaradh,0
+77,"(he) was found",3,f+u+ə+r′+ə+g,,fuaireadh,0
+77,"(he) was found",4,f+u+ə+r+ə+g,,fuaradh,0
+77,"(he) was found",5,f+u+ə+r+ə+g,,fuaradh,0
+77,"(he) was found",7,d+ə ˈ+f+u+ə+r′+ə+g,,fuaireadh,0
+77,"(he) was found",8,f+u+ə+r+u+v,,fuaradh,0
+77,"(he) was found",9,d+ə ˈ+f+u+ə+r+ŭ+v,,fuaradh,0
+77,"(he) was found",10,d+ə ˈ+f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",11,d+ə ˈ+f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",12,d+ə ˈ+f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",13,d+ə ˈ+f+u+ə+r+ᵊ+h+ə+s,,fuaras,0
+77,"(he) was found",14,d+ə ˈ+f+u+ə+r+ə+g,,fuaradh,0
+77,"(he) was found",14,d+ə ˈ+f+u+ə+r+ŭ+v,,fuaradh,0
+77,"(he) was found",15,f+u+ə+r+ə+g,,fuaradh,0
+77,"(he) was found",16,d+ə ˈ+f+u+ə+r+ə+g,,do fuaradh,0
+77,"(he) was found",17,f+u+ə+r+ə+g,,fuaradh,0
+77,"(he) was found",18,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",19,f+u+ə+r′+ə+x,,fuaireadh,0
+77,"(he) was found",19,f+u+ə+r+h+ə+s,,fuaras,0
+77,"(he) was found",20,f+u+ĕ+r′+ə+x,,fuaireadh,0
+77,"(he) was found",20,f+u+ĕ+r′+ə+h+ə+s,,fuaireas,0
+77,"(he) was found",20,f+u+ĕ+r′+ə+h+ə+r+s,,fuaireas,0
+77,"(he) was found",21,d+e ˈ+f+u+ə+r+h+ə+s,,do fuaras,0
+77,"(he) was found",22,f+u+ə+r+ə+g,,fuaradh,0
+77,"(he) was found",23,f+u+ə+r′+ə+g,,fuaireadh,0
+77,"(he) was found",24,f+u+ə+r+ə+g,,fuaradh,0
+77,"(he) was found",25,f′+r′+iː+v,,frítheadh,0
+77,"(he) was found",27,f+u+ə+r+ə+v,,fuaradh,0
+77,"(he) was found",28,f′+r′+iː+h+ᵘᵛ,,frítheadh,0
+77,"(he) was found",29,f′+r+iː+ə+v,,frítheadh,0
+77,"(he) was found",30,f′+r′+iː+u+v̱,,frítheadh,0
+77,"(he) was found",32,f′+r′+iː+f,,frítheadh,0
+77,"(he) was found",33,f′+r′+iː+h+ŭ+v,,frítheadh,0
+77,"(he) was found",34,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",35,f′+r′+iː+ŭ+w,,frítheadh,0
+77,"(he) was found",36,f′+r′+iː+u+v̱,,frítheadh,0
+77,"(he) was found",37,f′+r′+iː+v̱,,frítheadh,0
+77,"(he) was found",38,f′+r′+iː+ŭ+w,,frítheadh,0
+77,"(he) was found",39,f′+r′+iː+ŭ+v,,frítheadh,0
+77,"(he) was found",40,f′+r′+iː+u+w,,frítheadh,0
+77,"(he) was found",41,f′+r′+iː+ə+v,,frítheadh,0
+77,"(he) was found",42,f′+r′+iː+u,,frítheadh,0
+77,"(he) was found",43,f′+r′+iː+u+ʷ,,frítheadh,0
+77,"(he) was found",44,f′+r′+iː+u+ᵠ,,frítheadh,0
+77,"(he) was found",45,f′+r′+iː+u+w,,frítheadh,0
+77,"(he) was found",46,f′+r′+iː+u+w,,frítheadh,0
+77,"(he) was found",47,f′+r′+iː+ᵘ+w,,frítheadh,0
+77,"(he) was found",48,f′+r′+iː+h+u,,frítheadh,0
+77,"(he) was found",49,f′+r′+iː+ŭ+φ,,frítheadh,0
+77,"(he) was found",50,f′+r′+iː+ŭ+v,,frítheadh,0
+77,"(he) was found",50,f+ų+ə+r+ʰ+ə+s,,fuaras,0
+77,"(he) was found",51,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",52,f+o̤+r+ə+s,,fuaras,0
+77,"(he) was found",53,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",54,f+u+ĕ+r+ə+s,,fuaras,0
+77,"(he) was found",55,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",56,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",57,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",58,f+u+r+ə+s,,fuaras,0
+77,"(he) was found",59,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",60,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",62,f+u+ə+r+ə+s,,fuaras,0
 77,"(he) was found",67,ˈ+h+λː+ə+ṛ+è+d,‘they found’,,0
-77,"(he) was found",68,f+o̤+r+ə+s,,,0
-77,"(he) was found",69,f+û+ə+r+ə+s,,,0
-77,"(he) was found",70,f+u+ə+r+ə+s,,,0
-77,"(he) was found",71,f+u+ə+r+ə+s,,,0
-77,"(he) was found",72,f+u+ə+r+ə+s,,,0
-77,"(he) was found",73,f+u+ə+r+ə+s,,,0
-77,"(he) was found",74,f+û+ə+r+ə+s,,,0
-77,"(he) was found",75,f+o̤+r+ə+s,,,0
-77,"(he) was found",76,f+u+ə+r+ə+s,,,0
-77,"(he) was found",77,f+û+ə+r+ə+s,,,0
-77,"(he) was found",78,f+u+ə+r+ə+s,,,0
-77,"(he) was found",79,f+u+ə+r+ə+s,,,0
-77,"(he) was found",80,f+u+ə+r+ə+s,,,0
-77,"(he) was found",81,f+u+ə+r′+ə+s,,,0
-77,"(he) was found",82,f+u+ə+r+ə+s,,,0
-77,"(he) was found",83,f+u+ə+r+ə+s,,,0
-77,"(he) was found",84,f+u+ə+r+ə+s,,,0
-77,"(he) was found",85,f+ʷ+i+ə+r+ə+s,,,0
-77,"(he) was found",86,f+ʷ+i+ə+r′+ə+s,,,0
+77,"(he) was found",68,f+o̤+r+ə+s,,fuaras,0
+77,"(he) was found",69,f+û+ə+r+ə+s,,fuaras,0
+77,"(he) was found",70,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",71,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",72,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",73,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",74,f+û+ə+r+ə+s,,fuaras,0
+77,"(he) was found",75,f+o̤+r+ə+s,,fuaras,0
+77,"(he) was found",76,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",77,f+û+ə+r+ə+s,,fuaras,0
+77,"(he) was found",78,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",79,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",80,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",81,f+u+ə+r′+ə+s,,fuaras,0
+77,"(he) was found",82,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",83,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",84,f+u+ə+r+ə+s,,fuaras,0
+77,"(he) was found",85,f+ʷ+i+ə+r+ə+s,,fuaras,0
+77,"(he) was found",86,f+ʷ+i+ə+r′+ə+s,,fuaras,0
+77,"(he) was found",a,h+uː+r ə+t,"they found",,0
+77,"(he) was found",b,h+u+.+ɑ+r+ə+ɣ,,fhuaradh,0
+77,"(he) was found",c,h+u+ə+r ɑ+d,"they found",,0
+77,"(he) was found",d,h+u+ə+r′+ə+ɣ,,fhuaradh,0
+77,"(he) was found",e,h+û+.+ə+r+ə+ɣ̮,,fhuaradh,0
+77,"(he) was found",f,v+ɛ e+r′ ˈ+ö+.+i+ɴ′,,bha air fhaighinn?,0
+77,"(he) was found",g,ˈ+x+a+.+i+.+l′ f+ɔ+.+n+ə,"NL: Wagner gives the orthography, I'm not sure what the slender l is.",chaidh a faighinn,0
 /*<L 97>*/
 /*<M 78a pot>*/
 /*<F corcán, pota>*/
