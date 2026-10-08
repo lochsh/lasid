@@ -8596,9 +8596,9 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 77,"(he) was found",a,h+uː+r ə+t,"they found",,0
 77,"(he) was found",b,h+u+.+ɑ+r+ə+ɣ,,fhuaradh,0
 77,"(he) was found",c,h+u+ə+r ɑ+d,"they found",,0
-77,"(he) was found",d,h+u+ə+r′+ə+ɣ,,fhuaradh,0
+77,"(he) was found",d,h+u+ə+r′+ə+ɣ,,fhuaireadh,0
 77,"(he) was found",e,h+û+.+ə+r+ə+ɣ̮,,fhuaradh,0
-77,"(he) was found",f,v+ɛ e+r′ ˈ+ö+.+i+ɴ′,,bha air fhaighinn?,0
+77,"(he) was found",f,v+ɛ e+r′ ˈ+ö+.+i+ɴ′,,bha e air fhaighinn,0
 77,"(he) was found",g,ˈ+x+a+.+i+.+l′ f+ɔ+.+n+ə,"NL: Wagner gives the orthography, I'm not sure what the slender l is.",chaidh a faighinn,0
 /*<L 97>*/
 /*<M 78a pot>*/
@@ -20929,11 +20929,11 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 195,"melting VN",85,ʟ′+ɛː+u,,leaghadh,0
 195,"melting VN",86,ʟ′+eː+u+φ,,leaghadh,0
 195,"melting VN",a,ə+r ˈ+ʟ+e+ˏ+ẹ+k,"melted",,0
-195,"melting VN",b,ə ˈ+ʟ+ᴇ+ˏ+ə+ɣ,NL: ag leaghadh,leaghadh,0
+195,"melting VN",b,ə ˈ+ʟ+ᴇ+ˏ+ə+ɣ,NL: ag leaghadh,ag leaghadh,0
 195,"melting VN",c,l+ø+ˏ+ø,almost lüˏü,leaghadh,0
 195,"melting VN",d,ʟ′+e+ˏ+u+ḫ,,leaghadh,0
-195,"melting VN",e,r″+i j+öː+ᵊ+ḫ,,,0
-195,"melting VN",f,ə ˈ+ʟ′+öː+ᵊ+ḳ,,,0
+195,"melting VN",e,r″+i j+öː+ᵊ+ḫ,,ri leaghadh,0
+195,"melting VN",f,ə ˈ+ʟ′+öː+ᵊ+ḳ,,ag leaghadh,0
 195,"melting VN",g,ʟ′+ə+ɣ,,leaghadh,0
 /*<L 237>*/
 /*<M 196a wake>*/
@@ -21910,11 +21910,11 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 204,"it was said",84,h+ûː+r+ûː,,thubhradh,0
 204,"it was said",85,h+u·+r+u,,thubhradh,0
 204,"it was said",86,h+uː+r+uː,,thubhradh,0
-204,"it was said",b,v+aː ˈ+r+iː+s,"NL: unsure of past-participle(?) form",bha rís,0
+204,"it was said",b,v+aː ˈ+r+iː+s,,bha air innse,0
 204,"it was said",c,x+ɑ ˈ+ĩː+ʃ+ə,,chaidh innse,0
 204,"it was said",d,h+uː+ř+ʃ̌+ṭ′+ə+ɣ̮,,thubhairteadh,0
 204,"it was said",e,h+uː+ʳ̣+d̤+ə+ɣ̮,,thubhairteadh,0
-204,"it was said",f,v+a è+r+h ə ˈ+g+ɪː+ʃ+ə,,bha ? e dh'innse,0
+204,"it was said",f,v+a è+r+h ə ˈ+g+ɪː+ʃ+ə,,bha air a dh'innse,0
 204,"it was said",g,χ+a+i ˈ+ɪ̃ː+ʃ+ə,,chaidh innse,0
 /*<L 248>*/
 /*<M 205 fortnight>*/
@@ -31885,12 +31885,12 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 298,"he died suddenly",86,f+ʷ+i+ə+ř ʃ+ɛ ˈ+b+ɑː+s ˈ+t+o+b·+ə+ɴ,,fuair sé bás tobann,0
 298,"he died suddenly",88,h+uː+r ɛ b+èː+s …,,fuair é bás …,0
 298,"he died suddenly",88,r+ï+n ɛ g+ɛ+δ+n b+ɛ+ə+s …,,ren eh geddyn baase,0
-298,"he died suddenly",a,ˈ+ʃ+u+ˏ+ə+l eː g+ə ˈ+m+èː ˈ+ʟ+u+.+ɑ̆,,siubhail e go (maith?) luath,0
-298,"he died suddenly",b,ˈ+h′+u+ˏ+ə+l è+. ˈ+ɑ+.+x+ə+r+ï+t̠+ʃ,,shiubhail e ?,0
-298,"he died suddenly",c,h+j+uː+l è a+g+ï+r+ɪ+ḍ′,,shiubhail e (a goirid ?),0
+298,"he died suddenly",a,ˈ+ʃ+u+ˏ+ə+l eː g+ə ˈ+m+èː ˈ+ʟ+u+.+ɑ̆,,siubhail e go maith luath,0
+298,"he died suddenly",b,ˈ+h′+u+ˏ+ə+l è+. ˈ+ɑ+.+x+ə+r+ï+t̠+ʃ,,shiubhail e ath-ghoirid,0
+298,"he died suddenly",c,h+j+uː+l è a+g+ï+r+ɪ+ḍ′,,shiubhail e ath-ghoirid,0
 298,"he died suddenly",d,v+ɑ̣ː+s+i+x′ a k+ɑ+v+ɑ+g̣+ə+x,,bhásaich e cabhagach,0
 298,"he died suddenly",e,v+ɑ̣ː+s+i+x′ è k+a+f+a+g̣+ə+x,,bhásaich e cabhagach,0
-298,"he died suddenly",f,ˈ+ɣ+ɔ+ʟ+o ɛ ˈa+x′+a+r+h,,dh'fhalbh e aithghearr,0
+298,"he died suddenly",f,ˈ+ɣ+ɔ+ʟ+o ɛ ˈa+x′+a+r+h,,dh'fholbh e aithghearr,0
 298,"he died suddenly",g,h+ɑ+n+ï+g̣′ ˈ+b+ɑ̣ː+s ˈ+ɑ+ⁱ+χ′+ɑ+r ĕ+r+h,,tháinig bás aithghearr air,0
 /*<L 369>*/
 /*<M 299 (I will eat) whatever you will give me>*/
