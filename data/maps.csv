@@ -14716,7 +14716,7 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 139,"liver",25,ɪː+v+ə,,aobha,0
 139,"liver",28,iː+v̱+ə,,aobha,0
 139,"liver",32,èː+v+ə+x+ɪː,,aobhachaí,0
-139,"liver",33,a+j+uː+x+ɪ,NL: a completely different transcription is given in the response to question 471,aedheadhcha,0
+139,"liver",33,a+j+uː+x+ɪ,"NL: a completely different transcription is given in the response to question 471: [g′r′iːʃḳ′iːn′iː], 'gríscíní' perhaps, though Wagner has a question mark next to it. Ó Dónaill gives this as meaning slices of meat. The transcription on the map, along with those for points 53-59, was difficult to translate into orthography. Art Hughes has this one as ‘aobhachaí’, but that doesn’t match this point’s pronunciation of <aobh>, see map 177a. Of course, incomplete sound changes can result in such disrepancies, but I do wonder if this has a different form etymologically, particularly given how old a pronunciation of <ao> as a diphthong would be (I will note that Wagner doesn’t really segment syllables which can make some of these transcriptions ambiguous RE diphthongs). Dinneen has ‘aedhanna’ for the plural of ‘ae’. I have gone with something in that vein, despite it breaking some modern spelling conventions. I am open to suggestions.",aedhadhchaí,0
 139,"liver",34,ɪː+v+ə+ɴ+i,,aobhanna,0
 139,"liver",35,ɪː+w+ɪː,,aobhaí,0
 139,"liver",36,ɪː+v̱+ə+n+iː,,aobhannaí,0
@@ -14735,13 +14735,13 @@ map,prompt,survey_point_id,transcription,note,category,sourced_elsewhere
 139,"liver",49,ɪː+w+ɪ,,aobha,0
 139,"liver",50,ɪː+w+ɪː,,aobhaí,0
 139,"liver",51,ɪː+w+ɪ,,aobha,0
-139,"liver",53,ə+j+ə+w+ɑ+x+ə,"NL: no answer given for liver in response to question 471, but in the vocabulary section 'aedha' [əjö.] is given for livers",aedheadhacha,0
-139,"liver",54,ə+j+ə+w+ɑ+x+ə,,aedheadhacha,0
-139,"liver",55a,ɛ+j+u+ʷ,,aedheadh,0
-139,"liver",56,ə+j+ųː+n+t+ɪ,"NL: my spelling here is particularly dubious. A transcription for 'liver' in is given in response to question 471: [əjuʷ] singular, and [nə ˈhəjųːntɪ] plural with definite article. Perhaps 'aedhadh' and 'na h-aedhadhnta'?",aedhadhnta,0
-139,"liver",57,ə+j+u+ʷ,,aedhadh,0
-139,"liver",58,ə+j+u,,aedhadh,0
-139,"liver",59,ə+j+u,,aedhadh,0
+139,"liver",53,ə+j+ə+w+ɑ+x+ə,"NL: no answer given for liver in response to question 471, but in the vocabulary section 'aedha' [əjö.] is given for livers. I was a bit unsure how to write this. Art Hughes writes 'aobhacha' but that doesn't match other responses from this area for <aobh>, see map 177a. Writing <ae> for the initial [əj] fits with other areas, but it then becomes difficult to write something conventional. See also note on point 33.",aedhadhacha,0
+139,"liver",54,ə+j+ə+w+ɑ+x+ə,NL: see note on point 33 regarding spelling,aedheadhacha,0
+139,"liver",55a,ɛ+j+u+ʷ,NL: see note on point 33 regarding spelling,aedheadh,0
+139,"liver",56,ə+j+ųː+n+t+ɪ,"NL: A transcription for 'liver' in is given in response to question 471: [əjuʷ] singular, and [nə ˈhəjųːntɪ] plural with definite article. Perhaps 'aedhadh' and 'na h-aedhadhanta'? See note at point 33 regarding spelling choice.",aedhadhantaí,0
+139,"liver",57,ə+j+u+ʷ,NL: see note on point 33 regarding spelling,aedhadh,0
+139,"liver",58,ə+j+u,NL: see note on point 33 regarding spelling,aedhadh,0
+139,"liver",59,ə+j+u,NL: see note on point 33 regarding spelling,aedhadh,0
 139,"liver",64,k+r+u+ə+j+ə,,cruaidh-ae,1
 139,"liver",65,k+r+u+ə+ɣ+u,,cruadh-ae,0
 139,"liver",65,k+r+u+ə+w+u,,cruadh-ae,0
