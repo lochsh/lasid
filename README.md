@@ -26,7 +26,12 @@ making the data more accessible to modern computing environments, and taking
 advantage of advances in technology that allow for easier data visualisation
 and interaction.
 
-Specific practical goals are as follows:
+Much of the Scottish fieldwork was conducted by Colm Ó Baoill. These
+transcriptions are not included in the Volume 1 maps, but the corresponding
+responses are given in Volume 4, along with the responses for the 1175 survey
+questions.
+
+Specific practical goals of this project are as follows:
 
 * ✅ to build a queryable database containing the previously digitised transcriptions from
 the Volume 1 maps
@@ -35,8 +40,8 @@ in the previous digitisation
 * ✅ to add longitude and latitude of each location surveyed, for generation of
 maps
 * ✅ to add biographical information about the speakers surveyed
-* ⏳ to add word categories to the transcriptions, for generation of
-lexical isoglosses
+* ⏳ to add orthographic representations of the phonetic transcriptions,
+for generation of lexical isoglosses and other lexical analysis
 * ✅ to allow addition of transcriptions from survey responses to questions not
 shown in the Volume 1 maps
 * ⬜ to build a webpage where the database information is displayed on
@@ -70,7 +75,7 @@ sqlite> select survey_point.display_id, map_point.transcription
    ...> join map_point on survey_point.id = map_point.survey_point_id
    ...> join map on map_point.map_id = map.id
    ...> where map.title = "funeral"
-   ...> and map_point.category = "tórramh";
+   ...> and map_point.orthography = "tórramh";
 64|t+õː+r+ʰ+ə
 65|t+ɔː+r+ʰ+u
 66|t+ɔː+r+u
@@ -99,7 +104,10 @@ sqlite> select survey_point.display_id, map_point.transcription
 
 The `+` character is used as a delimiter between phonetic symbols denoting one
 sound, which are
-often composed of more than one unicode character, e.g. `ɔː` or `ɴ′`.
+often composed of more than one unicode character, e.g. `ɔː` or `ɴ′`. This
+assists with processing when extracting individual sounds, and will help with
+display on the webpage, for example to allow users to view transcriptions
+containing a particular sound.
 
 To retrieve information about the informants for a particular survey point:
 
@@ -123,25 +131,39 @@ To retrieve all the unique words collected in response to a survey
 question[^frogs]:
 
 ```sql
-sqlite> select distinct category from response
+sqlite> select distinct orthography from response
    ...> join question on response.question_id = question.id
-   ...> where question.prompt = "frog";
-laprachán
-cnádán
-frog
-frosg
-lapadán
-tortán
+   ...> where question.prompt like "frog%"
+   ...> order by orthography;
 breallach lathaí
-frús
-lúbar lathaí
-lapadóir
-crúbán claidhe
-luascan lathaí
-losgann
+breallach na lathaí
+cnádán
 crónán
-leumachan
-mial-mhàgain
+crúbán claidhe
+frog
+frogan
+froganna
+frogannaí
+froig
+froisg
+frosg
+frús
+lapadán
+lapadán lathaí
+lapadóir
+leumnachan
+lioprachán
+loipreachán
+losgann
+losgáin
+luascán lathaí
+lúbar lathaí
+mulla-mhóthagan
+mulla-móthag
+na froganna
+na frogannaí
+na gcnádán
+tortán
 ```
 
 ### Installation and setup
@@ -185,7 +207,7 @@ Lexical maps can also be generated using
 [`analysis/word_map.py`](analysis/word_map.py), e.g.:
 
 ```shell
-uv run analysis/word_map.py --map_title cattle --cmap Dark2 --markers eallach:P,beithidhigh:o,ainmhithe:^,crodh:s,bá:d
+uv run analysis/word_map.py --map_title cattle --cmap Dark2 --markers "eallach:P,beithidhigh:o,ainmhithe:^,crodh:s,an crodh:s,bá:d"
 ```
 
 <p align="center">

@@ -81,28 +81,28 @@ def get_question_response_field(
     return cur.execute(query).fetchall()
 
 
-def get_survey_points_matching_category(
-    categories: list[str],
+def get_survey_points_matching_orthography(
+    orths: list[str],
 ) -> list[tuple[str, str, str]]:
     """
-    Get list of (survey pt, word category, map title) where category matches those given
+    Get list of (survey pt, orthgraphy, map title) where orthography matches those given
     """
     con = sqlite3.connect(os.path.join(os.path.dirname(__file__), "..", "lasid.db"))
     cur = con.cursor()
 
-    if len(categories) == 1:
-        cat_query = f'= "{categories[0]}"'
+    if len(orths) == 1:
+        orth_query = f'= "{orths[0]}"'
     else:
-        categories = [f'"{c}"' for c in categories]
-        cat_str = ",".join(categories)
-        cat_query = f"in ({cat_str})"
+        orths = [f'"{o}"' for o in orths]
+        orth_str = ",".join(orths)
+        orth_query = f"in ({orth_str})"
 
     return cur.execute(
         f"""
-        select survey_point.display_id, map_point.category, map.title from map_point
+        select survey_point.display_id, map_point.orthography, map.title from map_point
         join map on map_point.map_id = map.id
         join survey_point on map_point.survey_point_id = survey_point.id
-        where category {cat_query}
+        where orthography {orth_query}
         ;
         """
     ).fetchall()
@@ -111,7 +111,7 @@ def get_survey_points_matching_category(
 def get_map_point_field(
     map_titles: list[str],
     field: str,
-    categories: list[str] | None = None,
+    orths: list[str] | None = None,
 ) -> list[tuple[str, str]]:
     """
     Get field from `map_point` table matching given criteria
@@ -119,8 +119,8 @@ def get_map_point_field(
     Args:
         map_titles: list of map titles to match
         field: field to select from `map_point` table
-        categories: optional list of word categories to filter on. If none are given
-            then no filtering on word category is applied.
+        orths: optional list of orthographic representations to filter on. If none are
+            given then no filtering on orthographyis applied.
 
     Returns:
         list of tuples of survey point ID and given field. Not a dict because there
@@ -142,13 +142,13 @@ def get_map_point_field(
         map_titles_str = ",".join(map_titles)
         query += f" in ({map_titles_str}) "
 
-    if categories is not None:
-        if len(categories) == 1:
-            query += f'and category = "{categories[0]}"'
+    if orths is not None:
+        if len(orths) == 1:
+            query += f'and orthography = "{orths[0]}"'
         else:
-            categories = [f'"{c}"' for c in categories]
-            cat_str = ",".join(categories)
-            query += f"and category in ({cat_str})"
+            orths = [f'"{o}"' for o in orths]
+            orth_str = ",".join(orths)
+            query += f"and orthography in ({orth_str})"
     query += ";"
 
     results = cur.execute(query).fetchall()
