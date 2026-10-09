@@ -196,7 +196,7 @@ The script [`analysis/long_o_maps.py`](analysis/long_o_maps.py) produces maps
 displaying information about the realisation of ⟨ó⟩, for example:
 
 <p align="center">
-<img src=https://mcla.ug/u/lasid/vowel_changes_bó_móna.png style="width:650px;">
+<img src=https://mcla.ug/u/lasid/vowel_changes_bó_móna.png? style="width:650px;">
 </p>
 
 Note that vowel length and nasalisation are ignored in this map.
@@ -211,8 +211,8 @@ uv run analysis/word_map.py --map_title cattle --cmap Dark2 --markers "eallach:P
 ```
 
 <p align="center">
-<img src=https://mcla.ug/u/lasid/cattle-scatter.png style="width:650px;">
-<img src=https://mcla.ug/u/lasid/cattle.png style="width:650px;">
+<img src=https://mcla.ug/u/lasid/cattle-scatter.png? style="width:650px;">
+<img src=https://mcla.ug/u/lasid/cattle.png? style="width:650px;">
 </centre>
 
 With careful selection of the markers and the order of the plotting, the
@@ -243,7 +243,7 @@ uv run analysis/word_map.py --map_title also --cmap Dark2 --grouped "fosta,fosta
 ```
 
 <p align="center">
-<img src=https://mcla.ug/u/lasid/also-scatter.png style="width:650px;">
+<img src=https://mcla.ug/u/lasid/also-scatter.png? style="width:650px;">
 </centre>
 
 The words _neesht_ and _féin_ are grouped in the same colour to preserve
@@ -263,7 +263,7 @@ uv run analysis/same_word_diff_usage.py -cat tórramh -cat tórradh
 ```
 
 <p align="center">
-<img src=https://mcla.ug/u/lasid/tórramh_tórradh_usage.png style="width:650px;">
+<img src=https://mcla.ug/u/lasid/tórramh_tórradh_usage.png? style="width:650px;">
 <p align="center">
 
 ### Analysis blog posts
