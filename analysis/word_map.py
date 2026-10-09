@@ -44,17 +44,19 @@ def main(
     words = [(sid, w) for sid, w in words if w]
     long_lats = [tools.get_mean_long_lat(sid) for sid, _ in words]
 
+    if not (markers is None) ^ (word_groups is None):
+        raise ValueError("Can specify markers or specify word groups, not both")
+
     if markers is None:
         unique_words = sorted(set(w for _, w in words))
-    else:
-        unique_words = sorted(set(w for _, w in words), key=list(markers).index)
-
-    if word_groups is None:
-        word_groups = [[w] for w in unique_words]
-    else:
         word_groups = word_groups + [
             [w] for w in unique_words if not any(w in g for g in word_groups)
         ]
+    else:
+        marker_to_words = {m: [] for m in markers.values()}
+        for word, marker in markers.items():
+            marker_to_words[marker].append(word)
+        word_groups = list(marker_to_words.values())
 
     num_groups = len(word_groups)
     cmap = sns.color_palette(cmap_name, num_groups)
@@ -103,7 +105,7 @@ if __name__ == "__main__":
         type=str,
         help="List of lists of words to display in the same colour on the plots. "
         "The inner lists are comma delimited, the outer list is full-stop delimited. "
-        "E.g. fosta,fostacht;comh maith,chomh maith. "
+        "E.g. fosta,fostacht.comh maith,chomh maith. "
         "This can also be used to control the order of words in the "
         "colourmap and legend, without grouping words together. Not every word needs "
         "specified. Markers are automatically selected in the scatter plot.",
@@ -112,9 +114,11 @@ if __name__ == "__main__":
         "--markers",
         type=str,
         help="List of words and the markers to associate with them. E.g. "
-        "eallach:P,beithidhigh:o. See matplotlib docs for marker codes. This also "
-        "specifies the order of the words in the colourmap and legend. Every word "
-        "must be specified.",
+        "eallach:P,beithidhigh:o,crodh:x,an crodh:x. See matplotlib docs for marker "
+        "codes. This also specifies the order of the words in the colourmap and "
+        "legend. Every word must be specified. Words given the same marker will also "
+        "be given the same colour, and will be listed separately but with the same "
+        "key in the legend.",
     )
 
     parser.add_argument(
@@ -143,7 +147,7 @@ if __name__ == "__main__":
 
     if args.question_prompt:
         question_display_id = tools.get_question_prompt_display_id(args.question_prompt)
-        words = tools.get_question_response_field(question_display_id, "category")
+        words = tools.get_question_response_field(question_display_id, "orthography")
         main(
             words,
             args.question_prompt,
@@ -154,7 +158,7 @@ if __name__ == "__main__":
             word_groups=word_groups,
         )
     else:
-        words = tools.get_map_point_field([args.map_title], "category")
+        words = tools.get_map_point_field([args.map_title], "orthography")
         main(
             words,
             args.map_title,

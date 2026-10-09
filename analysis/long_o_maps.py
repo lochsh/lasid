@@ -96,12 +96,12 @@ def map_first_vowel_after_initial_consonant(
     lasid_map_title,
     basename,
     figure_title,
-    categories=None,
+    orths=None,
 ):
     survey_point_to_trans = tools.get_map_point_field(
         lasid_map_title,
         "transcription",
-        categories=categories,
+        orths=orths,
     )
     vowels = [t.split("+")[1] for _, t in survey_point_to_trans]
     vowel_labels = [get_vowel_label(v) for v in vowels]
@@ -151,7 +151,7 @@ if __name__ == "__main__":
         ["cow"],
         "bó",
         "vowel in 'bó' ('cow')",
-        categories=["bó"],
+        orths=["bó"],
     )
     móna = map_first_vowel_after_initial_consonant(
         ["turf gen. sg."],
@@ -162,14 +162,14 @@ if __name__ == "__main__":
         ["digging VN"],
         "rómhar",
         "first vowel in\n'rómhar'\n('digging' v.n.)",
-        categories=["rómhar"],
+        orths=["rómhar"],
     )
     tórramh = map_first_vowel_after_initial_consonant(
         ["wake", "funeral"],
         "tórramh",
         "first vowel in\n'tórramh, tórradh'\n"
         "('wake' or 'funeral' depending on geography)",
-        categories=["tórramh", "tórradh"],
+        orths=["tórramh", "tórradh"],
     )
 
     map_vowel_changes(

@@ -64,7 +64,15 @@ create table if not exists "question" (
 create table if not exists "response" (
     id integer primary key autoincrement not null,
     transcription nvarchar(128) not null,
-    category nvarchar(64),
+    orthography text,
+    /* E.g. if prompt is "he was found" and response is "I found", or if prompt
+     * was for nom. pl. and the response is gen. pl. */
+    different_form boolean,
+    lenited boolean,
+    eclipsed boolean,
+    /* Notes from the LASID */
+    source_notes text,
+    /* Notes from this project */
     notes text,
     question_id integer not null,
     survey_point_id integer not null,
@@ -85,9 +93,17 @@ create table if not exists "map" (
 create table if not exists "map_point" (
     id integer primary key autoincrement not null,
     transcription nvarchar(64) not null,
-    note text,
-    category nvarchar(64),
+    orthography text,
     sourced_elsewhere boolean,
+    /* E.g. if prompt is "he was found" and response is "I found", or if prompt
+     * was for nom. pl. and the response is gen. pl. */
+    different_form boolean,
+    lenited boolean,
+    eclipsed boolean,
+    /* Notes from the LASID */
+    source_notes text,
+    /* Notes from this project */
+    notes text,
     map_id integer not null,
     survey_point_id integer not null,
     foreign key (map_id) references "map" (id),
