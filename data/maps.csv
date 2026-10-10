@@ -189,7 +189,7 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 2,"cattle",88,0,0,0,0,"ɔ+l+ə+x",,,"eallach"
 2,"cattle",88,0,0,0,0,"ɑ+l+ə+x","(N)",,"eallach"
 2,"cattle",a,0,0,0,0,"b+ʷ+è+ʼ",,,"bá"
-2,"cattle",b,0,0,0,0,"ə+ŋ k+ᵊ+r+uː",,,"crodh"
+2,"cattle",b,0,0,0,0,"ə+ŋ k+ᵊ+r+uː",,,"an crodh"
 2,"cattle",b,0,0,0,0,"ʙ+a+.",,,"bá"
 2,"cattle",c,0,0,0,0,"ə+n g̣+h+r+u","almost əŋ hru",,"an crodh"
 2,"cattle",d,0,0,0,0,"k+r+o+ŭ+ḫ",,,"crodh"
@@ -524,7 +524,7 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 5,"castrating VN",34,0,1,0,0,"v+ɑ+n m′+eː ˈ+a·+s","I castrated",,"bhain mé as"
 5,"castrating VN",35,0,0,0,0,"b+ɑ+ɴ′+t′ ɑ+s",,,"baint as"
 5,"castrating VN",36,0,0,0,0,"k+ø+l′·+u",,,"coilleadh"
-5,"castrating VN",36,0,0,0,0,"k ø+l′+ĕ",,,"coilleadh"
+5,"castrating VN",36,0,0,0,0,"k+ø+l′+ĕ",,,"coilleadh"
 5,"castrating VN",37,0,0,0,0,"ˈ+b+ɑ̣+n′+t′ a+s",,,"baint as"
 5,"castrating VN",37,0,0,0,0,"k+ö+ʟ′+ĕ",,,"coilleadh"
 5,"castrating VN",38,0,0,0,0,"k+ö+ʟ′+ĕ",,,"coilleadh"
@@ -6534,97 +6534,104 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 /*<L 73>*/
 /*<M 56 dog>*/
 /*<F madra, madadh, gadhar>*/
-56,"dog",1,0,0,0,0,"m+ɑ+d+ᵊ+r+ə",,,
-56,"dog",2,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",3,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",4,0,0,0,0,"g+ø+j+ə+r",,,
-56,"dog",5,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",7,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",8,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",9,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",10,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",11,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",12,0,0,0,0,"g+ö+i+r",,,
-56,"dog",13,0,0,0,0,"m+ɑ+d+r+ə",,,
-56,"dog",14,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",15,0,0,0,0,"m+ɑ̨+d+ə+r+ə",,,
-56,"dog",15,0,0,0,0,"g+ö+i+ə+r",,,
-56,"dog",16,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",17,0,0,0,0,"g+ə+i+ᵊ+r·",,,
-56,"dog",18,0,0,0,0,"g+ø+i+r",,,
-56,"dog",18,0,0,0,0,"m+ɑ+d+ᵊ+r+ə",,,
-56,"dog",19,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",20,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",21,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",22,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",23,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",24,0,0,0,0,"m+ɑ+d+r+ə",,,
-56,"dog",25,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",26,0,0,0,0,"m+ɑ+d+ə+r+ə",,,
-56,"dog",27,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",28,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",29,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",30,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",31,0,0,0,0,"m+ɑ+d+u+ᶠ",,,
-56,"dog",32,0,0,0,0,"m+ɑ+d+ų",,,
-56,"dog",33,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",34,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",35,0,0,0,0,"m+ɑ+d+ŭ+ʷ",,,
-56,"dog",36,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",37,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",38,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",39,0,0,0,0,"m+ɑ·+d+ə",,,
-56,"dog",40,0,0,0,0,"m+ɑ̣ː+d+ə",,,
-56,"dog",41,0,0,0,0,"m+ɑ·+d+r+ə",,,
-56,"dog",41,0,0,0,0,"g+ö+i+ə+r",,,
-56,"dog",42,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",43,0,0,0,0,"m+ɑ·+d+ə",,,
-56,"dog",44,0,0,0,0,"m+ɑ̣ː+d+ə",,,
-56,"dog",45,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",46,0,0,0,0,"m+ɑː+d+ə",,,
-56,"dog",47,0,0,0,0,"m+ɑ+d+ə",,,
-56,"dog",48,0,0,0,0,"m+ɑ·+d+u",,,
-56,"dog",49,0,0,0,0,"m+ɑ̣+d+u",,,
-56,"dog",50,0,0,0,0,"m+ɑ+d+ųː",,,
-56,"dog",51,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",52,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",53,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",54,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",55,0,0,0,0,"m+ɑ·+d+u",,,
-56,"dog",56,0,0,0,0,"m+ɑː+d+ŭ",,,
-56,"dog",57,0,0,0,0,"m+ɑː+d+u",,,
-56,"dog",58,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",59,0,0,0,0,"m+ɑ+d+ŭ",,,
-56,"dog",60,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",61,0,0,0,0,"m+ɑ+d+ŭ",,,
-56,"dog",62,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",63,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",64,0,0,0,0,"m+ɑ·+d+u",,,
-56,"dog",65,0,0,0,0,"m+ɑ+d+u+ʰ",,,
-56,"dog",66,0,0,0,0,"m+ɑ+ᴅ+u",,,
-56,"dog",67,0,0,0,0,"m+ɑ+d+ə+g",,,
-56,"dog",68,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",69,0,0,0,0,"m+ɑ+d+ŭ",,,
-56,"dog",70,0,0,0,0,"m+ɑ+d·+û",,,
-56,"dog",71,0,0,0,0,"m+ɑ+d·+u",,,
-56,"dog",72,0,0,0,0,"m+ɑ+ᴅː+u",,,
-56,"dog",73,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",74,0,0,0,0,"m+ɑ̣·+d·+ŭ",,,
-56,"dog",75,0,0,0,0,"m+ɑ̣+ᴅː+ŭ",,,
-56,"dog",76,0,0,0,0,"m+ɑ̣·+ᴅ+u",,,
-56,"dog",77,0,0,0,0,"m+ɑ̣+d+u",,,
-56,"dog",78,0,0,0,0,"m+ɑ+ᴅ+u",,,
-56,"dog",79,0,0,0,0,"m+ɑ+ᴅ+u",,,
-56,"dog",80,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",81,0,0,0,0,"m+ɑ̣+d·+u",,,
-56,"dog",82,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",83,0,0,0,0,"m+ɑ̣+d+uː",,,
-56,"dog",83,0,0,0,0,"m+ɑ+ᴅ+u",,,
-56,"dog",84,0,0,0,0,"m+ɑ+d+û",,,
-56,"dog",85,0,0,0,0,"m+ɑ+d+u",,,
-56,"dog",86,0,0,0,0,"m+ɑ+ᴅ+u",,,
-56,"dog",87,0,0,0,0,"m+ɑ·+d+o̤",,,
-56,"dog",88,0,0,0,0,"m+ɑ+δ+ə","(S)",,
+56,"dog",1,0,0,0,0,"m+ɑ+d+ᵊ+r+ə",,,"madra"
+56,"dog",2,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",3,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",4,0,0,0,0,"g+ø+j+ə+r",,,"gadhar"
+56,"dog",5,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",7,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",8,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",9,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",10,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",11,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",12,0,0,0,0,"g+ö+i+r",,,"gadhar"
+56,"dog",13,0,0,0,0,"m+ɑ+d+r+ə",,,"madra"
+56,"dog",14,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",15,0,0,0,0,"m+ɑ̨+d+ə+r+ə",,,"madra"
+56,"dog",15,0,0,0,0,"g+ö+i+ə+r",,,"gadhar"
+56,"dog",16,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",17,0,0,0,0,"g+ə+i+ᵊ+r·",,,"gadhar"
+56,"dog",18,0,0,0,0,"g+ø+i+r",,,"gadhar"
+56,"dog",18,0,0,0,0,"m+ɑ+d+ᵊ+r+ə",,,"madra"
+56,"dog",19,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",20,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",21,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",22,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",23,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",24,0,0,0,0,"m+ɑ+d+r+ə",,,"madra"
+56,"dog",25,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",26,0,0,0,0,"m+ɑ+d+ə+r+ə",,,"madra"
+56,"dog",27,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",28,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",29,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",30,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",31,0,0,0,0,"m+ɑ+d+u+ᶠ",,,"madadh"
+56,"dog",32,0,0,0,0,"m+ɑ+d+ų",,,"madadh"
+56,"dog",33,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",34,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",35,0,0,0,0,"m+ɑ+d+ŭ+ʷ",,,"madadh"
+56,"dog",36,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",37,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",38,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",39,0,0,0,0,"m+ɑ·+d+ə",,,"madadh"
+56,"dog",40,0,0,0,0,"m+ɑ̣ː+d+ə",,,"madadh"
+56,"dog",41,0,0,0,0,"m+ɑ·+d+r+ə",,,"madra"
+56,"dog",41,0,0,0,0,"g+ö+i+ə+r",,,"gadhar"
+56,"dog",42,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",43,0,0,0,0,"m+ɑ·+d+ə",,,"madadh"
+56,"dog",44,0,0,0,0,"m+ɑ̣ː+d+ə",,,"madadh"
+56,"dog",45,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",46,0,0,0,0,"m+ɑː+d+ə",,,"madadh"
+56,"dog",47,0,0,0,0,"m+ɑ+d+ə",,,"madadh"
+56,"dog",48,0,0,0,0,"m+ɑ·+d+u",,,"madadh"
+56,"dog",49,0,0,0,0,"m+ɑ̣+d+u",,,"madadh"
+56,"dog",50,0,0,0,0,"m+ɑ+d+ųː",,,"madadh"
+56,"dog",51,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",52,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",53,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",54,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",55,0,0,0,0,"m+ɑ·+d+u",,,"madadh"
+56,"dog",56,0,0,0,0,"m+ɑː+d+ŭ",,,"madadh"
+56,"dog",57,0,0,0,0,"m+ɑː+d+u",,,"madadh"
+56,"dog",58,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",59,0,0,0,0,"m+ɑ+d+ŭ",,,"madadh"
+56,"dog",60,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",61,0,0,0,0,"m+ɑ+d+ŭ",,,"madadh"
+56,"dog",62,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",63,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",64,0,0,0,0,"m+ɑ·+d+u",,,"madadh"
+56,"dog",65,0,0,0,0,"m+ɑ+d+u+ʰ",,,"madadh"
+56,"dog",66,0,0,0,0,"m+ɑ+ᴅ+u",,,"madadh"
+56,"dog",67,0,0,0,0,"m+ɑ+d+ə+g",,,"madadh"
+56,"dog",68,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",69,0,0,0,0,"m+ɑ+d+ŭ",,,"madadh"
+56,"dog",70,0,0,0,0,"m+ɑ+d·+û",,,"madadh"
+56,"dog",71,0,0,0,0,"m+ɑ+d·+u",,,"madadh"
+56,"dog",72,0,0,0,0,"m+ɑ+ᴅː+u",,,"madadh"
+56,"dog",73,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",74,0,0,0,0,"m+ɑ̣·+d·+ŭ",,,"madadh"
+56,"dog",75,0,0,0,0,"m+ɑ̣+ᴅː+ŭ",,,"madadh"
+56,"dog",76,0,0,0,0,"m+ɑ̣·+ᴅ+u",,,"madadh"
+56,"dog",77,0,0,0,0,"m+ɑ̣+d+u",,,"madadh"
+56,"dog",78,0,0,0,0,"m+ɑ+ᴅ+u",,,"madadh"
+56,"dog",79,0,0,0,0,"m+ɑ+ᴅ+u",,,"madadh"
+56,"dog",80,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",81,0,0,0,0,"m+ɑ̣+d·+u",,,"madadh"
+56,"dog",82,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",83,0,0,0,0,"m+ɑ̣+d+uː",,,"madadh"
+56,"dog",83,0,0,0,0,"m+ɑ+ᴅ+u",,,"madadh"
+56,"dog",84,0,0,0,0,"m+ɑ+d+û",,,"madadh"
+56,"dog",85,0,0,0,0,"m+ɑ+d+u",,,"madadh"
+56,"dog",86,0,0,0,0,"m+ɑ+ᴅ+u",,,"madadh"
+56,"dog",87,0,0,0,0,"m+ɑ·+d+o̤",,,"madadh"
+56,"dog",88,0,0,0,0,"m+ɑ+δ+ə","(S)",,"madadh"
+56,"dog",a,0,0,0,0,"m+e+t+ŏ+k",,,"madadh"
+56,"dog",b,0,0,0,0,"m+ã+’+t+ə+ɣ",,,"madadh"
+56,"dog",c,0,0,0,0,"k+uː",,,"cú"
+56,"dog",d,0,0,0,0,"k+uː","kuːn also?",,"cú"
+56,"dog",e,0,0,0,0,"k+ûː",,,"cú"
+56,"dog",f,0,0,0,0,"k+uː",,,"cú"
+56,"dog",g,0,0,0,0,"ḳ+uː",,,"cú"
 /*<L 74>*/
 /*<M 57 horse shoes pl.>*/
 /*<F cruidhte>*/
@@ -9669,97 +9676,97 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 /*<L 109>*/
 /*<M 88 food>*/
 /*<F biadh, beatha>*/
-88,"food",1,0,0,0,0,"b′+iː+ə",,,
-88,"food",2,0,0,0,0,"b′+iː+ə",,,
-88,"food",3,0,0,0,0,"b′+iː+ə",,,
-88,"food",4,0,0,0,0,"b′+a+h+ə",,,
-88,"food",4,0,0,0,0,"b′+iː+ə",,,
-88,"food",5,0,0,0,0,"b′+iː+ə",,,
-88,"food",7,0,0,0,0,"b′+i+ə",,,
-88,"food",8,0,0,0,0,"b′+iː+ə",,,
-88,"food",9,0,0,0,0,"b′+iː+ə",,,
-88,"food",10,0,0,0,0,"b′+iː+ə",,,
-88,"food",11,0,0,0,0,"b′+i+ə",,,
-88,"food",12,0,0,0,0,"b′+iː+ə",,,
-88,"food",13,0,0,0,0,"b′+iː+ə",,,
-88,"food",14,0,0,0,0,"b′+i+ə",,,
-88,"food",15,0,0,0,0,"b′+iː+ə",,,
-88,"food",16,0,0,0,0,"b′+iː+ə",,,
-88,"food",17,0,0,0,0,"b′+iː+ə",,,
-88,"food",18,0,0,0,0,"b′+iː+ə",,,
-88,"food",19,0,0,0,0,"b′+iː+ə",,,
-88,"food",20,0,0,0,0,"b′+i+ə",,,
-88,"food",21,0,0,0,0,"b′+iː+ĕ",,,
-88,"food",22,0,0,0,0,"b′+iː+ə",,,
-88,"food",23,0,0,0,0,"b′+a+ˈ+h+uː",,,
-88,"food",24,0,0,0,0,"b′+iː+ə",,,
-88,"food",25,0,0,0,0,"b′+a+h+ə",,,
-88,"food",26,0,0,0,0,"b′+a+h+ə",,,
-88,"food",26,0,0,0,0,"b′+iː+ə",,,
-88,"food",27,0,0,0,0,"b′+a+h+ə",,,
-88,"food",28,0,0,0,0,"b′+a+h+ə",,,
-88,"food",29,0,0,0,0,"b′+a+h+ə",,,
-88,"food",30,0,0,0,0,"b′+a+h+ə",,,
-88,"food",31,0,0,0,0,"b′+a+h+ə",,,
-88,"food",32,0,0,0,0,"b′+a+h+ə",,,
-88,"food",33,0,0,0,0,"b′+a+h+ə",,,
-88,"food",34,0,0,0,0,"b′+ɑ+h+ə",,,
-88,"food",35,0,0,0,0,"b′+a+h+ə",,,
-88,"food",36,0,0,0,0,"b′+a+h+ə",,,
-88,"food",37,0,0,0,0,"b′+a+h+ə",,,
-88,"food",38,0,0,0,0,"b′+a+h+ə",,,
-88,"food",39,0,0,0,0,"b′+a+h+ə",,,
-88,"food",40,0,0,0,0,"b′+aː+ᵊ",,,
-88,"food",41,0,0,0,0,"b′+a+h+ə",,,
-88,"food",41,0,0,0,0,"b′+iː+ə",,,
-88,"food",42,0,0,0,0,"b′+i+ə",,,
-88,"food",43,0,0,0,0,"b′+a+h+ə",,,
-88,"food",44,0,0,0,0,"b′+iː+ɛ̆",,,
-88,"food",44,0,0,0,0,"b′+a+h+ə",,,
-88,"food",45,0,0,0,0,"b′+a+h+ə",,,
-88,"food",46,0,0,0,0,"b′+iː+ə",,,
-88,"food",46,0,0,0,0,"b′+a+h+ə",,,
-88,"food",47,0,0,0,0,"b′+a+h+ə",,,
-88,"food",48,0,0,0,0,"b′+ɛ+h+ə",,,
-88,"food",49,0,0,0,0,"b′+a+h+ə",,,
-88,"food",50,0,0,0,0,"b′+a+h+ə",,,
-88,"food",51,0,0,0,0,"b′+a+h+ə",,,
-88,"food",52,0,0,0,0,"b′+a+h+ə",,,
-88,"food",53,0,0,0,0,"b′+a+iː+ə",,,
-88,"food",54,0,0,0,0,"b′+iː+ə",,,
-88,"food",55a,0,0,0,0,"b′+iː+ə",,,
-88,"food",56,0,0,0,0,"b′+iː+ə",,,
-88,"food",57,0,0,0,0,"b′+iː+ə",,,
-88,"food",58,0,0,0,0,"b′+iː+ə",,,
-88,"food",59,0,0,0,0,"b′+iː+ə",,,
-88,"food",60,0,0,0,0,"b′+iː+ə",,,
-88,"food",61,0,0,0,0,"b′+a+h+ə",,,
-88,"food",62,0,0,0,0,"b′+iː+ə",,,
-88,"food",63,0,0,0,0,"b′+iː+ə",,,
-88,"food",64,0,0,0,0,"b′+iː+ə",,,
-88,"food",65,0,0,0,0,"b′+iː+ö+ɣ",,,
-88,"food",66,0,0,0,0,"b′+iː+ə",,,
-88,"food",67,0,0,0,0,"b′+i·+ə+g",,,
-88,"food",68,0,0,0,0,"b′+iː+u+w",,,
-88,"food",69,0,0,0,0,"b′+iː+a",,,
-88,"food",70,0,0,0,0,"b′+iː+ə",,,
-88,"food",71,0,0,0,0,"b′+iː+a+ʰ",,,
-88,"food",72,0,0,0,0,"b′+iː+a",,,
-88,"food",73,0,0,0,0,"b′+iː+ə",,,
-88,"food",74,0,0,0,0,"b′+iː+ə",,,
-88,"food",75,0,0,0,0,"b′+iː+è",,,
-88,"food",76,0,0,0,0,"b′+iː+ə",,,
-88,"food",77,0,0,0,0,"b′+iː+ɛ̆",,,
-88,"food",78,0,0,0,0,"b′+iː+ə",,,
-88,"food",79,0,0,0,0,"b′+iː+ə",,,
-88,"food",80,0,0,0,0,"b′+iː+ə",,,
-88,"food",81,0,0,0,0,"b′+iː+ĕ",,,
-88,"food",82,0,0,0,0,"b′+iː+ə",,,
-88,"food",83,0,0,0,0,"b′+iː+ə",,,
-88,"food",84,0,0,0,0,"b′+iː+ə",,,
-88,"food",85,0,0,0,0,"b′+iː+ə",,,
-88,"food",86,0,0,0,0,"b′+iː+ə",,,
-88,"food",88,0,0,0,0,"b′+iː","(N)",,
+88,"food",1,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",2,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",3,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",4,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",4,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",5,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",7,0,0,0,0,"b′+i+ə",,,"biadh"
+88,"food",8,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",9,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",10,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",11,0,0,0,0,"b′+i+ə",,,"biadh"
+88,"food",12,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",13,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",14,0,0,0,0,"b′+i+ə",,,"biadh"
+88,"food",15,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",16,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",17,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",18,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",19,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",20,0,0,0,0,"b′+i+ə",,,"biadh"
+88,"food",21,0,0,0,0,"b′+iː+ĕ",,,"biadh"
+88,"food",22,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",23,0,0,0,0,"b′+a+ˈ+h+uː",,"NL: gen. sg.?","beathadh"
+88,"food",24,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",25,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",26,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",26,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",27,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",28,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",29,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",30,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",31,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",32,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",33,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",34,0,0,0,0,"b′+ɑ+h+ə",,,"beatha"
+88,"food",35,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",36,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",37,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",38,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",39,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",40,0,0,0,0,"b′+aː+ᵊ",,,"beatha"
+88,"food",41,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",41,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",42,0,0,0,0,"b′+i+ə",,,"biadh"
+88,"food",43,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",44,0,0,0,0,"b′+iː+ɛ̆",,,"biadh"
+88,"food",44,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",45,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",46,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",46,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",47,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",48,0,0,0,0,"b′+ɛ+h+ə",,,"beatha"
+88,"food",49,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",50,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",51,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",52,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",53,0,0,0,0,"b′+a+iː+ə",,,"biadh"
+88,"food",54,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",55a,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",56,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",57,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",58,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",59,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",60,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",61,0,0,0,0,"b′+a+h+ə",,,"beatha"
+88,"food",62,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",63,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",64,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",65,0,0,0,0,"b′+iː+ö+ɣ",,,"biadh"
+88,"food",66,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",67,0,0,0,0,"b′+i·+ə+g",,,"biadh"
+88,"food",68,0,0,0,0,"b′+iː+u+w",,,"biadh"
+88,"food",69,0,0,0,0,"b′+iː+a",,,"biadh"
+88,"food",70,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",71,0,0,0,0,"b′+iː+a+ʰ",,,"biadh"
+88,"food",72,0,0,0,0,"b′+iː+a",,,"biadh"
+88,"food",73,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",74,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",75,0,0,0,0,"b′+iː+è",,,"biadh"
+88,"food",76,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",77,0,0,0,0,"b′+iː+ɛ̆",,,"biadh"
+88,"food",78,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",79,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",80,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",81,0,0,0,0,"b′+iː+ĕ",,,"biadh"
+88,"food",82,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",83,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",84,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",85,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",86,0,0,0,0,"b′+iː+ə",,,"biadh"
+88,"food",88,0,0,0,0,"b′+iː","(N)",,"biadh"
 /*<L 110>*/
 /*<M 89 scarce>*/
 /*<F gann>*/
@@ -14724,7 +14731,7 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 139,"liver",25,0,0,0,0,"ɪː+v+ə",,,"aobha"
 139,"liver",28,0,0,0,0,"iː+v̱+ə",,,"aobha"
 139,"liver",32,0,0,0,0,"èː+v+ə+x+ɪː",,,"aobhachaí"
-139,"liver",33,0,0,0,0,"a+j+uː+x+ɪ",,"NL: a completely different transcription is given in the response to question 471: [g′r′iːʃḳ′iːn′iː], 'gríscíní' perhaps, though Wagner has a question mark next to it. Ó Dónaill gives this as meaning slices of meat. The transcription on the map, along with those for points 53-59, was difficult to translate into orthography. Art Hughes has this one as ‘aobhachaí’, but that doesn’t match this point’s pronunciation of <aobh>, see map 177a. Of course, incomplete sound changes can result in such disrepancies, but I do wonder if this has a different form etymologically, particularly given how old a pronunciation of <ao> as a diphthong would be (I will note that Wagner doesn’t really segment syllables which can make some of these transcriptions ambiguous RE diphthongs). Dinneen has ‘aedhanna’ for the plural of ‘ae’. I have gone with something in that vein, despite it breaking some modern spelling conventions. I am open to suggestions.","aedhadhchaí"
+139,"liver",33,0,0,0,0,"a+j+uː+x+ɪ",,"NL: a completely different transcription is given in the response to question 471: [g′r′iːʃḳ′iːn′iː], 'gríscíní' perhaps, though Wagner has a question mark next to it. Ó Dónaill gives this as meaning slices of meat. The transcription on the map, along with those for points 53-59, was difficult to translate into orthography. Art Hughes has this one as ‘aobhachaí’, but that doesn’t match this point’s pronunciation of <aobh>, see map 177a. Of course, incomplete sound changes can result in such disrepancies, but I do wonder if this has a different form etymologically, particularly given how old a pronunciation of <ao> as a diphthong would be (I will note that Wagner doesn’t really segment syllables which can make some of these transcriptions ambiguous RE diphthongs). Dinneen has ‘aedhanna’ for the plural of ‘ae’. I have gone with something in that vein, despite it breaking some modern spelling conventions. I am open to suggestions.","aedheadhchaí"
 139,"liver",34,0,0,0,0,"ɪː+v+ə+ɴ+i",,,"aobhanna"
 139,"liver",35,0,0,0,0,"ɪː+w+ɪː",,,"aobhaí"
 139,"liver",36,0,0,0,0,"ɪː+v̱+ə+n+iː",,,"aobhannaí"
@@ -14747,9 +14754,9 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 139,"liver",54,0,0,0,0,"ə+j+ə+w+ɑ+x+ə",,"NL: see note on point 33 regarding spelling","aedheadhacha"
 139,"liver",55a,0,0,0,0,"ɛ+j+u+ʷ",,"NL: see note on point 33 regarding spelling","aedheadh"
 139,"liver",56,0,0,0,0,"ə+j+ųː+n+t+ɪ",,"NL: A transcription for 'liver' in is given in response to question 471: [əjuʷ] singular, and [nə ˈhəjųːntɪ] plural with definite article. Perhaps 'aedhadh' and 'na h-aedhadhanta'? See note at point 33 regarding spelling choice.","aedhadhantaí"
-139,"liver",57,0,0,0,0,"ə+j+u+ʷ",,"NL: see note on point 33 regarding spelling","aedhadh"
-139,"liver",58,0,0,0,0,"ə+j+u",,"NL: see note on point 33 regarding spelling","aedhadh"
-139,"liver",59,0,0,0,0,"ə+j+u",,"NL: see note on point 33 regarding spelling","aedhadh"
+139,"liver",57,0,0,0,0,"ə+j+u+ʷ",,"NL: see note on point 33 regarding spelling","aedheadh"
+139,"liver",58,0,0,0,0,"ə+j+u",,"NL: see note on point 33 regarding spelling","aedheadh"
+139,"liver",59,0,0,0,0,"ə+j+u",,"NL: see note on point 33 regarding spelling","aedheadh"
 139,"liver",64,1,0,0,0,"k+r+u+ə+j+ə",,,"cruaidh-ae"
 139,"liver",65,0,0,0,0,"k+r+u+ə+ɣ+u",,,"cruadh-ae"
 139,"liver",65,0,0,0,0,"k+r+u+ə+w+u",,,"cruadh-ae"
@@ -19863,93 +19870,100 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 /*<L 224>*/
 /*<M 187a threshing VN>*/
 /*<F bualadh>*/
-187a,"threshing VN",1,0,0,0,0,"b+ų+ə+ᴌ+ə",,,
-187a,"threshing VN",2,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",3,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",4,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",5,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",6,1,0,0,0,"b+uː+ə+l+ə",,,
-187a,"threshing VN",7,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",8,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",9,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",10,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",11,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",12,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",13,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",14,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",15,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",16,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",17,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",18,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",19,0,0,0,0,"b+u+ə+l′+ə",,,
-187a,"threshing VN",20,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",21,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",22,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",23,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",24,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",25,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",27,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",28,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",29,0,0,0,0,"b+ųː+ə+l+ə",,,
-187a,"threshing VN",30,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",31,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",32,0,0,0,0,"b+ų+ə+l+u",,,
-187a,"threshing VN",33,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",34,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",35,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",36,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",37,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",38,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",39,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",40,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",41,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",42,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",43,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",44,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",45,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",46,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",47,0,0,0,0,"b+ų+ə+l+ə",,,
-187a,"threshing VN",48,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",49,0,0,0,0,"b+u+ə+l+ŭ",,,
-187a,"threshing VN",50,0,0,0,0,"b+u+ə+l+ŭ",,,
-187a,"threshing VN",51,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",52,0,0,0,0,"b+o+l+ŭ",,,
-187a,"threshing VN",53,0,0,0,0,"b+ų+ə+l+u",,,
-187a,"threshing VN",54,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",55a,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",56,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",57,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",58,0,0,0,0,"b+o̤+ᵊ+l+ŭ",,,
-187a,"threshing VN",59,0,0,0,0,"b+ųː+l+u",,,
-187a,"threshing VN",60,0,0,0,0,"b+ų+ə+l+u",,,
-187a,"threshing VN",61,0,0,0,0,"b+ų+ə+l+u",,,
-187a,"threshing VN",62,0,0,0,0,"b+u+ə+l+ə",,,
-187a,"threshing VN",65,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",66,0,0,0,0,"b+u+ə+l+û",,,
-187a,"threshing VN",67,0,0,0,0,"b+λ+ə+l+ə+g",,,
-187a,"threshing VN",68,0,0,0,0,"b+o̤+l+u·",,,
-187a,"threshing VN",69,0,0,0,0,"b+ŭ+ə+l′+u",,,
-187a,"threshing VN",70,0,0,0,0,"b+ə+l′+u",,,
-187a,"threshing VN",71,0,0,0,0,"b+o+l′+u+ʰ",,,
-187a,"threshing VN",72,0,0,0,0,"b+ŭ+ə+l′+ûː",,,
-187a,"threshing VN",73,0,0,0,0,"b+o+l′+u",,,
-187a,"threshing VN",74,0,0,0,0,"b+ŭ+ə+l′+u",,,
-187a,"threshing VN",75,0,0,0,0,"b+o̤+l′+u",,,
-187a,"threshing VN",76,0,0,0,0,"b+û+ə+l′+u",,,
-187a,"threshing VN",77,0,0,0,0,"b+û+ə+l+ŭ",,,
-187a,"threshing VN",78,0,0,0,0,"b+û·+ə+l+u",,,
-187a,"threshing VN",79,0,0,0,0,"b+ʷ+ɪ+ə+l′+u",,,
-187a,"threshing VN",80,0,0,0,0,"b+u+ə+l′+u",,,
-187a,"threshing VN",80,0,0,0,0,"b+u+ə+l+o+ŭ+ʷ",,,
-187a,"threshing VN",81,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",82,0,0,0,0,"b+u+ə+l′+u",,,
-187a,"threshing VN",83,0,0,0,0,"b+u+ə+l+u",,,
-187a,"threshing VN",83,0,0,0,0,"b+u+ə+l′+u",,,
-187a,"threshing VN",84,0,0,0,0,"b+ü+ə+l′+u",,,
-187a,"threshing VN",85,0,0,0,0,"b+ü+ə+l+u",,,
-187a,"threshing VN",86,0,0,0,0,"b+ʷ+ɪ+ə+l+u",,,
-187a,"threshing VN",88,0,0,0,0,"b+u·+l+a","(N)",,
-187a,"threshing VN",88,0,0,0,0,"b+uː+l+ə","(S)",,
+187a,"threshing VN",1,0,0,0,0,"b+ų+ə+ᴌ+ə",,,"bualadh"
+187a,"threshing VN",2,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",3,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",4,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",5,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",6,1,0,0,0,"b+uː+ə+l+ə",,,"bualadh"
+187a,"threshing VN",7,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",8,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",9,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",10,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",11,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",12,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",13,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",14,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",15,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",16,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",17,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",18,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",19,0,0,0,0,"b+u+ə+l′+ə",,,"bualadh"
+187a,"threshing VN",20,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",21,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",22,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",23,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",24,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",25,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",27,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",28,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",29,0,0,0,0,"b+ųː+ə+l+ə",,,"bualadh"
+187a,"threshing VN",30,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",31,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",32,0,0,0,0,"b+ų+ə+l+u",,,"bualadh"
+187a,"threshing VN",33,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",34,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",35,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",36,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",37,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",38,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",39,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",40,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",41,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",42,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",43,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",44,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",45,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",46,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",47,0,0,0,0,"b+ų+ə+l+ə",,,"bualadh"
+187a,"threshing VN",48,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",49,0,0,0,0,"b+u+ə+l+ŭ",,,"bualadh"
+187a,"threshing VN",50,0,0,0,0,"b+u+ə+l+ŭ",,,"bualadh"
+187a,"threshing VN",51,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",52,0,0,0,0,"b+o+l+ŭ",,,"bualadh"
+187a,"threshing VN",53,0,0,0,0,"b+ų+ə+l+u",,,"bualadh"
+187a,"threshing VN",54,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",55a,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",56,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",57,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",58,0,0,0,0,"b+o̤+ᵊ+l+ŭ",,,"bualadh"
+187a,"threshing VN",59,0,0,0,0,"b+ųː+l+u",,,"bualadh"
+187a,"threshing VN",60,0,0,0,0,"b+ų+ə+l+u",,,"bualadh"
+187a,"threshing VN",61,0,0,0,0,"b+ų+ə+l+u",,,"bualadh"
+187a,"threshing VN",62,0,0,0,0,"b+u+ə+l+ə",,,"bualadh"
+187a,"threshing VN",65,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",66,0,0,0,0,"b+u+ə+l+û",,,"bualadh"
+187a,"threshing VN",67,0,0,0,0,"b+λ+ə+l+ə+g",,,"bualadh"
+187a,"threshing VN",68,0,0,0,0,"b+o̤+l+u·",,,"bualadh"
+187a,"threshing VN",69,0,0,0,0,"b+ŭ+ə+l′+u",,,"bualadh"
+187a,"threshing VN",70,0,0,0,0,"b+ə+l′+u",,,"bualadh"
+187a,"threshing VN",71,0,0,0,0,"b+o+l′+u+ʰ",,,"bualadh"
+187a,"threshing VN",72,0,0,0,0,"b+ŭ+ə+l′+ûː",,,"bualadh"
+187a,"threshing VN",73,0,0,0,0,"b+o+l′+u",,,"bualadh"
+187a,"threshing VN",74,0,0,0,0,"b+ŭ+ə+l′+u",,,"bualadh"
+187a,"threshing VN",75,0,0,0,0,"b+o̤+l′+u",,,"bualadh"
+187a,"threshing VN",76,0,0,0,0,"b+û+ə+l′+u",,,"bualadh"
+187a,"threshing VN",77,0,0,0,0,"b+û+ə+l+ŭ",,,"bualadh"
+187a,"threshing VN",78,0,0,0,0,"b+û·+ə+l+u",,,"bualadh"
+187a,"threshing VN",79,0,0,0,0,"b+ʷ+ɪ+ə+l′+u",,,"bualadh"
+187a,"threshing VN",80,0,0,0,0,"b+u+ə+l′+u",,,"bualadh"
+187a,"threshing VN",80,0,0,0,0,"b+u+ə+l+o+ŭ+ʷ",,,"bualadh"
+187a,"threshing VN",81,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",82,0,0,0,0,"b+u+ə+l′+u",,,"bualadh"
+187a,"threshing VN",83,0,0,0,0,"b+u+ə+l+u",,,"bualadh"
+187a,"threshing VN",83,0,0,0,0,"b+u+ə+l′+u",,,"bualadh"
+187a,"threshing VN",84,0,0,0,0,"b+ü+ə+l′+u",,,"bualadh"
+187a,"threshing VN",85,0,0,0,0,"b+ü+ə+l+u",,,"bualadh"
+187a,"threshing VN",86,0,0,0,0,"b+ʷ+ɪ+ə+l+u",,,"bualadh"
+187a,"threshing VN",88,0,0,0,0,"b+u·+l+a","(N)",,"bualadh"
+187a,"threshing VN",88,0,0,0,0,"b+uː+l+ə","(S)",,"bualadh"
+187a,"threshing VN",a,0,0,0,0,"b+u+.+ə+l+ə+k",,,"bualadh"
+187a,"threshing VN",b,0,0,0,0,"b+u+.+ɑ+ɫ+ə+ᵍ",,,"bualadh"
+187a,"threshing VN",c,0,0,0,0,"b+u+.+ə+l+ə",,,"bualadh"
+187a,"threshing VN",d,0,0,0,0,"ḅ+u+.+ə+l+ŏ+ɣ̮",,,"bualadh"
+187a,"threshing VN",e,0,0,0,0,"b+u+ə+l+.+ə+ḫ",,,"bualadh"
+187a,"threshing VN",f,0,0,0,0,"b+u+ə+ʟ+ə+g̣",,,"bualadh"
+187a,"threshing VN",g,0,0,0,0,"b+u+.+ə+ʟ+ə+g",,,"bualadh"
 /*<L 225>*/
 /*<M 187b handle of a flail>*/
 /*<F colpán, lámhchrann>*/
@@ -21134,12 +21148,12 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 196b,"funeral",86,0,0,0,0,"t+ɔː+r+u+h+ˀ",,,"tórramh"
 196b,"funeral",88,0,0,0,0,"oː+n+l+ə+k+ə","(N)",,"oanluck"
 196b,"funeral",b,0,0,0,0,"t+ɔː+r+ə+ɣ",,,"tórradh"
-196b,"funeral",c,0,0,0,0,"ə+n d′+ɪː+ʟ+ɑ+x+g̣+ə",,,"an díodhlacadh"
+196b,"funeral",c,0,0,0,0,"ə+n d′+ɪː+ʟ+ɑ+x+g̣+ə",,,"an tíodhlacadh"
 196b,"funeral",d,0,0,0,0,"t+ǫː+r+ɑ̆+ɣ̮",,,"tórradh"
-196b,"funeral",d,0,0,0,0,"t′+ᶴ+i+ə+l+.+ə̮+g̣+ə+ɣ̮",,,"tìodhlacadh"
-196b,"funeral",e,0,0,0,0,"t′+i+ə+l+.+ï+g̣+ɪ+ḫ",,,"tìodhlacadh"
-196b,"funeral",f,0,0,0,0,"t′+i+ŭ+ʟ+ï+g̣′+ə+ḳ",,,"tìodhlacadh"
-196b,"funeral",g,0,0,0,0,"ṭ′+i+.+ə+ʟ+ə+g′+ə+g",,,"tìodhlacadh"
+196b,"funeral",d,0,0,0,0,"t′+ᶴ+i+ə+l+.+ə̮+g̣+ə+ɣ̮",,,"tíodhlacadh"
+196b,"funeral",e,0,0,0,0,"t′+i+ə+l+.+ï+g̣+ɪ+ḫ",,,"tíodhlacadh"
+196b,"funeral",f,0,0,0,0,"t′+i+ŭ+ʟ+ï+g̣′+ə+ḳ",,,"tíodhlacadh"
+196b,"funeral",g,0,0,0,0,"ṭ′+i+.+ə+ʟ+ə+g′+ə+g",,,"tíodhlacadh"
 /*<L 239>*/
 /*<M 197 when will you go (home)?>*/
 /*<F cathain a raghaidh tú, cáide go dtéigh tú, cé'n uair a rachaidh tú (abhaile)>*/
@@ -23595,91 +23609,91 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 /*<L 268>*/
 /*<M 222 shelter>*/
 /*<F fuithin, foscadh>*/
-222,"shelter",1,0,0,0,1,"w+u+h+i+n′+t′","eclipsed form (f > v, w)",,
-222,"shelter",2,0,0,0,0,"f+ʷ+ɪ+h+ɪ+n′+t′",,,
-222,"shelter",3,0,0,0,1,"v+u+h+ɪ+ṉ+ṯ","eclipsed form (f > v, w)",,
-222,"shelter",4,0,0,0,0,"f+o+s+g+ə",,,
-222,"shelter",5,0,0,0,0,"f+u+h+i+n′+t′",,,
-222,"shelter",7,0,0,0,1,"v+ü̃+h′+i+n′","eclipsed form (f > v, w)",,
-222,"shelter",8,0,0,0,0,"f+ʷ+ɪ+h+ɪ+n′",,,
-222,"shelter",9,0,0,0,1,"v+u+h+i+n′","eclipsed form (f > v, w)",,
-222,"shelter",10,0,0,0,0,"f+u+h+i+n′",,,
-222,"shelter",11,0,0,0,1,"v+u+h+i+n′","eclipsed form (f > v, w)",,
-222,"shelter",12,0,0,0,0,"f+ï+h+i+n′",,,
-222,"shelter",13,0,0,0,0,"s+ḳ+ɑː",,,
-222,"shelter",14,0,0,0,0,"f+ʷ+ɪ+h+ɪ+n′",,,
-222,"shelter",15,0,0,0,1,"v+u+h+i+n′","eclipsed form (f > v, w)",,
-222,"shelter",16,0,0,0,1,"v+u+h+i+n′","eclipsed form (f > v, w)",,
-222,"shelter",17,0,0,0,1,"v+u+h+i+n′+ĕ","eclipsed form (f > v, w)",,
-222,"shelter",18,0,0,1,0,"ə+h+ɪ+n′","lenited form (f > zero)",,
-222,"shelter",19,0,0,0,0,"f+u+h+i+n′",,,
-222,"shelter",20,0,0,0,1,"v+ʷ+ɪ+h+ə+n′","eclipsed form (f > v, w)",,
-222,"shelter",21,0,0,0,1,"v+o̤+h+i+n′","eclipsed form (f > v, w)",,
-222,"shelter",22,0,0,0,0,"f+ų+s+ḳ+ə",,,
-222,"shelter",23,0,0,0,0,"f+o+s+ḳ+ə",,,
-222,"shelter",24,0,0,0,0,"f+o+s+ḳ+ə",,,
-222,"shelter",25,0,0,0,0,"f+o+s+ḳ+ə",,,
-222,"shelter",26,0,0,0,0,"f+o+s+ḳ+ə",,,
-222,"shelter",27,0,0,0,0,"f+o+s+k′+ə",,,
-222,"shelter",28,0,0,0,0,"f+o+s+ḳ+ə",,,
-222,"shelter",29,0,0,0,0,"f+o+s+ḳ+ə",,,
-222,"shelter",30,0,0,0,0,"f+ɑ+s+ḳ+ə",,,
-222,"shelter",31,0,0,0,0,"f+ɑ+s+ḳ+ų",,,
-222,"shelter",32,0,0,0,0,"f+ɑ̨+s+ḳ+u",,,
-222,"shelter",33,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",34,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",35,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",36,0,0,0,0,"f+ɑ+s+ḳ+ə",,,
-222,"shelter",37,0,0,0,1,"v̱+ɑ+s+ḳ+ə","eclipsed form (f > v, w)",,
-222,"shelter",38,0,0,1,0,"ɑ+s+ḳ+ə","lenited form (f > zero)",,
-222,"shelter",39,0,0,0,0,"f+ɑ+s+ḳ+ə",,,
-222,"shelter",40,0,0,0,0,"f+ɑ̣+s+ḳ+ə",,,
-222,"shelter",41,0,0,0,0,"f+ɑ+s+ḳ+ə",,,
-222,"shelter",42,0,0,0,0,"f+ɑ+s+g+ə",,,
-222,"shelter",43,0,0,0,0,"f+ɑ+s+ḳ+ə",,,
-222,"shelter",44,0,0,0,0,"f+ɑ+s+ḳ+ə",,,
-222,"shelter",45,0,0,0,0,"f+ɑ+s+ḳ+ə",,,
-222,"shelter",46,0,0,0,0,"f+ɑ+s+ḳ+ə",,,
-222,"shelter",47,0,0,0,0,"f+ɑ+s+ḳ+ə",,,
-222,"shelter",48,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",49,0,0,0,0,"f+ɑ̣+s+ḳ+ŭ",,,
-222,"shelter",50,0,0,0,0,"f+ɑ+s+ḳ+ŭ",,,
-222,"shelter",51,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",52,0,0,0,0,"f+ɑ+s+ḳ+ŭ",,,
-222,"shelter",53,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",54,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",55a,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",56,0,0,0,0,"f+ɑ+s+ḳ+ŭ",,,
-222,"shelter",57,0,0,0,0,"f+ɑ·+s+ḳ+u",,,
-222,"shelter",58,0,0,0,0,"f+ɑ+s+ḳ+ŭ",,,
-222,"shelter",59,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",60,0,0,0,0,"f+ɑ̨+s+g+ŭ",,,
-222,"shelter",61,0,0,0,0,"f+ɑ+s+g+u",,,
-222,"shelter",62,0,0,0,0,"f+ɑ+s+g+u",,,
-222,"shelter",64,1,0,0,0,"f+ɑ+s+g+u",,,
-222,"shelter",65,0,0,0,0,"f+ɑ+s+g+u",,,
-222,"shelter",66,0,0,0,0,"f+ɑ+s+k+û",,,
-222,"shelter",67,0,0,0,0,"f+ɑ+s+ḳ+ə+g",,,
-222,"shelter",68,0,0,0,0,"f+ɛ̀+s+g+û",,,
-222,"shelter",69,0,0,0,0,"f+ɑ̣+s+g+u",,,
-222,"shelter",70,0,0,1,0,"a+s+ḳ+û","lenited form (f > zero)",,
-222,"shelter",71,0,0,1,0,"a+s+ḳ+u","lenited form (f > zero)",,
-222,"shelter",72,0,0,0,0,"f+ɑ+s+ḳ+û",,,
-222,"shelter",73,0,0,1,0,"a+s+ḳ+u","lenited form (f > zero)",,
-222,"shelter",74,0,0,1,0,"a+s+ḳ+ŭ","lenited form (f > zero)",,
-222,"shelter",75,0,0,0,0,"f+ɑ̣+s+ḳ+u",,,
-222,"shelter",76,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",77,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",78,0,0,0,0,"f+ɑ̨+s+ḳ+u",,,
-222,"shelter",79,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",80,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",81,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",82,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",83,0,0,0,0,"f+ɑ̣+s+ḳ+u",,,
-222,"shelter",84,0,0,0,0,"f+o+s+ḳ+ɪː",,,
-222,"shelter",85,0,0,0,0,"f+ɔ+s+ḳ+u",,,
-222,"shelter",86,0,0,0,0,"f+ɑ+s+ḳ+u",,,
-222,"shelter",88,0,0,0,0,"f+aː+s+t+i","(N)",,
+222,"shelter",1,0,0,0,1,"w+u+h+i+n′+t′","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",2,0,0,0,0,"f+ʷ+ɪ+h+ɪ+n′+t′",,,"fuithin"
+222,"shelter",3,0,0,0,1,"v+u+h+ɪ+ṉ+ṯ","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",4,0,0,0,0,"f+o+s+g+ə",,,"foscadh"
+222,"shelter",5,0,0,0,0,"f+u+h+i+n′+t′",,,"fuithin"
+222,"shelter",7,0,0,0,1,"v+ü̃+h′+i+n′","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",8,0,0,0,0,"f+ʷ+ɪ+h+ɪ+n′",,,"fuithin"
+222,"shelter",9,0,0,0,1,"v+u+h+i+n′","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",10,0,0,0,0,"f+u+h+i+n′",,,"fuithin"
+222,"shelter",11,0,0,0,1,"v+u+h+i+n′","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",12,0,0,0,0,"f+ï+h+i+n′",,,"fuithin"
+222,"shelter",13,0,0,0,0,"s+ḳ+ɑː",,,"scáth"
+222,"shelter",14,0,0,0,0,"f+ʷ+ɪ+h+ɪ+n′",,,"fuithin"
+222,"shelter",15,0,0,0,1,"v+u+h+i+n′","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",16,0,0,0,1,"v+u+h+i+n′","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",17,0,0,0,1,"v+u+h+i+n′+ĕ","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",18,0,0,1,0,"ə+h+ɪ+n′","lenited form (f > zero)",,"fhuithin"
+222,"shelter",19,0,0,0,0,"f+u+h+i+n′",,,"fuithin"
+222,"shelter",20,0,0,0,1,"v+ʷ+ɪ+h+ə+n′","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",21,0,0,0,1,"v+o̤+h+i+n′","eclipsed form (f > v, w)",,"bhfuithin"
+222,"shelter",22,0,0,0,0,"f+ų+s+ḳ+ə",,,"foscadh"
+222,"shelter",23,0,0,0,0,"f+o+s+ḳ+ə",,,"foscadh"
+222,"shelter",24,0,0,0,0,"f+o+s+ḳ+ə",,,"foscadh"
+222,"shelter",25,0,0,0,0,"f+o+s+ḳ+ə",,,"foscadh"
+222,"shelter",26,0,0,0,0,"f+o+s+ḳ+ə",,,"foscadh"
+222,"shelter",27,0,0,0,0,"f+o+s+k′+ə",,,"foscadh"
+222,"shelter",28,0,0,0,0,"f+o+s+ḳ+ə",,,"foscadh"
+222,"shelter",29,0,0,0,0,"f+o+s+ḳ+ə",,,"foscadh"
+222,"shelter",30,0,0,0,0,"f+ɑ+s+ḳ+ə",,,"foscadh"
+222,"shelter",31,0,0,0,0,"f+ɑ+s+ḳ+ų",,,"foscadh"
+222,"shelter",32,0,0,0,0,"f+ɑ̨+s+ḳ+u",,,"foscadh"
+222,"shelter",33,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",34,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",35,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",36,0,0,0,0,"f+ɑ+s+ḳ+ə",,,"foscadh"
+222,"shelter",37,0,0,0,1,"v̱+ɑ+s+ḳ+ə","eclipsed form (f > v, w)",,"bhfoscadh"
+222,"shelter",38,0,0,1,0,"ɑ+s+ḳ+ə","lenited form (f > zero)",,"fhoscadh"
+222,"shelter",39,0,0,0,0,"f+ɑ+s+ḳ+ə",,,"foscadh"
+222,"shelter",40,0,0,0,0,"f+ɑ̣+s+ḳ+ə",,,"foscadh"
+222,"shelter",41,0,0,0,0,"f+ɑ+s+ḳ+ə",,,"foscadh"
+222,"shelter",42,0,0,0,0,"f+ɑ+s+g+ə",,,"foscadh"
+222,"shelter",43,0,0,0,0,"f+ɑ+s+ḳ+ə",,,"foscadh"
+222,"shelter",44,0,0,0,0,"f+ɑ+s+ḳ+ə",,,"foscadh"
+222,"shelter",45,0,0,0,0,"f+ɑ+s+ḳ+ə",,,"foscadh"
+222,"shelter",46,0,0,0,0,"f+ɑ+s+ḳ+ə",,,"foscadh"
+222,"shelter",47,0,0,0,0,"f+ɑ+s+ḳ+ə",,,"foscadh"
+222,"shelter",48,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",49,0,0,0,0,"f+ɑ̣+s+ḳ+ŭ",,,"foscadh"
+222,"shelter",50,0,0,0,0,"f+ɑ+s+ḳ+ŭ",,,"foscadh"
+222,"shelter",51,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",52,0,0,0,0,"f+ɑ+s+ḳ+ŭ",,,"foscadh"
+222,"shelter",53,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",54,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",55a,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",56,0,0,0,0,"f+ɑ+s+ḳ+ŭ",,,"foscadh"
+222,"shelter",57,0,0,0,0,"f+ɑ·+s+ḳ+u",,,"foscadh"
+222,"shelter",58,0,0,0,0,"f+ɑ+s+ḳ+ŭ",,,"foscadh"
+222,"shelter",59,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",60,0,0,0,0,"f+ɑ̨+s+g+ŭ",,,"foscadh"
+222,"shelter",61,0,0,0,0,"f+ɑ+s+g+u",,,"foscadh"
+222,"shelter",62,0,0,0,0,"f+ɑ+s+g+u",,,"foscadh"
+222,"shelter",64,1,0,0,0,"f+ɑ+s+g+u",,,"foscadh"
+222,"shelter",65,0,0,0,0,"f+ɑ+s+g+u",,,"foscadh"
+222,"shelter",66,0,0,0,0,"f+ɑ+s+k+û",,,"foscadh"
+222,"shelter",67,0,0,0,0,"f+ɑ+s+ḳ+ə+g",,,"foscadh"
+222,"shelter",68,0,0,0,0,"f+ɛ̀+s+g+û",,,"foscadh"
+222,"shelter",69,0,0,0,0,"f+ɑ̣+s+g+u",,,"foscadh"
+222,"shelter",70,0,0,1,0,"a+s+ḳ+û","lenited form (f > zero)",,"fhoscadh"
+222,"shelter",71,0,0,1,0,"a+s+ḳ+u","lenited form (f > zero)",,"fhoscadh"
+222,"shelter",72,0,0,0,0,"f+ɑ+s+ḳ+û",,,"foscadh"
+222,"shelter",73,0,0,1,0,"a+s+ḳ+u","lenited form (f > zero)",,"fhoscadh"
+222,"shelter",74,0,0,1,0,"a+s+ḳ+ŭ","lenited form (f > zero)",,"fhoscadh"
+222,"shelter",75,0,0,0,0,"f+ɑ̣+s+ḳ+u",,,"foscadh"
+222,"shelter",76,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",77,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",78,0,0,0,0,"f+ɑ̨+s+ḳ+u",,,"foscadh"
+222,"shelter",79,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",80,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",81,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",82,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",83,0,0,0,0,"f+ɑ̣+s+ḳ+u",,,"foscadh"
+222,"shelter",84,0,0,0,0,"f+o+s+ḳ+ɪː",,,"foscadh"
+222,"shelter",85,0,0,0,0,"f+ɔ+s+ḳ+u",,,"foscadh"
+222,"shelter",86,0,0,0,0,"f+ɑ+s+ḳ+u",,,"foscadh"
+222,"shelter",88,0,0,0,0,"f+aː+s+t+i","(N)",,"foscadh"
 /*<L 269>*/
 /*<M 223a shower>*/
 /*<F cioth, múr>*/
@@ -24509,76 +24523,76 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 /*<L 278>*/
 /*<M 230 (the sun is) shining>*/
 /*<F (tá an ghrian ag) taitneamh, scaladh, spalpadh, scartadh, soillsiú>*/
-230,"(the sun is) shining",1,0,0,0,0,"t+a+ŋ′+ə+v",,,
+230,"(the sun is) shining",1,0,0,0,0,"t+a+ŋ′+ə+v",,,"taitneamh"
 230,"(the sun is) shining",2,0,0,0,0,"ʃ+ö+ˈ+n+ɑː+l′",,,
-230,"(the sun is) shining",3,0,0,0,0,"t+a+ŋ′+h+ŭ+v",,,
-230,"(the sun is) shining",4,0,0,0,0,"ʃ+ɑ+i+n+ɑː+l",,,
+230,"(the sun is) shining",3,0,0,0,0,"t+a+ŋ′+h+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",4,0,0,0,0,"ʃ+ɑ+i+n+ɑː+l",,,"seaighneáil"
 230,"(the sun is) shining",7,0,0,0,0,"ʃ+e+ŋ′+ï+v′",,,
 230,"(the sun is) shining",7,0,0,0,0,"ʃ+e+ŋ′+ŭ+v",,,
-230,"(the sun is) shining",8,0,0,0,0,"ʃ+e+i+ˈ+n′+ɑ̣ː+l′",,,
-230,"(the sun is) shining",9,0,0,0,0,"t+a+ŋ′+ŭ+v",,,
-230,"(the sun is) shining",10,0,0,0,0,"t+a+n′+h+ŭ+v",,,
-230,"(the sun is) shining",11,0,0,0,0,"t+a+n′+ŭ+v",,,
-230,"(the sun is) shining",12,0,0,0,0,"t+a+n′+h+ŭ+v",,,
-230,"(the sun is) shining",13,0,0,0,0,"t+a+n′+h+ŭ+v",,,
-230,"(the sun is) shining",14,0,0,0,0,"t+a+n′+ŭ+v",,,
-230,"(the sun is) shining",15,0,0,0,0,"t+a+ŋ′+ŭ+v",,,
-230,"(the sun is) shining",16,0,0,0,0,"t+a+ŋ′+h+ŭ+v",,,
-230,"(the sun is) shining",17,0,0,0,0,"t+a+ŋ′+h+ə+v",,,
-230,"(the sun is) shining",18,0,0,0,0,"t+a+n′+ə+v",,,
-230,"(the sun is) shining",19,0,0,0,0,"t+a+n′+h+ŭ+v",,,
-230,"(the sun is) shining",20,0,0,0,0,"t+a+h+n′+ə+v",,,
-230,"(the sun is) shining",21,0,0,0,0,"t+a+n′+h+ŭ+v",,,
-230,"(the sun is) shining",22,0,0,0,0,"s+p̣+ɑ+l+p+ə",,,
-230,"(the sun is) shining",23,0,0,0,0,"s+p̣′+a+l+ʰ+p+ə",,,
-230,"(the sun is) shining",24,0,0,0,0,"s+p̣+ɑ+l+p+ə",,,
-230,"(the sun is) shining",25,0,0,0,0,"s+ḳ+ɑ+l+ə+f",,,
-230,"(the sun is) shining",32,0,0,0,0,"l+ɑ+s+u",,,
-230,"(the sun is) shining",33,0,0,0,0,"ʃ+e+i+n′+ɑ̣ː+l′",,,
-230,"(the sun is) shining",35,0,0,0,0,"s+ḳ+ɑ+l+u+ʷ",,,
-230,"(the sun is) shining",36,0,0,0,0,"s+a+i+n′+ɑː+l′",,,
-230,"(the sun is) shining",37,0,0,0,0,"ʃ+ḳ′+a+r+t+ə",,,
-230,"(the sun is) shining",38,0,0,0,0,"s+ḳ+ɑ+r+t+ə",,,
-230,"(the sun is) shining",39,0,0,0,0,"s+ḳ+a+r+t+ə",,,
-230,"(the sun is) shining",40,0,0,0,0,"s+ḳ+a+r+t′+ĕ",,,
-230,"(the sun is) shining",42,0,0,0,0,"s+g+a+r+t′+ə",,,
-230,"(the sun is) shining",43,0,0,0,0,"s+ḳ+ɑ+l+ə",,,
-230,"(the sun is) shining",44,0,0,0,0,"s+ḳ+ɑː+l+ə",,,
-230,"(the sun is) shining",45,0,0,0,0,"s+ḳ+ɑ+r+ṯ+ə",,,
-230,"(the sun is) shining",46,0,0,0,0,"s+ḳ+ɑ̣ː+l+ə",,,
-230,"(the sun is) shining",47,0,0,0,0,"s+ḳ+ɑ·+l+ə",,,
-230,"(the sun is) shining",48,0,0,0,0,"s+ḳ+ɑ+r+t+u",,,
-230,"(the sun is) shining",49,0,0,0,0,"s+ḳ+ɑ+l+ŭ",,,
-230,"(the sun is) shining",50,0,0,0,0,"s+ḳ+ɑ+l+u+ʷ",,,
-230,"(the sun is) shining",51,0,0,0,0,"s+ḳ+ɑ+l+ŭ",,,
-230,"(the sun is) shining",53,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,
+230,"(the sun is) shining",8,0,0,0,0,"ʃ+e+i+ˈ+n′+ɑ̣ː+l′",,,"seighneáil"
+230,"(the sun is) shining",9,0,0,0,0,"t+a+ŋ′+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",10,0,0,0,0,"t+a+n′+h+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",11,0,0,0,0,"t+a+n′+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",12,0,0,0,0,"t+a+n′+h+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",13,0,0,0,0,"t+a+n′+h+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",14,0,0,0,0,"t+a+n′+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",15,0,0,0,0,"t+a+ŋ′+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",16,0,0,0,0,"t+a+ŋ′+h+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",17,0,0,0,0,"t+a+ŋ′+h+ə+v",,,"taitneamh"
+230,"(the sun is) shining",18,0,0,0,0,"t+a+n′+ə+v",,,"taitneamh"
+230,"(the sun is) shining",19,0,0,0,0,"t+a+n′+h+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",20,0,0,0,0,"t+a+h+n′+ə+v",,,"taitneamh"
+230,"(the sun is) shining",21,0,0,0,0,"t+a+n′+h+ŭ+v",,,"taitneamh"
+230,"(the sun is) shining",22,0,0,0,0,"s+p̣+ɑ+l+p+ə",,,"spalpadh"
+230,"(the sun is) shining",23,0,0,0,0,"s+p̣′+a+l+ʰ+p+ə",,,"spalpadh"
+230,"(the sun is) shining",24,0,0,0,0,"s+p̣+ɑ+l+p+ə",,,"spalpadh"
+230,"(the sun is) shining",25,0,0,0,0,"s+ḳ+ɑ+l+ə+f",,,"scaladh"
+230,"(the sun is) shining",32,0,0,0,0,"l+ɑ+s+u",,,"lasadh"
+230,"(the sun is) shining",33,0,0,0,0,"ʃ+e+i+n′+ɑ̣ː+l′",,,"seighneáil"
+230,"(the sun is) shining",35,0,0,0,0,"s+ḳ+ɑ+l+u+ʷ",,,"scaladh"
+230,"(the sun is) shining",36,0,0,0,0,"s+a+i+n′+ɑː+l′",,,"saighneáil"
+230,"(the sun is) shining",37,0,0,0,0,"ʃ+ḳ′+a+r+t+ə",,,"sceartadh"
+230,"(the sun is) shining",38,0,0,0,0,"s+ḳ+ɑ+r+t+ə",,,"scartadh"
+230,"(the sun is) shining",39,0,0,0,0,"s+ḳ+a+r+t+ə",,,"scartadh"
+230,"(the sun is) shining",40,0,0,0,0,"s+ḳ+a+r+t′+ĕ",,,"scairteadh"
+230,"(the sun is) shining",42,0,0,0,0,"s+g+a+r+t′+ə",,,"scairteadh"
+230,"(the sun is) shining",43,0,0,0,0,"s+ḳ+ɑ+l+ə",,,"scaladh"
+230,"(the sun is) shining",44,0,0,0,0,"s+ḳ+ɑː+l+ə",,,"scaladh"
+230,"(the sun is) shining",45,0,0,0,0,"s+ḳ+ɑ+r+ṯ+ə",,,"scairteadh"
+230,"(the sun is) shining",46,0,0,0,0,"s+ḳ+ɑ̣ː+l+ə",,,"scaladh"
+230,"(the sun is) shining",47,0,0,0,0,"s+ḳ+ɑ·+l+ə",,,"scaladh"
+230,"(the sun is) shining",48,0,0,0,0,"s+ḳ+ɑ+r+t+u",,,"scartadh"
+230,"(the sun is) shining",49,0,0,0,0,"s+ḳ+ɑ+l+ŭ",,,"scaladh"
+230,"(the sun is) shining",50,0,0,0,0,"s+ḳ+ɑ+l+u+ʷ",,,"scaladh"
+230,"(the sun is) shining",51,0,0,0,0,"s+ḳ+ɑ+l+ŭ",,,"scaladh"
+230,"(the sun is) shining",53,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,"soillsiú"
 230,"(the sun is) shining",54,0,0,0,0,"ʃ+ï+ʟː+ʀ+i",,,
-230,"(the sun is) shining",55a,0,0,0,0,"s+ḳ+ɑ̣·+l+ŭ",,,
+230,"(the sun is) shining",55a,0,0,0,0,"s+ḳ+ɑ̣·+l+ŭ",,,"scaladh"
 230,"(the sun is) shining",56,0,0,0,0,"t′+ᶴ+ï+s+p̣+ɑː+n′+t′+ʃ",,,
-230,"(the sun is) shining",57,0,0,0,0,"d′+ᶾ+a+ʟ+ʀ+ŭ",,,
-230,"(the sun is) shining",62,0,0,0,0,"s+ö+ʟ′+ʃ+ə",,,
-230,"(the sun is) shining",66,0,0,0,0,"s+e+ʟ′+ʃ+u",,,
-230,"(the sun is) shining",67,0,0,0,0,"t+ɑ+ʃ̌+ə+n+ə+g",,,
-230,"(the sun is) shining",69,0,0,0,0,"s+ö·+l′+ʃ+u",,,
-230,"(the sun is) shining",70,0,0,0,0,"s+ö+ʟ′+ʃ+û",,,
-230,"(the sun is) shining",71,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,
-230,"(the sun is) shining",72,0,0,0,0,"s+ö·+ʟ′+ʃ+u",,,
-230,"(the sun is) shining",73,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,
-230,"(the sun is) shining",74,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,
-230,"(the sun is) shining",75,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,
-230,"(the sun is) shining",76,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,
-230,"(the sun is) shining",77,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,
-230,"(the sun is) shining",78,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,
-230,"(the sun is) shining",78,0,0,0,0,"d′+a+ʟ+ʀ+u",,,
-230,"(the sun is) shining",79,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,
-230,"(the sun is) shining",80,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,
-230,"(the sun is) shining",81,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,
-230,"(the sun is) shining",82,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,
-230,"(the sun is) shining",83,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,
-230,"(the sun is) shining",84,0,0,0,0,"ʃ+e+i+n′+ɑ+l′",,,
-230,"(the sun is) shining",85,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,
-230,"(the sun is) shining",86,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,
-230,"(the sun is) shining",88,0,0,0,0,"s+ö+ˈ+l′+ʒ+iː+ə+n","(N)",,
+230,"(the sun is) shining",57,0,0,0,0,"d′+ᶾ+a+ʟ+ʀ+ŭ",,,"dealramh"
+230,"(the sun is) shining",62,0,0,0,0,"s+ö+ʟ′+ʃ+ə",,,"soillsiú"
+230,"(the sun is) shining",66,0,0,0,0,"s+e+ʟ′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",67,0,0,0,0,"t+ɑ+ʃ̌+ə+n+ə+g",,,"taispeanadh"
+230,"(the sun is) shining",69,0,0,0,0,"s+ö·+l′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",70,0,0,0,0,"s+ö+ʟ′+ʃ+û",,,"soillsiú"
+230,"(the sun is) shining",71,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",72,0,0,0,0,"s+ö·+ʟ′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",73,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",74,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",75,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",76,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",77,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",78,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",78,0,0,0,0,"d′+a+ʟ+ʀ+u",,,"dealramh"
+230,"(the sun is) shining",79,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",80,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",81,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",82,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",83,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",84,0,0,0,0,"ʃ+e+i+n′+ɑ+l′",,,"seighneáil"
+230,"(the sun is) shining",85,0,0,0,0,"s+ö+ʟ′ː+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",86,0,0,0,0,"s+ö+ʟ′+ʃ+u",,,"soillsiú"
+230,"(the sun is) shining",88,0,0,0,0,"s+ö+ˈ+l′+ʒ+iː+ə+n","(N)",,"soilshean"
 /*<L 279>*/
 /*<M 231a (of) the summer gen. sg.>*/
 /*<F (an) tsamhraidh>*/
@@ -24673,95 +24687,102 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 /*<L 280>*/
 /*<M 231b winter>*/
 /*<F geimhreadh>*/
-231b,"winter",1,0,0,0,0,"g′+ɛ+i+ṟ+ə",,,
-231b,"winter",2,0,0,0,0,"g̱+a+i+r+ə",,,
-231b,"winter",3,0,0,0,0,"g′+ɛ̀+i+r′+ĕ",,,
-231b,"winter",4,0,0,0,0,"g′+a+ĩ+r+ə",,,
-231b,"winter",5,0,0,0,0,"g̱+a+i+r+ə",,,
-231b,"winter",7,0,0,0,0,"g′+iː+r′+ĕ",,,
-231b,"winter",8,0,0,0,0,"g′+iː+r′+ĕ",,,
-231b,"winter",9,0,0,0,0,"g′+iː+r′+ə",,,
-231b,"winter",10,0,0,0,0,"g′+iː+r′+ĕ",,,
-231b,"winter",11,0,0,0,0,"g′+iː+r′+ĕ",,,
-231b,"winter",12,0,0,1,0,"j+iː+r′+ĕ","lenited form",,
-231b,"winter",13,0,0,0,0,"g′+iː+r′+ə",,,
-231b,"winter",14,0,0,0,0,"g′+iː+r′+ĕ",,,
-231b,"winter",15,0,0,0,0,"g′+iː+r′+ĕ",,,
-231b,"winter",16,0,0,1,0,"j+iː+r′+ə","lenited form",,
-231b,"winter",17,0,0,1,0,"j+iː+ṟ+ə","lenited form",,
-231b,"winter",18,0,0,0,0,"g′+iː+r′+ə",,,
-231b,"winter",19,0,0,0,0,"g′+iː+r′+ĕ",,,
-231b,"winter",20,0,0,0,0,"g′+iː+r′+ə",,,
-231b,"winter",21,0,0,0,0,"g′+iː+r′+ĕ",,,
-231b,"winter",22,0,0,0,0,"g′+iː+r′+ə",,,
-231b,"winter",23,0,0,0,0,"g′+ĩː+r′+ə",,,
-231b,"winter",24,0,0,0,0,"g′+ĩː+r′+ə",,,
-231b,"winter",25,0,0,0,0,"g′+iː+v′+r′+ə",,,
-231b,"winter",26,0,0,0,0,"g′+iː+v′+r′+ĕ",,,
-231b,"winter",27,0,0,0,0,"g′+iː+v′+r′+ə",,,
-231b,"winter",28,0,0,0,0,"g′+iː+v′+ṟ+ə",,,
-231b,"winter",29,0,0,0,0,"g′+i+v′+r′+ə",,,
-231b,"winter",29,0,0,0,0,"g′+iː+v′+ṟ+ə",,,
-231b,"winter",30,0,0,0,0,"g′+i+v′+r′+ə",,,
-231b,"winter",31,0,0,0,0,"g′+ɪ+v′+r′+u",,,
-231b,"winter",32,0,0,0,0,"g′+ö+v′+r′+u",,,
-231b,"winter",32,0,0,0,0,"g′+ö+v′+r′+ĕ",,,
-231b,"winter",33,0,0,0,0,"g′+ɪ+v′+r′+u",,,
-231b,"winter",34,0,0,0,0,"g′+e+v′+r+ŭ",,,
-231b,"winter",35,0,0,0,0,"g′+ɪ+v′+r′+ə",,,
-231b,"winter",36,0,0,0,0,"g′+ɪ+v′+r′+ə",,,
-231b,"winter",37,0,0,0,0,"g′+ɪ+v′+r′+ĕ",,,
-231b,"winter",38,0,0,0,0,"g′+ɪ+v′+r′+ə",,,
-231b,"winter",39,0,0,0,0,"g′+iː+v′+r′+ə",,,
-231b,"winter",40,0,0,0,0,"g′+iː+v′+r′+ĕ",,,
-231b,"winter",41,0,0,0,0,"g′+iː+v′+r′+ə",,,
-231b,"winter",42,0,0,0,0,"g′+i+v′+r′+ə","‘v’ is nasalized",,
-231b,"winter",43,0,0,0,0,"g′+ĩː+v′+r′+ə",,,
-231b,"winter",44,0,0,0,0,"g′+ĩː+v′+r′+ĕ",,,
-231b,"winter",45,0,0,0,0,"g′+ï+v′+r′+ĕ",,,
-231b,"winter",46,0,0,0,0,"g′+ĩː+v′+r′+ĕ",,,
-231b,"winter",47,0,0,0,0,"g′+ɪ̃+v′+r′+ə",,,
-231b,"winter",48,0,0,0,0,"g′+ü̃+v′+r′+ĕ",,,
-231b,"winter",49,0,0,0,0,"g′+ɪ̃+v′+ṟ+u",,,
-231b,"winter",50,0,0,0,0,"g′+ɪ+v′+r′+u",,,
-231b,"winter",51,0,0,0,0,"g′+e+v′+r′+u",,,
-231b,"winter",52,0,0,0,0,"g′+ɪ+v′+r′+ŭ",,,
-231b,"winter",53,0,0,0,0,"g′+ï+v′+r′+u",,,
-231b,"winter",54,0,0,0,0,"g′+ẽ+v″+r″+u",,,
-231b,"winter",55a,0,0,0,0,"g′+e+v′+r″+u",,,
-231b,"winter",56,0,0,0,0,"g″+ẽ+v′+r″+ŭ",,,
-231b,"winter",57,0,0,0,0,"g′+e+v′+ř′+u",,,
-231b,"winter",58,0,0,0,0,"g′+ɪ+v′+r′+u",,,
-231b,"winter",59,0,0,0,0,"g′+e+v′+ṟ+u",,,
-231b,"winter",60,0,0,0,0,"g′+e+v′+r+ųː",,,
-231b,"winter",61,0,0,0,0,"g′+ï+v′+j+ų",,,
-231b,"winter",62,0,0,0,0,"g′+ɪ+v″+r″+u",,,
-231b,"winter",63,0,0,0,0,"g′+e+v′+r+u",,,
-231b,"winter",64,0,0,0,0,"g′+i+v′+r+u",,,
-231b,"winter",65,0,0,0,0,"g′+e+v′+r+u",,,
-231b,"winter",66,0,0,1,0,"j+ẽ+v′+r+û","lenited form",,
-231b,"winter",67,0,0,0,0,"g′+ɛ̃+v+r+ə+g",,,
-231b,"winter",68,0,1,1,0,"j+ö+v+r+ɪ","gen. sg.; lenited form",,
-231b,"winter",69,0,0,0,0,"g′+ö+v′+r+u",,,
-231b,"winter",70,0,0,0,0,"g′+e+v′+r′+u",,,
-231b,"winter",71,0,0,0,0,"g′+e+v′+ṟ+û",,,
-231b,"winter",72,0,0,0,0,"g′+e+v′+r+u",,,
-231b,"winter",73,0,0,0,0,"g′+e+v′+r+u",,,
-231b,"winter",74,0,0,0,0,"g′+ö̃+v′+r′+u",,,
-231b,"winter",75,0,0,0,0,"g′+ø+v′+ᵊ+ṟ+u","‘ø’ is nasalized",,
-231b,"winter",76,0,0,0,0,"g′+ẽ+v′+r+ŭ",,,
-231b,"winter",77,0,0,0,0,"g′+ẽ+v′+r′+u",,,
-231b,"winter",78,0,0,0,0,"g′+ɪ̃+v′+ṟ+u",,,
-231b,"winter",79,0,0,0,0,"g′+e+v′+r′+u",,,
-231b,"winter",80,0,0,0,0,"g′+ẹ+v′+r′+u",,,
-231b,"winter",81,0,0,0,0,"g′+ẹ+v″+r″+u",,,
-231b,"winter",82,0,0,0,0,"g′+e+v′+r+u",,,
-231b,"winter",83,0,0,0,0,"g′+ö̃+v′+r′+u",,,
-231b,"winter",84,0,0,0,0,"g′+e+v′+r+ö",,,
-231b,"winter",85,0,0,0,0,"g′+ɪ+v′+r″+u",,,
-231b,"winter",86,0,0,0,0,"g′+ɪ+v″+r″+u",,,
-231b,"winter",87,0,0,0,0,"g′+ɪ+v′+r+ų",,,
-231b,"winter",88,0,0,0,0,"g′+ʲ+e+u+r+ə","(N)",,
+231b,"winter",1,0,0,0,0,"g′+ɛ+i+ṟ+ə",,,"geimhreadh"
+231b,"winter",2,0,0,0,0,"g̱+a+i+r+ə",,,"geimhreadh"
+231b,"winter",3,0,0,0,0,"g′+ɛ̀+i+r′+ĕ",,,"geimhreadh"
+231b,"winter",4,0,0,0,0,"g′+a+ĩ+r+ə",,,"geimhreadh"
+231b,"winter",5,0,0,0,0,"g̱+a+i+r+ə",,,"geimhreadh"
+231b,"winter",7,0,0,0,0,"g′+iː+r′+ĕ",,,"geimhreadh"
+231b,"winter",8,0,0,0,0,"g′+iː+r′+ĕ",,,"geimhreadh"
+231b,"winter",9,0,0,0,0,"g′+iː+r′+ə",,,"geimhreadh"
+231b,"winter",10,0,0,0,0,"g′+iː+r′+ĕ",,,"geimhreadh"
+231b,"winter",11,0,0,0,0,"g′+iː+r′+ĕ",,,"geimhreadh"
+231b,"winter",12,0,0,1,0,"j+iː+r′+ĕ","lenited form",,"gheimhreadh"
+231b,"winter",13,0,0,0,0,"g′+iː+r′+ə",,,"geimhreadh"
+231b,"winter",14,0,0,0,0,"g′+iː+r′+ĕ",,,"geimhreadh"
+231b,"winter",15,0,0,0,0,"g′+iː+r′+ĕ",,,"geimhreadh"
+231b,"winter",16,0,0,1,0,"j+iː+r′+ə","lenited form",,"gheimhreadh"
+231b,"winter",17,0,0,1,0,"j+iː+ṟ+ə","lenited form",,"gheimhreadh"
+231b,"winter",18,0,0,0,0,"g′+iː+r′+ə",,,"geimhreadh"
+231b,"winter",19,0,0,0,0,"g′+iː+r′+ĕ",,,"geimhreadh"
+231b,"winter",20,0,0,0,0,"g′+iː+r′+ə",,,"geimhreadh"
+231b,"winter",21,0,0,0,0,"g′+iː+r′+ĕ",,,"geimhreadh"
+231b,"winter",22,0,0,0,0,"g′+iː+r′+ə",,,"geimhreadh"
+231b,"winter",23,0,0,0,0,"g′+ĩː+r′+ə",,,"geimhreadh"
+231b,"winter",24,0,0,0,0,"g′+ĩː+r′+ə",,,"geimhreadh"
+231b,"winter",25,0,0,0,0,"g′+iː+v′+r′+ə",,,"geimhreadh"
+231b,"winter",26,0,0,0,0,"g′+iː+v′+r′+ĕ",,,"geimhreadh"
+231b,"winter",27,0,0,0,0,"g′+iː+v′+r′+ə",,,"geimhreadh"
+231b,"winter",28,0,0,0,0,"g′+iː+v′+ṟ+ə",,,"geimhreadh"
+231b,"winter",29,0,0,0,0,"g′+i+v′+r′+ə",,,"geimhreadh"
+231b,"winter",29,0,0,0,0,"g′+iː+v′+ṟ+ə",,,"geimhreadh"
+231b,"winter",30,0,0,0,0,"g′+i+v′+r′+ə",,,"geimhreadh"
+231b,"winter",31,0,0,0,0,"g′+ɪ+v′+r′+u",,,"geimhreadh"
+231b,"winter",32,0,0,0,0,"g′+ö+v′+r′+u",,,"geimhreadh"
+231b,"winter",32,0,0,0,0,"g′+ö+v′+r′+ĕ",,,"geimhreadh"
+231b,"winter",33,0,0,0,0,"g′+ɪ+v′+r′+u",,,"geimhreadh"
+231b,"winter",34,0,0,0,0,"g′+e+v′+r+ŭ",,,"geimhreadh"
+231b,"winter",35,0,0,0,0,"g′+ɪ+v′+r′+ə",,,"geimhreadh"
+231b,"winter",36,0,0,0,0,"g′+ɪ+v′+r′+ə",,,"geimhreadh"
+231b,"winter",37,0,0,0,0,"g′+ɪ+v′+r′+ĕ",,,"geimhreadh"
+231b,"winter",38,0,0,0,0,"g′+ɪ+v′+r′+ə",,,"geimhreadh"
+231b,"winter",39,0,0,0,0,"g′+iː+v′+r′+ə",,,"geimhreadh"
+231b,"winter",40,0,0,0,0,"g′+iː+v′+r′+ĕ",,,"geimhreadh"
+231b,"winter",41,0,0,0,0,"g′+iː+v′+r′+ə",,,"geimhreadh"
+231b,"winter",42,0,0,0,0,"g′+i+v′+r′+ə","‘v’ is nasalized",,"geimhreadh"
+231b,"winter",43,0,0,0,0,"g′+ĩː+v′+r′+ə",,,"geimhreadh"
+231b,"winter",44,0,0,0,0,"g′+ĩː+v′+r′+ĕ",,,"geimhreadh"
+231b,"winter",45,0,0,0,0,"g′+ï+v′+r′+ĕ",,,"geimhreadh"
+231b,"winter",46,0,0,0,0,"g′+ĩː+v′+r′+ĕ",,,"geimhreadh"
+231b,"winter",47,0,0,0,0,"g′+ɪ̃+v′+r′+ə",,,"geimhreadh"
+231b,"winter",48,0,0,0,0,"g′+ü̃+v′+r′+ĕ",,,"geimhreadh"
+231b,"winter",49,0,0,0,0,"g′+ɪ̃+v′+ṟ+u",,,"geimhreadh"
+231b,"winter",50,0,0,0,0,"g′+ɪ+v′+r′+u",,,"geimhreadh"
+231b,"winter",51,0,0,0,0,"g′+e+v′+r′+u",,,"geimhreadh"
+231b,"winter",52,0,0,0,0,"g′+ɪ+v′+r′+ŭ",,,"geimhreadh"
+231b,"winter",53,0,0,0,0,"g′+ï+v′+r′+u",,,"geimhreadh"
+231b,"winter",54,0,0,0,0,"g′+ẽ+v″+r″+u",,,"geimhreadh"
+231b,"winter",55a,0,0,0,0,"g′+e+v′+r″+u",,,"geimhreadh"
+231b,"winter",56,0,0,0,0,"g″+ẽ+v′+r″+ŭ",,,"geimhreadh"
+231b,"winter",57,0,0,0,0,"g′+e+v′+ř′+u",,,"geimhreadh"
+231b,"winter",58,0,0,0,0,"g′+ɪ+v′+r′+u",,,"geimhreadh"
+231b,"winter",59,0,0,0,0,"g′+e+v′+ṟ+u",,,"geimhreadh"
+231b,"winter",60,0,0,0,0,"g′+e+v′+r+ųː",,,"geimhreadh"
+231b,"winter",61,0,0,0,0,"g′+ï+v′+j+ų",,,"geimhreadh"
+231b,"winter",62,0,0,0,0,"g′+ɪ+v″+r″+u",,,"geimhreadh"
+231b,"winter",63,0,0,0,0,"g′+e+v′+r+u",,,"geimhreadh"
+231b,"winter",64,0,0,0,0,"g′+i+v′+r+u",,,"geimhreadh"
+231b,"winter",65,0,0,0,0,"g′+e+v′+r+u",,,"geimhreadh"
+231b,"winter",66,0,0,1,0,"j+ẽ+v′+r+û","lenited form",,"gheimhreadh"
+231b,"winter",67,0,0,0,0,"g′+ɛ̃+v+r+ə+g",,,"geimhreadh"
+231b,"winter",68,0,1,1,0,"j+ö+v+r+ɪ","gen. sg.; lenited form",,"gheimhridh"
+231b,"winter",69,0,0,0,0,"g′+ö+v′+r+u",,,"geimhreadh"
+231b,"winter",70,0,0,0,0,"g′+e+v′+r′+u",,,"geimhreadh"
+231b,"winter",71,0,0,0,0,"g′+e+v′+ṟ+û",,,"geimhreadh"
+231b,"winter",72,0,0,0,0,"g′+e+v′+r+u",,,"geimhreadh"
+231b,"winter",73,0,0,0,0,"g′+e+v′+r+u",,,"geimhreadh"
+231b,"winter",74,0,0,0,0,"g′+ö̃+v′+r′+u",,,"geimhreadh"
+231b,"winter",75,0,0,0,0,"g′+ø+v′+ᵊ+ṟ+u","‘ø’ is nasalized",,"geimhreadh"
+231b,"winter",76,0,0,0,0,"g′+ẽ+v′+r+ŭ",,,"geimhreadh"
+231b,"winter",77,0,0,0,0,"g′+ẽ+v′+r′+u",,,"geimhreadh"
+231b,"winter",78,0,0,0,0,"g′+ɪ̃+v′+ṟ+u",,,"geimhreadh"
+231b,"winter",79,0,0,0,0,"g′+e+v′+r′+u",,,"geimhreadh"
+231b,"winter",80,0,0,0,0,"g′+ẹ+v′+r′+u",,,"geimhreadh"
+231b,"winter",81,0,0,0,0,"g′+ẹ+v″+r″+u",,,"geimhreadh"
+231b,"winter",82,0,0,0,0,"g′+e+v′+r+u",,,"geimhreadh"
+231b,"winter",83,0,0,0,0,"g′+ö̃+v′+r′+u",,,"geimhreadh"
+231b,"winter",84,0,0,0,0,"g′+e+v′+r+ö",,,"geimhreadh"
+231b,"winter",85,0,0,0,0,"g′+ɪ+v′+r″+u",,,"geimhreadh"
+231b,"winter",86,0,0,0,0,"g′+ɪ+v″+r″+u",,,"geimhreadh"
+231b,"winter",87,0,0,0,0,"g′+ɪ+v′+r+ų",,,"geimhreadh"
+231b,"winter",88,0,0,0,0,"g′+ʲ+e+u+r+ə","(N)",,"geamhradh"
+231b,"winter",a,0,0,0,0,"g′+ɑ+v+ə+r+ɪ",,,"geamhradh"
+231b,"winter",b,0,0,0,0,"g′+ɛ+.+v+ə+r+ə+ɣ",,,"geamhradh"
+231b,"winter",c,0,0,0,0,"g̣′+ɛ+ũ+r+.+ə",,,"geamhradh"
+231b,"winter",d,0,0,0,0,"g′+ɛ̀+u+r+ə+ɣ̮",,,"geamhradh"
+231b,"winter",e,0,0,0,0,",+əˈ ŋʲ+a+ũ+r+ɪ+ḫ+,",,,"an geamhradh"
+231b,"winter",f,0,0,0,0,"g′+a+u+r+ə+ḳ",,,"geamhradh"
+231b,"winter",g,0,0,0,0,"g′+a+ũ+r+ə+g",,,"geamhradh"
 /*<L 281>*/
 /*<M 232 (the sun is) rising>*/
 /*<F (tá an ghrian ag) éirghe>*/
@@ -27799,16 +27820,16 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 258b,"(he) was caught",5,0,0,0,0,"b′+e+r′+ə+g",,,"beireadh"
 258b,"(he) was caught",6,1,1,0,0,"—ə+g","ending of passive preterite",,
 258b,"(he) was caught",7,0,0,0,0,"r′+u+g+ə+g",,,"rugadh"
-258b,"(he) was caught",8,0,0,0,0,"d+ə r′+u+g+ə+v",,,"rugadh"
-258b,"(he) was caught",9,0,0,0,0,"d+ə ˈ+r′+u+g+ə+v",,,"rugadh"
-258b,"(he) was caught",10,0,0,0,0,"d+ə ˈ+r′+u+g+ə+v",,,"rugadh"
-258b,"(he) was caught",11,0,0,0,0,"d+ə ˈ+r′+u+g+ŭ+v",,,"rugadh"
-258b,"(he) was caught",12,0,0,0,0,"d+ə ˈ+r+u+g+ə+g",,,"rugadh"
-258b,"(he) was caught",13,0,0,0,0,"d+ə ˈ+b′+e+r′+ŭ+v",,,"rugadh"
-258b,"(he) was caught",14,0,0,0,0,"d+ə ˈ+b′+e+ṟ+ə+g",,,"rugadh"
-258b,"(he) was caught",15,0,0,0,0,"d+ə ˈ+r′+u+g+ə+g",,,"rugadh"
-258b,"(he) was caught",16,0,0,0,0,"d+ə ˈ+r′+u+g+ə+g",,,"rugadh"
-258b,"(he) was caught",17,0,0,0,0,"d+ə ˈ+r′+u+g+ə+g",,,"rugadh"
+258b,"(he) was caught",8,0,0,0,0,"d+ə r′+u+g+ə+v",,,"do rugadh"
+258b,"(he) was caught",9,0,0,0,0,"d+ə ˈ+r′+u+g+ə+v",,,"do rugadh"
+258b,"(he) was caught",10,0,0,0,0,"d+ə ˈ+r′+u+g+ə+v",,,"do rugadh"
+258b,"(he) was caught",11,0,0,0,0,"d+ə ˈ+r′+u+g+ŭ+v",,,"do rugadh"
+258b,"(he) was caught",12,0,0,0,0,"d+ə ˈ+r+u+g+ə+g",,,"do rugadh"
+258b,"(he) was caught",13,0,0,0,0,"d+ə ˈ+b′+e+r′+ŭ+v",,,"do beireadh"
+258b,"(he) was caught",14,0,0,0,0,"d+ə ˈ+b′+e+ṟ+ə+g",,,"do beireadh"
+258b,"(he) was caught",15,0,0,0,0,"d+ə ˈ+r′+u+g+ə+g",,,"do rugadh"
+258b,"(he) was caught",16,0,0,0,0,"d+ə ˈ+r′+u+g+ə+g",,,"do rugadh"
+258b,"(he) was caught",17,0,0,0,0,"d+ə ˈ+r′+u+g+ə+g",,,"do rugadh"
 258b,"(he) was caught",18,0,0,0,0,"b′+e+r′+ə+x",,,"beireadh"
 258b,"(he) was caught",19,0,0,0,0,"b′+e+r′+ə+x",,,"beireadh"
 258b,"(he) was caught",20,0,0,0,0,"b′+e+r′+ə+x",,,"beireadh"
@@ -27860,7 +27881,7 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 258b,"(he) was caught",69,0,0,0,0,"g+o+j+u",,,"gabhadh"
 258b,"(he) was caught",70,0,0,0,0,"b′+ɛ+r+u",,,"beireadh"
 258b,"(he) was caught",71,0,0,0,0,"b′+ɛ+r+u",,,"beireadh"
-258b,"(he) was caught",72,0,0,0,0,"b′+ɛ+r+ə+s",,,"beireadh"
+258b,"(he) was caught",72,0,0,0,0,"b′+ɛ+r+ə+s",,,"béaras"
 258b,"(he) was caught",73,0,0,0,0,"b′+e+r′+u·",,,"beireadh"
 258b,"(he) was caught",74,0,0,0,0,"b′+è+r′+u",,,"beireadh"
 258b,"(he) was caught",75,0,0,0,0,"b′+è+r′+u",,,"beireadh"
@@ -29731,78 +29752,83 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 /*<L 342>*/
 /*<M 278 folding VN>*/
 /*<F filleadh, tilleadh, pilleadh>*/
-278,"folding VN",1,0,0,0,0,"f′+i+l′+ə",,,
-278,"folding VN",2,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",5,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",6,1,0,0,0,"f′+e+l′+ə",,,
-278,"folding VN",7,0,0,0,0,"f′+i+l′d′+e",,,
-278,"folding VN",8,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",10,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",11,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",12,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",13,0,0,0,0,"f′+i+l′+ə",,,
-278,"folding VN",14,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",15,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",17,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",18,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",19,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",20,0,0,0,0,"f′+i+l′+ə",,,
-278,"folding VN",21,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",22,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",23,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",24,0,0,0,0,"f′+i+l′+ĕ",,,
-278,"folding VN",25,0,0,0,0,"f′+e+l′·+ə",,,
-278,"folding VN",28,0,0,0,0,"f′+ö+i+l′+t′",,,
-278,"folding VN",31,0,0,0,0,"f′+i+ʟ′ː+u",,,
-278,"folding VN",32,0,0,0,0,"f′+ɪ+ʟ′+uː",,,
-278,"folding VN",33,0,0,0,0,"f′+i+l′+uː",,,
-278,"folding VN",34,0,0,0,0,"f′+ɪ+l′+u",,,
-278,"folding VN",35,0,0,0,0,"f′+i+ʟ′+ə",,,
-278,"folding VN",36,0,0,0,0,"f′+i+ʟ′+u·",,,
-278,"folding VN",37,0,0,0,0,"f′+i+ʟ′+ĕ",,,
-278,"folding VN",38,0,0,0,0,"f′+i+ʟ′+ĕ",,,
-278,"folding VN",39,0,0,0,0,"f′+i+ʟ′+ə",,,
-278,"folding VN",40,0,0,0,0,"f′+i+ʟ′+ĕ",,,
-278,"folding VN",41,0,0,0,0,"f′+i+l′+ə",,,
-278,"folding VN",42,0,0,0,0,"f′+i+ʟ′+ə",,,
-278,"folding VN",43,0,0,0,0,"f′+i+ʟ′+ĕ",,,
-278,"folding VN",44,0,0,0,0,"f′+i+l′+ə",,,
-278,"folding VN",46,0,0,0,0,"f′+i+ʟ′+ĕ",,,
-278,"folding VN",47,0,0,0,0,"f′+i+ʟ′+ĕ",,,
-278,"folding VN",48,0,0,0,0,"f′+i+l′+u·",,,
-278,"folding VN",49,0,0,0,0,"f′+i+l′+t′",,,
-278,"folding VN",50,0,0,0,0,"f′+i+ʟ′+u·",,,
-278,"folding VN",51,0,0,0,0,"f′+ɪ+ʟ′+u",,,
-278,"folding VN",52,0,0,0,0,"f′+i+ʟ′+ŭ",,,
-278,"folding VN",53,0,0,0,0,"p′+ï+ʟ′+u",,,
-278,"folding VN",54,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",55a,0,0,0,0,"p′+ɪ+ʟ′ː+u",,,
-278,"folding VN",56,0,0,0,0,"p′+ɪ+ʟ′+u",,,
-278,"folding VN",57,0,0,0,0,"p′+ɪ+ʟ′ː+u",,,
-278,"folding VN",58,0,0,0,0,"p′+ɪ+ʟ′+u",,,
-278,"folding VN",59,0,0,0,0,"f′+ɪ+ʟ′ː+u",,,
-278,"folding VN",60,0,0,0,0,"p′+ɪ+ʟ′ː+uː",,,
-278,"folding VN",61,0,0,0,0,"f′+ï+ʟ′+ųː",,,
-278,"folding VN",62,0,0,0,0,"f′+i+ʟ′ː+u",,,
-278,"folding VN",64,1,0,0,0,"t′+i+ʟ′+u",,,
-278,"folding VN",66,0,0,0,0,"t″+ɪ+ʟ′ː+λ",,,
-278,"folding VN",67,0,0,0,0,"t′+ʃ+i+l′ː+ʲ+ĕ",,,
-278,"folding VN",69,0,0,0,0,"p′+ï+ʟ′+ŭ",,,
-278,"folding VN",70,0,0,0,0,"p′+ɪ+ʟ′ː+û",,,
-278,"folding VN",71,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",73,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",74,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",75,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",76,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",77,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",78,0,0,0,0,"p′+ɪ+ʟ′ː+u",,,
-278,"folding VN",79,0,0,0,0,"p′+ɪ+ʟ′+u",,,
-278,"folding VN",80,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",81,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",82,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",83,0,0,0,0,"p′+ï+ʟ′ː+u·",,,
-278,"folding VN",85,0,0,0,0,"p′+ï+ʟ′ː+u",,,
-278,"folding VN",86,0,0,0,0,"p′+ɪ+ʟ′ː+u",,,
+278,"folding VN",1,0,0,0,0,"f′+i+l′+ə",,,"filleadh"
+278,"folding VN",2,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",5,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",6,1,0,0,0,"f′+e+l′+ə",,,"filleadh"
+278,"folding VN",7,0,0,0,0,"f′+i+l′d′+e",,,"filleadh"
+278,"folding VN",8,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",10,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",11,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",12,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",13,0,0,0,0,"f′+i+l′+ə",,,"filleadh"
+278,"folding VN",14,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",15,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",17,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",18,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",19,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",20,0,0,0,0,"f′+i+l′+ə",,,"filleadh"
+278,"folding VN",21,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",22,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",23,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",24,0,0,0,0,"f′+i+l′+ĕ",,,"filleadh"
+278,"folding VN",25,0,0,0,0,"f′+e+l′·+ə",,,"filleadh"
+278,"folding VN",28,0,0,0,0,"f′+ö+i+l′+t′",,"NL: unsure of form, past participle?",
+278,"folding VN",31,0,0,0,0,"f′+i+ʟ′ː+u",,,"filleadh"
+278,"folding VN",32,0,0,0,0,"f′+ɪ+ʟ′+uː",,,"filleadh"
+278,"folding VN",33,0,0,0,0,"f′+i+l′+uː",,,"filleadh"
+278,"folding VN",34,0,0,0,0,"f′+ɪ+l′+u",,,"filleadh"
+278,"folding VN",35,0,0,0,0,"f′+i+ʟ′+ə",,,"filleadh"
+278,"folding VN",36,0,0,0,0,"f′+i+ʟ′+u·",,,"filleadh"
+278,"folding VN",37,0,0,0,0,"f′+i+ʟ′+ĕ",,,"filleadh"
+278,"folding VN",38,0,0,0,0,"f′+i+ʟ′+ĕ",,,"filleadh"
+278,"folding VN",39,0,0,0,0,"f′+i+ʟ′+ə",,,"filleadh"
+278,"folding VN",40,0,0,0,0,"f′+i+ʟ′+ĕ",,,"filleadh"
+278,"folding VN",41,0,0,0,0,"f′+i+l′+ə",,,"filleadh"
+278,"folding VN",42,0,0,0,0,"f′+i+ʟ′+ə",,,"filleadh"
+278,"folding VN",43,0,0,0,0,"f′+i+ʟ′+ĕ",,,"filleadh"
+278,"folding VN",44,0,0,0,0,"f′+i+l′+ə",,,"filleadh"
+278,"folding VN",46,0,0,0,0,"f′+i+ʟ′+ĕ",,,"filleadh"
+278,"folding VN",47,0,0,0,0,"f′+i+ʟ′+ĕ",,,"filleadh"
+278,"folding VN",48,0,0,0,0,"f′+i+l′+u·",,,"filleadh"
+278,"folding VN",49,0,0,0,0,"f′+i+l′+t′",,,"filleadh"
+278,"folding VN",50,0,0,0,0,"f′+i+ʟ′+u·",,,"filleadh"
+278,"folding VN",51,0,0,0,0,"f′+ɪ+ʟ′+u",,,"filleadh"
+278,"folding VN",52,0,0,0,0,"f′+i+ʟ′+ŭ",,,"filleadh"
+278,"folding VN",53,0,0,0,0,"p′+ï+ʟ′+u",,,"pilleadh"
+278,"folding VN",54,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",55a,0,0,0,0,"p′+ɪ+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",56,0,0,0,0,"p′+ɪ+ʟ′+u",,,"pilleadh"
+278,"folding VN",57,0,0,0,0,"p′+ɪ+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",58,0,0,0,0,"p′+ɪ+ʟ′+u",,,"pilleadh"
+278,"folding VN",59,0,0,0,0,"f′+ɪ+ʟ′ː+u",,,"filleadh"
+278,"folding VN",60,0,0,0,0,"p′+ɪ+ʟ′ː+uː",,,"pilleadh"
+278,"folding VN",61,0,0,0,0,"f′+ï+ʟ′+ųː",,,"filleadh"
+278,"folding VN",62,0,0,0,0,"f′+i+ʟ′ː+u",,,"filleadh"
+278,"folding VN",64,1,0,0,0,"t′+i+ʟ′+u",,,"tilleadh"
+278,"folding VN",66,0,0,0,0,"t″+ɪ+ʟ′ː+λ",,,"tilleadh"
+278,"folding VN",67,0,0,0,0,"t′+ʃ+i+l′ː+ʲ+ĕ",,,"tilleadh"
+278,"folding VN",69,0,0,0,0,"p′+ï+ʟ′+ŭ",,,"pilleadh"
+278,"folding VN",70,0,0,0,0,"p′+ɪ+ʟ′ː+û",,,"pilleadh"
+278,"folding VN",71,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",73,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",74,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",75,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",76,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",77,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",78,0,0,0,0,"p′+ɪ+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",79,0,0,0,0,"p′+ɪ+ʟ′+u",,,"pilleadh"
+278,"folding VN",80,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",81,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",82,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",83,0,0,0,0,"p′+ï+ʟ′ː+u·",,,"pilleadh"
+278,"folding VN",85,0,0,0,0,"p′+ï+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",86,0,0,0,0,"p′+ɪ+ʟ′ː+u",,,"pilleadh"
+278,"folding VN",a,0,0,0,0,"f+iː+ʟ′+ə+k",,,"filleadh"
+278,"folding VN",d,0,0,0,0,"t′+ʃ+i+ʟ′+ə+ɣ̮",,,"tilleadh"
+278,"folding VN",e,0,0,0,0,"p+ɑ+s+ḳ+e+ɣ̮",,,"pasgadh"
+278,"folding VN",f,0,0,0,0,"p+ɑ̣+s+g̣+ə+g̣",,,"pasgadh"
+278,"folding VN",g,0,0,0,0,"p+ɑ̣+.+s+ḳ+ə+g̣",,,"pasgadh"
 /*<L 343>*/
 /*<M 279 (he has) no patience>*/
 /*<F (níl) aon fhoidhne, aon fhoighid, foighide ar bith (aige) ‹final ‘-e’ of ‘foighne, foighide’ is usually lost before initial vowel of ‘aige’ or ‘air’›>*/
@@ -31042,7 +31068,7 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 290,"I met him (on the road)",61,0,0,0,0,"k+ɑ+s+u … ʟ′+o̤+m eː",,,"casadh … liom é"
 290,"I met him (on the road)",62,0,0,0,0,"k+ɑ+s+u ɣ+o̤+m eː",,,"casadh dhom é"
 290,"I met him (on the road)",65,0,0,0,0,"k+ɑ+s m′+a … ɛ+r",,,"cas mé … air"
-290,"I met him (on the road)",66,0,0,0,0,"ˈ+h+ö+g+o̤+m+a d+ɔː",,,"theagmhóchadh dó"
+290,"I met him (on the road)",66,0,0,0,0,"ˈ+h+ö+g+o̤+m+a d+ɔː",,,"theagmhuigh dó"
 290,"I met him (on the road)",67,0,0,0,0,"h+ɑ+χ+ə+r m′+e e+r′",,,"thachair mé air"
 290,"I met him (on the road)",68,0,0,0,0,"x+ɑ̣+ʃ+ɛ d+û",,,"caise domh"
 290,"I met him (on the road)",69,0,0,0,0,"k+a+s+u ˈ+d+u e",,,"casadh domh é"

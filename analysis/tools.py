@@ -7,6 +7,7 @@ the name of the survey point in the LASID, e.g. point 83 for Na Cruacha.
 """
 import dataclasses
 import os
+import re
 import sqlite3
 import statistics
 
@@ -108,6 +109,32 @@ def get_survey_points_matching_orthography(
     ).fetchall()
 
 
+def get_map_points_matching_regex(
+    field_to_match: str,
+    regex: str,
+    additional_fields: list[str] | None,
+) -> list[tuple]:
+    con = sqlite3.connect(os.path.join(os.path.dirname(__file__), "..", "lasid.db"))
+    cur = con.cursor()
+
+    additional_fields = (
+        "" if additional_fields is None else ", " + ",".join(additional_fields)
+    )
+
+    # We could provide a regex function to SQLite but performance is probably better to
+    # just filter the query results ourselves.
+    rows = cur.execute(
+        f"""
+        select survey_point.display_id, {field_to_match}{additional_fields}
+        from map_point
+        join map on map_point.map_id = map.id
+        join survey_point on map_point.survey_point_id = survey_point.id
+        ;
+        """
+    ).fetchall()
+    return [r for r in rows if re.match(r".*[ao]dh\b.*", r[1])]
+
+
 def get_map_point_field(
     map_titles: list[str],
     field: str,
@@ -161,6 +188,7 @@ class MapPoint:
     label: str
     marker: str
     colour: np.ndarray
+    size: int = 1
 
     @classmethod
     def from_rgb_int(cls, label, marker, colour: tuple[int, int, int]):
@@ -199,6 +227,7 @@ def make_scatter_map(
             label=p.label,
             edgecolors="k",
             linewidth=0.1,
+            markersize=p.size,
         )
 
     ax.add_feature(cfeature.LAND)
