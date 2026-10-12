@@ -81,7 +81,6 @@ sqlite> select survey_point.display_id, map_point.transcription
 66|t+ɔː+r+u
 68|t+ǫː+r+ʰ+ŭ
 69|t+ɔː+r+ʰ+u
-70|t+ɔː+r+ʰ+i
 71|t+ɔː+r+ʰ+u
 72|t+ɔː+r+u
 72|t+ɔː+r+ʰ+u
