@@ -207,7 +207,7 @@ Lexical maps can also be generated using
 [`analysis/word_map.py`](analysis/word_map.py), e.g.:
 
 ```shell
-uv run analysis/word_map.py --map_title cattle --cmap Dark2 --markers "eallach:P,beithidhigh:o,ainmhithe:^,crodh:s,an crodh:s,bá:d"
+uv run analysis/word_map.py --map_title cattle --cmap Dark2 --markers "eallach:P,beithidhigh:o,ainmhithe:^,crodh:s,bá:d" --eq "crodh,an crodh"
 ```
 
 <p align="center">
