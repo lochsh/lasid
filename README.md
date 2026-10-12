@@ -190,17 +190,6 @@ maps.
 
 ## Example analysis script uses
 
-### Comparing realisations of ⟨ó⟩
-
-The script [`analysis/long_o_maps.py`](analysis/long_o_maps.py) produces maps
-displaying information about the realisation of ⟨ó⟩, for example:
-
-<p align="center">
-<img src=https://mcla.ug/u/lasid/vowel_changes_bó_móna.png? style="width:650px;">
-</p>
-
-Note that vowel length and nasalisation are ignored in this map.
-
 ### Word maps
 
 Lexical maps can also be generated using
@@ -259,12 +248,26 @@ Any feedback from colourblind people is appreciated.
 ### Same word, different meaning geographically
 
 ```shell
-uv run analysis/same_word_diff_usage.py -cat tórramh -cat tórradh
+uv run analysis/same_word_diff_usage.py -word tórramh -word tórradh
 ```
 
 <p align="center">
 <img src=https://mcla.ug/u/lasid/tórramh_tórradh_usage.png? style="width:650px;">
 <p align="center">
+
+The distinction between _tórramh_ and _tórradh_ is etymologically dubious to me
+and I may reconsider the way I have labelled the data.
+
+### Comparing realisations of ⟨ó⟩
+
+The script [`analysis/long_o_maps.py`](analysis/long_o_maps.py) produces maps
+displaying information about the realisation of ⟨ó⟩, for example:
+
+<p align="center">
+<img src=https://mcla.ug/u/lasid/vowel_changes_bó_móna.png? style="width:650px;">
+</p>
+
+Note that vowel length and nasalisation are ignored in this map.
 
 ### Analysis blog posts
 
