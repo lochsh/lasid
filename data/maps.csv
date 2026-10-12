@@ -17101,7 +17101,7 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 164,"fire gen. sg.",88,1,0,0,0,"ɑ+ˌ+i+l′",,,"aile"
 164,"fire gen. sg.",a,0,0,0,0,"t̠+ʃ+è+’+ɴ′+ə",,,"teine"
 164,"fire gen. sg.",b,0,0,0,0,"t̠+ʃ+ɛ+’+n′+ə",,,"teine"
-164,"fire gen. sg.",c,0,0,0,0,"ə d′+ʒ+e+n+e",,,"deine"
+164,"fire gen. sg.",c,0,0,0,0,"ə d′+ʒ+e+n+e",,,"an teine"
 164,"fire gen. sg.",d,0,0,0,0,"t′+ʃ+e+ɴ′+ĕ ","masc.",,"teine"
 164,"fire gen. sg.",e,0,0,0,0,"t′+ᶴ+a+n+ə",,,"teine"
 164,"fire gen. sg.",f,0,0,0,0,"t′+ʃ+i+n+ə",,,"teine"
@@ -21134,12 +21134,12 @@ map_number,title,survey_point,sourced_elsewhere,different_form,lenited,eclipsed,
 196b,"funeral",86,0,0,0,0,"t+ɔː+r+u+h+ˀ",,,"tórramh"
 196b,"funeral",88,0,0,0,0,"oː+n+l+ə+k+ə","(N)",,"oanluck"
 196b,"funeral",b,0,0,0,0,"t+ɔː+r+ə+ɣ",,,"tórradh"
-196b,"funeral",c,0,0,0,0,"ə+n d′+ɪː+ʟ+ɑ+x+g̣+ə",,,"an díodhlacadh"
+196b,"funeral",c,0,0,0,0,"ə+n d′+ɪː+ʟ+ɑ+x+g̣+ə",,,"an tíodhlacadh"
 196b,"funeral",d,0,0,0,0,"t+ǫː+r+ɑ̆+ɣ̮",,,"tórradh"
-196b,"funeral",d,0,0,0,0,"t′+ᶴ+i+ə+l+.+ə̮+g̣+ə+ɣ̮",,,"tìodhlacadh"
-196b,"funeral",e,0,0,0,0,"t′+i+ə+l+.+ï+g̣+ɪ+ḫ",,,"tìodhlacadh"
-196b,"funeral",f,0,0,0,0,"t′+i+ŭ+ʟ+ï+g̣′+ə+ḳ",,,"tìodhlacadh"
-196b,"funeral",g,0,0,0,0,"ṭ′+i+.+ə+ʟ+ə+g′+ə+g",,,"tìodhlacadh"
+196b,"funeral",d,0,0,0,0,"t′+ᶴ+i+ə+l+.+ə̮+g̣+ə+ɣ̮",,,"tíodhlacadh"
+196b,"funeral",e,0,0,0,0,"t′+i+ə+l+.+ï+g̣+ɪ+ḫ",,,"tíodhlacadh"
+196b,"funeral",f,0,0,0,0,"t′+i+ŭ+ʟ+ï+g̣′+ə+ḳ",,,"tíodhlaiceadh"
+196b,"funeral",g,0,0,0,0,"ṭ′+i+.+ə+ʟ+ə+g′+ə+g",,,"tíodhlaiceadh"
 /*<L 239>*/
 /*<M 197 when will you go (home)?>*/
 /*<F cathain a raghaidh tú, cáide go dtéigh tú, cé'n uair a rachaidh tú (abhaile)>*/
