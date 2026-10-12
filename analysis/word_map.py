@@ -40,9 +40,14 @@ def main(
     num_diff_cols: int,
     markers: dict[str, str] | None = None,
     word_groups: list[list[str]] | None = None,
+    eq: dict[str:str] | None = None,
 ):
     words = [(sid, w) for sid, w in words if w]
     long_lats = [tools.get_mean_long_lat(sid) for sid, _ in words]
+
+    # Modify any equivalent words
+    if eq is not None:
+        words = [(sid, eq[word]) if word in eq else (sid, word) for sid, word in words]
 
     if not (markers is None) ^ (word_groups is None):
         raise ValueError("Can specify markers or specify word groups, not both")
@@ -116,9 +121,24 @@ if __name__ == "__main__":
         help="List of words and the markers to associate with them. E.g. "
         "eallach:P,beithidhigh:o,crodh:x,an crodh:x. See matplotlib docs for marker "
         "codes. This also specifies the order of the words in the colourmap and "
-        "legend. Every word must be specified. Words given the same marker will also "
-        "be given the same colour, and will be listed separately but with the same "
-        "key in the legend.",
+        "legend. When two words are listed with the same marker, they will be listed "
+        "separately in the legend. Alternatively, you can leave equivalent words out "
+        "of the list of markers and specify them in the --eq argument. The first word "
+        "listed in the --eq argument will be shown. Any subsequent words given there "
+        "should not appear in the list of marker mappings. Every word must be "
+        "specified in either in --markers or in --eq.",
+    )
+
+    parser.add_argument(
+        "--eq",
+        type=str,
+        help="Optionally mark some words as equivalent to each other, e.g. 'crodh,an "
+        "crodh.tórramh,tórradh'. The comma delimits words that are to be treated the "
+        "same, the full-stop separates lists. The first word will be what is "
+        "displayed. If used with the --markers argument, The first word in each "
+        "list should appear in the --markers argument, the others should not. "
+        "Similarly, if used with the --grouped argument, only the first word in "
+        "each list is allowed to be listed in --grouped.",
     )
 
     parser.add_argument(
@@ -145,6 +165,11 @@ if __name__ == "__main__":
     else:
         markers = None
 
+    eq = None
+    if args.eq is not None:
+        equivalents = [g.split(",") for g in args.eq.split(".")]
+        eq = {w: words[0] for words in equivalents for w in words[1:]}
+
     if args.question_prompt:
         question_display_id = tools.get_question_prompt_display_id(args.question_prompt)
         words = tools.get_question_response_field(question_display_id, "orthography")
@@ -156,6 +181,7 @@ if __name__ == "__main__":
             num_diff_cols=args.num_friendly_cols,
             markers=markers,
             word_groups=word_groups,
+            eq=eq,
         )
     else:
         words = tools.get_map_point_field([args.map_title], "orthography")
@@ -167,4 +193,5 @@ if __name__ == "__main__":
             num_diff_cols=args.num_friendly_cols,
             markers=markers,
             word_groups=word_groups,
+            eq=eq,
         )
