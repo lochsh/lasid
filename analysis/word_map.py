@@ -151,6 +151,12 @@ if __name__ == "__main__":
         "use the same markers for all groups, or 1 to use different markers for each "
         "group. Only used if markers aren't provided.",
     )
+    parser.add_argument(
+        "--incl-all-forms",
+        help="By default, entries with the `different_form` field set to True are "
+        "ignored. Set this to include them.",
+        action="store_true",
+    )
     db_group = parser.add_mutually_exclusive_group()
     db_group.add_argument("--question_prompt", type=str)
     db_group.add_argument("--map_title", type=str)
@@ -173,6 +179,14 @@ if __name__ == "__main__":
     if args.question_prompt:
         question_display_id = tools.get_question_prompt_display_id(args.question_prompt)
         words = tools.get_question_response_field(question_display_id, "orthography")
+
+        if not args.incl_all_forms:
+            different_forms = tools.get_question_response_field(
+                question_display_id,
+                "different_form",
+            )
+            words = [w for w, f in zip(words, different_forms) if f[1] == 0]
+
         main(
             words,
             args.question_prompt,
@@ -185,6 +199,12 @@ if __name__ == "__main__":
         )
     else:
         words = tools.get_map_point_field([args.map_title], "orthography")
+        if not args.incl_all_forms:
+            different_forms = tools.get_map_point_field(
+                [args.map_title],
+                "different_form",
+            )
+            words = [w for w, f in zip(words, different_forms) if f[1] == 0]
         main(
             words,
             args.map_title,
