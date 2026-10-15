@@ -54,7 +54,8 @@ def main(
 
     if markers is None:
         unique_words = sorted(set(w for _, w in words))
-        word_groups = [[w] for w in unique_words]
+        if word_groups is None:
+            word_groups = [[w] for w in unique_words]
         word_groups = word_groups + [
             [w] for w in unique_words if not any(w in g for g in word_groups)
         ]
@@ -158,6 +159,11 @@ if __name__ == "__main__":
         "ignored. Set this to include them.",
         action="store_true",
     )
+    parser.add_argument(
+        "--excl",
+        action="append",
+        help="Forms to exclude. E.g. --excl bá --excl crodh",
+    )
     db_group = parser.add_mutually_exclusive_group()
     db_group.add_argument("--question_prompt", type=str)
     db_group.add_argument("--map_title", type=str)
@@ -181,6 +187,9 @@ if __name__ == "__main__":
         question_display_id = tools.get_question_prompt_display_id(args.question_prompt)
         words = tools.get_question_response_field(question_display_id, "orthography")
 
+        if args.excl:
+            words = [(sid, w) for sid, w in words if w not in args.excl]
+
         if not args.incl_all_forms:
             different_forms = tools.get_question_response_field(
                 question_display_id,
@@ -200,6 +209,10 @@ if __name__ == "__main__":
         )
     else:
         words = tools.get_map_point_field([args.map_title], "orthography")
+
+        if args.excl:
+            words = [(sid, w) for sid, w in words if w not in args.excl]
+
         if not args.incl_all_forms:
             different_forms = tools.get_map_point_field(
                 [args.map_title],
