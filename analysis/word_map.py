@@ -49,11 +49,12 @@ def main(
     if eq is not None:
         words = [(sid, eq[word]) if word in eq else (sid, word) for sid, word in words]
 
-    if not (markers is None) ^ (word_groups is None):
+    if markers is not None and word_groups is not None:
         raise ValueError("Can specify markers or specify word groups, not both")
 
     if markers is None:
         unique_words = sorted(set(w for _, w in words))
+        word_groups = [[w] for w in unique_words]
         word_groups = word_groups + [
             [w] for w in unique_words if not any(w in g for g in word_groups)
         ]
