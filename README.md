@@ -383,7 +383,7 @@ interactive maps
 | 268 |   smell| ✓  | ✓  |
 | 269a|   seaweed  |   |   |
 | 269b|   searods  |   |   |
-| 270a|   valley   |   |   |
+| 270a|   valley   | ✓  | ✓  |
 | 270b|   boats pl.| ✓  | ✓  |
 | 271 |   periwinkles  |   |   |
 | 272 |   oars pl. |   |   |
